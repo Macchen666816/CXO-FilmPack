@@ -1,0 +1,170 @@
+{
+  "schema": "CXODYN01",
+  "source": "/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/core-engine-20261031/dynamic/dynamic-parameters.json",
+  "source_sha256": "04c412ac27dfc60a7b65790a4ffa96f5d05aa769858542e345c35dcae6326814",
+  "preset_count": 7,
+  "direct_branch_count": 5,
+  "native_execution": false,
+  "android_execution": false,
+  "limits": [
+    "Static branch, curve and matrix recovery only; no FilmPack execution.",
+    "WB/provider override selection remains conditional and unobserved.",
+    "The composed curve is exact integer index composition from the recovered camera curve."
+  ],
+  "presets": [
+    {
+      "id": "ColorModeArgentiqueAstia",
+      "raw_curve": "ArgentiqueAstia.raw.i16le.bin",
+      "composed_curve": "ArgentiqueAstia.custom-composed.i16le.bin",
+      "raw_sha256": "116cbe50fea4ec8f0d472b9a6fe5045ca118288eb2b102ac145054bd6cee992c",
+      "composed_sha256": "c55adf1578582ac9ccced5dbf22d0b73820212fd67d0e99c9f98f991617248cb",
+      "has_direct_branch": true,
+      "curve_samples": 32768,
+      "film_B": [
+        1.0061309337615967,
+        -0.004884857218712568,
+        -0.0012460759608075023,
+        -0.010250018909573555,
+        1.0147876739501953,
+        -0.004537702072411776,
+        -0.05313561111688614,
+        0.06697661429643631,
+        0.9861589670181274
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueEkta100VS",
+      "raw_curve": "ArgentiqueEkta100VS.raw.i16le.bin",
+      "composed_curve": "ArgentiqueEkta100VS.custom-composed.i16le.bin",
+      "raw_sha256": "54504b64bbdb46e01a5011ca31d561a9abd3c6e3ab57dfab17a8d9cdf6e4d711",
+      "composed_sha256": "41ca42523524f944fb4c3e59880ec5957d514adbd4af7fd2ec09eba6b629ff91",
+      "has_direct_branch": true,
+      "curve_samples": 32768,
+      "film_B": [
+        1.2077640295028687,
+        -0.20297199487686157,
+        -0.004790999926626682,
+        -0.05981399863958359,
+        1.0607759952545166,
+        -0.0009609999833628535,
+        -0.03755199909210205,
+        0.11702000349760056,
+        0.9205319881439209
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueKod64",
+      "raw_curve": "ArgentiqueKod64.raw.i16le.bin",
+      "composed_curve": "ArgentiqueKod64.custom-composed.i16le.bin",
+      "raw_sha256": "9e33a2aabd5431192d375f64afc49c6f5695ce649a348f0d64a3acfc6b186d61",
+      "composed_sha256": "1c11fe78cea9d15c65ada27a97a1ca70cf8a2d2562a7000ca23dac35c5000823",
+      "has_direct_branch": true,
+      "curve_samples": 32768,
+      "film_B": [
+        1.1078230142593384,
+        -0.10887524485588074,
+        0.001052282052114606,
+        0.042862776666879654,
+        0.9768178462982178,
+        -0.019680649042129517,
+        0.02350609190762043,
+        0.07331147789955139,
+        0.9031824469566345
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueKodakHIEFiltre",
+      "raw_curve": "ArgentiqueKodakHIEFiltre.raw.i16le.bin",
+      "composed_curve": "ArgentiqueKodakHIEFiltre.custom-composed.i16le.bin",
+      "raw_sha256": "a5fc9c37f9ca743e3b843219d0b1c5800394da6784f65a32b79b2068c28c51ad",
+      "composed_sha256": "bc21c936b95c34cbf2cb867a0bdeff947f56c228422628ec55603cc70ccd9b86",
+      "has_direct_branch": false,
+      "curve_samples": 32768,
+      "film_B": [
+        0.26457199454307556,
+        2.420440912246704,
+        -1.6850130558013916,
+        0.26457199454307556,
+        2.420440912246704,
+        -1.6850130558013916,
+        0.26457199454307556,
+        2.420440912246704,
+        -1.6850130558013916
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueProvia",
+      "raw_curve": "ArgentiqueProvia.raw.i16le.bin",
+      "composed_curve": "ArgentiqueProvia.custom-composed.i16le.bin",
+      "raw_sha256": "7c65071e681678ef1fc3cc36c56a37a026dc6c7179ef29e66e70c90f4fbe582d",
+      "composed_sha256": "fd8afe420ab49762667c8f9f750fb56d4ca4403dc8a49109b0d0450ad12f9a9e",
+      "has_direct_branch": true,
+      "curve_samples": 32768,
+      "film_B": [
+        1.1321378946304321,
+        -0.15895819664001465,
+        0.026820247992873192,
+        0.013654009439051151,
+        0.9869763255119324,
+        -0.000630352005828172,
+        0.00372354406863451,
+        -0.022468959912657738,
+        1.0187454223632812
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueRolleiIR400",
+      "raw_curve": "ArgentiqueRolleiIR400.raw.i16le.bin",
+      "composed_curve": "ArgentiqueRolleiIR400.custom-composed.i16le.bin",
+      "raw_sha256": "4f445ce72eb7548bd5d31d8e316cd9dcf9cf03be0c1afb69d8960c0a3f909fcb",
+      "composed_sha256": "bcda5a96af93d58374b67bc9ddd15f82c0e8c039bb580a54c73096ec1be00036",
+      "has_direct_branch": false,
+      "curve_samples": 32768,
+      "film_B": [
+        0.4688110053539276,
+        2.114074945449829,
+        -1.582885980606079,
+        0.4688110053539276,
+        2.114074945449829,
+        -1.582885980606079,
+        0.4688110053539276,
+        2.114074945449829,
+        -1.582885980606079
+      ],
+      "native_execution": false,
+      "android_execution": false
+    },
+    {
+      "id": "ColorModeArgentiqueVelvia",
+      "raw_curve": "ArgentiqueVelvia.raw.i16le.bin",
+      "composed_curve": "ArgentiqueVelvia.custom-composed.i16le.bin",
+      "raw_sha256": "d4acc88c5ff14f6497e8e63aba7ac8e8a5498902d6e949b211c7d1a87a6eb593",
+      "composed_sha256": "bfff4edc52315e386faf15c3080b4b8f5010362361e21cc1dd80a3ddbf2529ea",
+      "has_direct_branch": true,
+      "curve_samples": 32768,
+      "film_B": [
+        1.1293818950653076,
+        -0.14571553468704224,
+        0.016333632171154022,
+        -0.03805799037218094,
+        1.1258586645126343,
+        -0.08780072629451752,
+        -0.014458199962973595,
+        -0.06372237205505371,
+        1.0781805515289307
+      ],
+      "native_execution": false,
+      "android_execution": false
+    }
+  ]
+}

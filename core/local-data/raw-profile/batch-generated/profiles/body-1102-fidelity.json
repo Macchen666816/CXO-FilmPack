@@ -1,0 +1,47 @@
+{
+  "bodyId": 1102,
+  "camera": "CanonR100",
+  "exposureBiasEv": 1.1,
+  "fidelityDaylight": [
+    [
+      1.47469,
+      -0.43444,
+      -0.04025
+    ],
+    [
+      -0.26918,
+      1.88248,
+      -0.61331
+    ],
+    [
+      -0.02424,
+      -0.63616,
+      1.6604
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      1.02194,
+      0.11447,
+      -0.13641
+    ],
+    [
+      -0.38484,
+      1.66396,
+      -0.27912
+    ],
+    [
+      -0.0917,
+      -0.89393,
+      1.98563
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "c8b5bb333a940bf5ee6f3f3cd1ee38a2c605c5deaabed9cde9dffd1686e3abc4",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

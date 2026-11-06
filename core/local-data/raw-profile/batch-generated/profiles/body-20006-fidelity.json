@@ -1,0 +1,47 @@
+{
+  "bodyId": 20006,
+  "camera": "HasselbladX2DII100C",
+  "exposureBiasEv": 0.5,
+  "fidelityDaylight": [
+    [
+      1.187266503806743,
+      -0.01633674364836862,
+      -0.1709297601583739
+    ],
+    [
+      -0.1705915833183735,
+      1.536197497961355,
+      -0.3656059146429809
+    ],
+    [
+      0.06530514805481409,
+      -0.3333446077716811,
+      1.268039459716866
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.9106077336034626,
+      0.107213360038224,
+      -0.01782109364168621
+    ],
+    [
+      -0.189498314177613,
+      1.224475857630807,
+      -0.03497754345319463
+    ],
+    [
+      0.2364711175834902,
+      -0.5790073709368629,
+      1.342536253353373
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1325,
+  "interpolationOrigin": 3325,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "b3501cdced4e9d90da6d1f1b6fba852778ac0cc675b0a5631a9b93463cd23e90",
+  "tempHigh": 4650,
+  "tempLow": 3325
+}

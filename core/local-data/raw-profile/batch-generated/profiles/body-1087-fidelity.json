@@ -1,0 +1,47 @@
+{
+  "bodyId": 1087,
+  "camera": "CanonM6MkII",
+  "exposureBiasEv": 1.100000023841858,
+  "fidelityDaylight": [
+    [
+      1.195430040359497,
+      -0.17728999257087708,
+      -0.018139999359846115
+    ],
+    [
+      -0.22699999809265137,
+      1.6398099660873413,
+      -0.41280999779701233
+    ],
+    [
+      0.010479999706149101,
+      -0.46981000900268555,
+      1.4593199491500854
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.922540009021759,
+      0.20478999614715576,
+      -0.1273300051689148
+    ],
+    [
+      -0.3218899965286255,
+      1.5703799724578857,
+      -0.24848000705242157
+    ],
+    [
+      0.012769999913871288,
+      -0.674809992313385,
+      1.6620399951934814
+    ]
+  ],
+  "getterValidationRecordSha256": "148ad30d41b283b4774ada97db0d4612bbaff265cab553da21eef362878a3a5b",
+  "interpolationDivisor": 1175.0,
+  "interpolationOrigin": 3425.0,
+  "schema": "CXORAWPROFILE1",
+  "source": "embedded_factory",
+  "sourceProfileSha256": "fb4ca67c7edfaafd8e69dafe66a090c3f60ad40aee7d69d84e9ea177b7bfdbcf",
+  "tempHigh": 4600.0,
+  "tempLow": 3425.0
+}

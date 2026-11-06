@@ -1,0 +1,169 @@
+{
+  "schema": "CXORRGB1_MANIFEST",
+  "version": 1,
+  "count": 6,
+  "assetMagic": "CXORRGB1",
+  "headerBytes": 144,
+  "curveEncoding": "signed-int16 Q15, 32769 samples including native guard; exact Float32 restoration",
+  "parameters": {
+    "ev": "interface +0x1714",
+    "renderingEv": "RenderingData +0x28",
+    "preMatrix": "RenderingData +0x04",
+    "postMatrix": "RenderingData +0x80",
+    "extraMatrix": "interface +0x15c8",
+    "runtimeBw": "interface +0x1659",
+    "curveCount": "RenderingData +0x78 kind 0=>1, kind 1=>3",
+    "filmCurves": "RenderingData curve carriers +0x30/+0x48/+0x60"
+  },
+  "fittedParameters": 0,
+  "containsSampledOutputGrid": false,
+  "scope": "Six captured S1RII strength100 RAW RGB contexts at two WB anchors. Parameters are film-specific; arbitrary WB/EV/profile and S9 are not inferred. TealAndPink rendering EV is 0.7 and has three curves.",
+  "contexts": [
+    {
+      "filmId": "ColorModeArgentiqueKodakEIR",
+      "token": "KodakEIR",
+      "file": "s1rii-eir.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1040758",
+      "wbAnchorKelvin": 4199,
+      "nativeLabel": "small-grid-s1rii-p1040758-eir-raw-grid17-v1",
+      "curveCount": 1,
+      "runtimeBw": false,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.0,
+      "byteCount": 65682,
+      "sha256": "a477ed4d0254390a3cd59ae706c7bb6cd7a277c479a2d385593590db4bde1b1e",
+      "nativeCurveSha256": [
+        "75fb48be83c903f0b86a446ec08419959173b631fbd066fc2509d109e03e9b75"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1040758-eir-raw-grid17-v1.prepared.actual-interface.bin": "e43e31f521297d15f4f14003c1cc1005f06409c3f8bfb1c7ae3197614a77be56",
+        "small-grid-s1rii-p1040758-eir-raw-grid17-v1.prepared.rendering-data.bin": "8c9406e36f95d68517c91c56ab7a1aa5d3162272a0fc8737a360909bdbded822",
+        "small-grid-s1rii-p1040758-eir-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "75fb48be83c903f0b86a446ec08419959173b631fbd066fc2509d109e03e9b75"
+      }
+    },
+    {
+      "filmId": "ColorModeArgentiqueKodakEIR",
+      "token": "KodakEIR",
+      "file": "s1rii-eir-landscape.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1176257",
+      "wbAnchorKelvin": 5485,
+      "nativeLabel": "small-grid-s1rii-p1176257-eir-raw-grid17-v1",
+      "curveCount": 1,
+      "runtimeBw": false,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.0,
+      "byteCount": 65682,
+      "sha256": "d502554b3bea88be4336bdbd32c9d6979732f7524634b6b77b39b0d79f8157e0",
+      "nativeCurveSha256": [
+        "75fb48be83c903f0b86a446ec08419959173b631fbd066fc2509d109e03e9b75"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1176257-eir-raw-grid17-v1.prepared.actual-interface.bin": "7cc284123c5735f0304ad06ef6f7fdb18f55210ced73d6ae990685e15f8b4467",
+        "small-grid-s1rii-p1176257-eir-raw-grid17-v1.prepared.rendering-data.bin": "db56294c070ccf79bd358b3e05c01e713a644882c9e0219669e3201cbc44d143",
+        "small-grid-s1rii-p1176257-eir-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "75fb48be83c903f0b86a446ec08419959173b631fbd066fc2509d109e03e9b75"
+      }
+    },
+    {
+      "filmId": "ColorModeArgentiqueKodakHIE",
+      "token": "KodakHIE",
+      "file": "s1rii-hie.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1040758",
+      "wbAnchorKelvin": 4199,
+      "nativeLabel": "small-grid-s1rii-p1040758-hie-raw-grid17-v1",
+      "curveCount": 1,
+      "runtimeBw": true,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.0,
+      "byteCount": 65682,
+      "sha256": "ba5822e9af42d88e9ddcec720b2322f0001f6c2b208dba782fe22c5e6891d249",
+      "nativeCurveSha256": [
+        "d499e27289223fbc49bc994468bc013ff94097b4db5391f93cb664d4b707d101"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1040758-hie-raw-grid17-v1.prepared.actual-interface.bin": "c90ebdd5b9a5e3ec8c8c3b5382108c010cb43fdb8b1663d42693d68885a0167a",
+        "small-grid-s1rii-p1040758-hie-raw-grid17-v1.prepared.rendering-data.bin": "322a8cca8414cbcd6b91355db3ca7360c724e7cab94cce6242afcf659c2305d3",
+        "small-grid-s1rii-p1040758-hie-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "d499e27289223fbc49bc994468bc013ff94097b4db5391f93cb664d4b707d101"
+      }
+    },
+    {
+      "filmId": "ColorModeArgentiqueKodakHIE",
+      "token": "KodakHIE",
+      "file": "s1rii-hie-landscape.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1176257",
+      "wbAnchorKelvin": 5485,
+      "nativeLabel": "small-grid-s1rii-p1176257-hie-raw-grid17-v1",
+      "curveCount": 1,
+      "runtimeBw": true,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.0,
+      "byteCount": 65682,
+      "sha256": "97b3d4ca4f705f3998fd11ee1cc51b1cfa445fd8c375f397401d3366272a5fef",
+      "nativeCurveSha256": [
+        "d499e27289223fbc49bc994468bc013ff94097b4db5391f93cb664d4b707d101"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1176257-hie-raw-grid17-v1.prepared.actual-interface.bin": "dc1fc86e287c0eb9a268ef163809409d947ddd6f6931f7df35efb04728e111f5",
+        "small-grid-s1rii-p1176257-hie-raw-grid17-v1.prepared.rendering-data.bin": "886e9dc4fad93a4775f48b980d6f187d28f018cbacf7dc69f67a88ecc4e0cac7",
+        "small-grid-s1rii-p1176257-hie-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "d499e27289223fbc49bc994468bc013ff94097b4db5391f93cb664d4b707d101"
+      }
+    },
+    {
+      "filmId": "ColorModeCineTealAndPink",
+      "token": "CineTealAndPink",
+      "file": "s1rii-tealandpink.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1040758",
+      "wbAnchorKelvin": 4199,
+      "nativeLabel": "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1",
+      "curveCount": 3,
+      "runtimeBw": false,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.699999988079071,
+      "byteCount": 196758,
+      "sha256": "0be6bc8533241a7a09bf65be5a6e99f4c64b82ac2a75360544a2dd4b62b5ae3c",
+      "nativeCurveSha256": [
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1.prepared.actual-interface.bin": "c28da66f016d62a19c9ccf792545bfd071a8615892561ef78ef6ca73468a82e3",
+        "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1.prepared.rendering-data.bin": "8e360651d01424a1b0e19bea4e2b321cb195908434693739f232e98604c0fc6d",
+        "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1.prepared.rendering-curve-72.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "small-grid-s1rii-p1040758-tealandpink-raw-grid17-v1.prepared.rendering-curve-96.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80"
+      }
+    },
+    {
+      "filmId": "ColorModeCineTealAndPink",
+      "token": "CineTealAndPink",
+      "file": "s1rii-tealandpink-landscape.cxorrgb",
+      "camera": "DC-S1RM2",
+      "sourcePhoto": "P1176257",
+      "wbAnchorKelvin": 5485,
+      "nativeLabel": "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1",
+      "curveCount": 3,
+      "runtimeBw": false,
+      "ev": 0.6000000238418579,
+      "renderingEv": 0.699999988079071,
+      "byteCount": 196758,
+      "sha256": "e5f0b02c6eee5f5ef06922ce4a51ffa88cd34774c824ce75650d3207d3694b7d",
+      "nativeCurveSha256": [
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80"
+      ],
+      "sourceSha256": {
+        "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1.prepared.actual-interface.bin": "d9156dae87eabbc26924422368f2bab1a6dce38bfb24d2bf9f0988fc531741fa",
+        "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1.prepared.rendering-data.bin": "ecc9882ef3e48dac960da77a55012ec46c30684c0a72c309e96ba47dc45ec252",
+        "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1.prepared.rendering-curve-48.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1.prepared.rendering-curve-72.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80",
+        "small-grid-s1rii-p1176257-tealandpink-raw-grid17-v1.prepared.rendering-curve-96.f32le.bin": "c739b8931ca14f3aa4b31ce104e341557067517ede30574a265ce1bf0ad4cb80"
+      }
+    }
+  ]
+}

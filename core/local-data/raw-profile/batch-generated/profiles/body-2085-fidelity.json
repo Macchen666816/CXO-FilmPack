@@ -1,0 +1,47 @@
+{
+  "bodyId": 2085,
+  "camera": "NikonZ5II",
+  "exposureBiasEv": 1.05,
+  "fidelityDaylight": [
+    [
+      1.0483397617627581,
+      0.058275687235165664,
+      -0.10661544899792416
+    ],
+    [
+      -0.19661701834697298,
+      1.4886649044017235,
+      -0.29204788605475074
+    ],
+    [
+      0.024128278558583717,
+      -0.41367108701669963,
+      1.3895428084581154
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.8234482715208775,
+      0.2898412407255412,
+      -0.11328951224641826
+    ],
+    [
+      -0.2778901234661408,
+      1.4110057358406056,
+      -0.13311561237446498
+    ],
+    [
+      0.05492230993559817,
+      -0.6071309993259011,
+      1.5522086893903033
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "3bf122f24753de3d3383b5ecf2fdde79fccd97b3c16d35bda69b9052fdbf3d2a",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

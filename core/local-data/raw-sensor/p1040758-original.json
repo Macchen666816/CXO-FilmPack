@@ -1,0 +1,8 @@
+{
+  "format": "CXORAW01,LE:uint32 count,float32 ev/highlight/matrix9,int16 RGB input/output",
+  "source_interface": "evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-sensor512.tif.after.actual-interface.bin",
+  "source_input": "evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-sensor512.tif.boundary.actual-input-512.q15.bin",
+  "source_output": "evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-sensor512.tif.boundary.sensor-only-output-512.q15.bin",
+  "sha256": "fcff0ac2666eeb75527dad80e8db999ce2fae75d756c1dcb35bafaad3844b0ee",
+  "scope": "actual S1RII P1040758 sensor only, not film or display"
+}

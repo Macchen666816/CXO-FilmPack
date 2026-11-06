@@ -1,0 +1,47 @@
+{
+  "bodyId": 4099,
+  "camera": "SonyHX99",
+  "exposureBiasEv": 0.1,
+  "fidelityDaylight": [
+    [
+      0.9606022004907124,
+      0.1378078412521951,
+      -0.0984100417429071
+    ],
+    [
+      -0.2931248748280831,
+      1.558374024993161,
+      -0.2652491501650785
+    ],
+    [
+      -0.02635478146555896,
+      -0.3505005998912884,
+      1.376855381356847
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.7658436938046409,
+      0.3754632448677078,
+      -0.1413069386723486
+    ],
+    [
+      -0.4572887885242792,
+      1.621970191566572,
+      -0.1646814030422933
+    ],
+    [
+      -0.1422467278056897,
+      -0.4636636021169582,
+      1.605910329922648
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1150,
+  "interpolationOrigin": 3450,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "dd267e28ab0721eb64f252c0994b6df17a9d823feca8bdb217a0e52ea0cace07",
+  "tempHigh": 4600,
+  "tempLow": 3450
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Native RAW runtime BW probes and Tri-X production bake parameters; no fitted pixels or universal provider claims.",
+  "fixtures": [
+    {
+      "files": {
+        "hiefiltre.golden": "99d6568049ddf8b76f1d929cfcbba794c736e9807ed10d7a52dd15a8770ff873"
+      },
+      "nativeLabel": "providerbw-hiefiltre-p1040758-grid17-v1",
+      "nativeTypeBw": 1,
+      "nativeRuntimeBw": 1,
+      "sources": {
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.prepared.actual-interface.bin": "094e332bc84187365af904c429bd36d2541b4490a9b0d74bd82037fa9fa5e4d0",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.prepared.rendering-data.bin": "8de7ee5c6ec352faafcae14e62ff645f6ef2e787b85e7865271f4473785461f5",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.prepared.interface-storage-grid.bin": "e4eeb449eeec710b27d6b5821c9fc286deb7d82c45f81d28380d669a4f7ce6a3",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.prepared.raw-one-or-three-6144-curve-0.f32le.bin": "cbc462665f85d30f0566f0b1987e17a1e283e65254c8003f20b480c685dfd60c",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.grid-input.q15.bin": "56756b2c984dd66638840e0a08c084333dd50871b1f08c56b0d0a98b1c21c9a5",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.grid-sensor-output.q15.bin": "1cd2648a6ce7da0b72a4e1c3a944da734cced665777c54c46a3745df42b83bc9",
+        "small-grid-providerbw-hiefiltre-p1040758-grid17-v1.grid-full-output.q15.bin": "99e8a14875de099546a37e9c06d2f8393b87dda8eafacd2ac97fd19405da0968"
+      }
+    },
+    {
+      "files": {
+        "rolleiir400.golden": "82b8a39c6a2f0aab913d2eaa10f632440cfdb3434231793213034c7f7fb2b05b"
+      },
+      "nativeLabel": "providerbw-rolleiir400-p1176257-grid17-v1",
+      "nativeTypeBw": 1,
+      "nativeRuntimeBw": 1,
+      "sources": {
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.prepared.actual-interface.bin": "5c467dc024ca1cf260c31e1dc0263a1913d41048ff85a5b4f1b94b611692a4f2",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.prepared.rendering-data.bin": "090b4e3a4be7b3e90e2de0fe195e3c370f4c91c20e8cda58e9f77cfb472b99fd",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.prepared.interface-storage-grid.bin": "e592eecab9540a6f5e8ed644aa03b01e0bee3fba6b12774b9cb7b13bca985c02",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.prepared.raw-one-or-three-6144-curve-0.f32le.bin": "ff51e9731923434ea3bb485c6a1caca37f81ac05b6d777fa289f643773001a7f",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.grid-input.q15.bin": "56756b2c984dd66638840e0a08c084333dd50871b1f08c56b0d0a98b1c21c9a5",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.grid-sensor-output.q15.bin": "41abee943bf4edbea115996c7d65e46798a9994272f0cca971fa1e74303297ca",
+        "small-grid-providerbw-rolleiir400-p1176257-grid17-v1.grid-full-output.q15.bin": "ebadebc60d77dc69c427797c5ebc406caafd175cd39d0853128500de06d64892"
+      }
+    },
+    {
+      "files": {
+        "kodaktrix400.golden": "7f488861afa0c138b3c2b0c6ed0a76e6fae15180b204a75202d0d39c28144e31",
+        "kodaktrix400.parameters.bin": "3193184d816372872b950a4052098df01e6dd2581247b3dd4ae169c4624e97cb"
+      },
+      "nativeLabel": "providerbw-kodaktrix400-p1176257-grid17-v1",
+      "nativeTypeBw": 1,
+      "nativeRuntimeBw": 1,
+      "sources": {
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.actual-interface.bin": "3323114b46f6419efbbf20ad551e41b7ce78d5f8b1028035a77328676cc375fd",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.rendering-data.bin": "911ec8834386c452f0c61fe07e269766bac1f17131a17c7af34bdd366c88a2af",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.interface-storage-grid.bin": "6f56406126ac7e20799fdd303f133911079c5cb1078ab80ce73d484c555f3216",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.raw-one-or-three-6144-curve-0.f32le.bin": "1b6114c030777c3f624da1ec35f0e9159edde0fa994b8e15ba085b9eca4100e9",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.grid-input.q15.bin": "56756b2c984dd66638840e0a08c084333dd50871b1f08c56b0d0a98b1c21c9a5",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.grid-sensor-output.q15.bin": "41abee943bf4edbea115996c7d65e46798a9994272f0cca971fa1e74303297ca",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.grid-full-output.q15.bin": "4aa7d8223836b06638f694808d7ca186aa2db845ec06fa5ae172f2960cee24a2",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.rendering-curve-48.f32le.bin": "401d7645c16b4383ffbc1da8e387d18e55ca6b888263490a689f873a01d48260",
+        "small-grid-providerbw-kodaktrix400-p1176257-grid17-v1.prepared.raw-one-or-three-6232-curve-0.f32le.bin": "22a8bcae59311175f62bd5b6b6d165d187ae46d7bccff6e72b14a068b612c685"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "bodyId": 18011,
+  "camera": "DJIMini3Pro",
+  "exposureBiasEv": 0.65,
+  "fidelityDaylight": [
+    [
+      0.89022,
+      0.20577,
+      -0.09599
+    ],
+    [
+      -0.21443,
+      1.47487,
+      -0.26044
+    ],
+    [
+      -0.04649,
+      -0.57074,
+      1.61724
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.65266,
+      0.49664,
+      -0.14929
+    ],
+    [
+      -0.30928,
+      1.3625,
+      -0.05322
+    ],
+    [
+      -0.14909,
+      -0.81133,
+      1.96042
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1150,
+  "interpolationOrigin": 3450,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "ad06894463db6eb4827b9188f0b13d223fa676e2e2f9bd3f6e18b2ce43bee384",
+  "tempHigh": 4600,
+  "tempLow": 3450
+}

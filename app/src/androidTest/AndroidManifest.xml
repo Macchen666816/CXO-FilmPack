@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:debuggable="true">
+        <provider
+            android:name="dev.cxo.filmpack.app.PhotoFixtureProvider"
+            android:authorities="dev.cxo.filmpack.app.test.photos"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+        <uses-library android:name="android.test.runner" />
+        <uses-library android:name="android.test.base" />
+        <uses-library android:name="android.test.mock" />
+    </application>
+</manifest>

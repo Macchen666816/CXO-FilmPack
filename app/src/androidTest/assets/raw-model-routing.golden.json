@@ -1,0 +1,7123 @@
+{
+  "schema": "CXORAWROUTING1",
+  "source": "LibRaw simplify_make_model over DxO official maker/model pairs; metadata-only audit, not real RAW tests",
+  "profileCount": 584,
+  "pairs": [
+    {
+      "make": "Canon",
+      "model": "EOS-1D Mark II",
+      "expectedId": "body-1001",
+      "bodyId": 1001
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D Mark III",
+      "expectedId": "body-1003",
+      "bodyId": 1003
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1DS",
+      "expectedId": "body-1004",
+      "bodyId": 1004
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1Ds Mark II",
+      "expectedId": "body-1005",
+      "bodyId": 1005
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 10D",
+      "expectedId": "body-1006",
+      "bodyId": 1006
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 20D",
+      "expectedId": "body-1007",
+      "bodyId": 1007
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 30D",
+      "expectedId": "body-1008",
+      "bodyId": 1008
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 40D",
+      "expectedId": "body-1009",
+      "bodyId": 1009
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 300D DIGITAL",
+      "expectedId": "body-1010",
+      "bodyId": 1010
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL",
+      "expectedId": "body-1010",
+      "bodyId": 1010
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss Digital",
+      "expectedId": "body-1010",
+      "bodyId": 1010
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 350D",
+      "expectedId": "body-1011",
+      "bodyId": 1011
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 350D DIGITAL",
+      "expectedId": "body-1011",
+      "bodyId": 1011
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL XT",
+      "expectedId": "body-1011",
+      "bodyId": 1011
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss Digital N",
+      "expectedId": "body-1011",
+      "bodyId": 1011
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5D",
+      "expectedId": "body-1013",
+      "bodyId": 1013
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1Ds Mark III",
+      "expectedId": "body-1016",
+      "bodyId": 1016
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 450D",
+      "expectedId": "body-1017",
+      "bodyId": 1017
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL XSi",
+      "expectedId": "body-1017",
+      "bodyId": 1017
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X2",
+      "expectedId": "body-1017",
+      "bodyId": 1017
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G9",
+      "expectedId": "body-1018",
+      "bodyId": 1018
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1000D",
+      "expectedId": "body-1019",
+      "bodyId": 1019
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1000D DIGITAL",
+      "expectedId": "body-1019",
+      "bodyId": 1019
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL XS",
+      "expectedId": "body-1019",
+      "bodyId": 1019
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss F",
+      "expectedId": "body-1019",
+      "bodyId": 1019
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 50D",
+      "expectedId": "body-1020",
+      "bodyId": 1020
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5D Mark II",
+      "expectedId": "body-1021",
+      "bodyId": 1021
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G10",
+      "expectedId": "body-1022",
+      "bodyId": 1022
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 500D",
+      "expectedId": "body-1023",
+      "bodyId": 1023
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL T1i",
+      "expectedId": "body-1023",
+      "bodyId": 1023
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss Digital X3",
+      "expectedId": "body-1023",
+      "bodyId": 1023
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X3",
+      "expectedId": "body-1023",
+      "bodyId": 1023
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T1i",
+      "expectedId": "body-1023",
+      "bodyId": 1023
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 7D",
+      "expectedId": "body-1024",
+      "bodyId": 1024
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G11",
+      "expectedId": "body-1025",
+      "bodyId": 1025
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot S90",
+      "expectedId": "body-1026",
+      "bodyId": 1026
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D Mark IV",
+      "expectedId": "body-1027",
+      "bodyId": 1027
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 550D",
+      "expectedId": "body-1028",
+      "bodyId": 1028
+    },
+    {
+      "make": "Canon",
+      "model": "EOS DIGITAL REBEL T2i",
+      "expectedId": "body-1028",
+      "bodyId": 1028
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss Digital X4",
+      "expectedId": "body-1028",
+      "bodyId": 1028
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X4",
+      "expectedId": "body-1028",
+      "bodyId": 1028
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T2i",
+      "expectedId": "body-1028",
+      "bodyId": 1028
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 60D",
+      "expectedId": "body-1029",
+      "bodyId": 1029
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot S95",
+      "expectedId": "body-1030",
+      "bodyId": 1030
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G12",
+      "expectedId": "body-1031",
+      "bodyId": 1031
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 600D",
+      "expectedId": "body-1032",
+      "bodyId": 1032
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X5",
+      "expectedId": "body-1032",
+      "bodyId": 1032
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T3i",
+      "expectedId": "body-1032",
+      "bodyId": 1032
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1100D",
+      "expectedId": "body-1033",
+      "bodyId": 1033
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X50",
+      "expectedId": "body-1033",
+      "bodyId": 1033
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T3",
+      "expectedId": "body-1033",
+      "bodyId": 1033
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot S100",
+      "expectedId": "body-1034",
+      "bodyId": 1034
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G1 X",
+      "expectedId": "body-1035",
+      "bodyId": 1035
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5D Mark III",
+      "expectedId": "body-1036",
+      "bodyId": 1036
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 650D",
+      "expectedId": "body-1037",
+      "bodyId": 1037
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X6i",
+      "expectedId": "body-1037",
+      "bodyId": 1037
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T4i",
+      "expectedId": "body-1037",
+      "bodyId": 1037
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D X",
+      "expectedId": "body-1038",
+      "bodyId": 1038
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot S110",
+      "expectedId": "body-1039",
+      "bodyId": 1039
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G15",
+      "expectedId": "body-1040",
+      "bodyId": 1040
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M",
+      "expectedId": "body-1041",
+      "bodyId": 1041
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 6D",
+      "expectedId": "body-1042",
+      "bodyId": 1042
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot SX50 HS",
+      "expectedId": "body-1043",
+      "bodyId": 1043
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 700D",
+      "expectedId": "body-1044",
+      "bodyId": 1044
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X7i",
+      "expectedId": "body-1044",
+      "bodyId": 1044
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T5i",
+      "expectedId": "body-1044",
+      "bodyId": 1044
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 100D",
+      "expectedId": "body-1045",
+      "bodyId": 1045
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X7",
+      "expectedId": "body-1045",
+      "bodyId": 1045
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL SL1",
+      "expectedId": "body-1045",
+      "bodyId": 1045
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 70D",
+      "expectedId": "body-1046",
+      "bodyId": 1046
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G16",
+      "expectedId": "body-1047",
+      "bodyId": 1047
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot S120",
+      "expectedId": "body-1048",
+      "bodyId": 1048
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M2",
+      "expectedId": "body-1049",
+      "bodyId": 1049
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1200D",
+      "expectedId": "body-1050",
+      "bodyId": 1050
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X70",
+      "expectedId": "body-1050",
+      "bodyId": 1050
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T5",
+      "expectedId": "body-1050",
+      "bodyId": 1050
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G1 X Mark II",
+      "expectedId": "body-1051",
+      "bodyId": 1051
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 7D Mark II",
+      "expectedId": "body-1052",
+      "bodyId": 1052
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G7 X",
+      "expectedId": "body-1053",
+      "bodyId": 1053
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot SX60 HS",
+      "expectedId": "body-1054",
+      "bodyId": 1054
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5DS R",
+      "expectedId": "body-1055",
+      "bodyId": 1055
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5DS",
+      "expectedId": "body-1056",
+      "bodyId": 1056
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 750D",
+      "expectedId": "body-1057",
+      "bodyId": 1057
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X8i",
+      "expectedId": "body-1057",
+      "bodyId": 1057
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Rebel T6i",
+      "expectedId": "body-1057",
+      "bodyId": 1057
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 760D",
+      "expectedId": "body-1058",
+      "bodyId": 1058
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 8000D",
+      "expectedId": "body-1058",
+      "bodyId": 1058
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Rebel T6s",
+      "expectedId": "body-1058",
+      "bodyId": 1058
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M3",
+      "expectedId": "body-1059",
+      "bodyId": 1059
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G3 X",
+      "expectedId": "body-1060",
+      "bodyId": 1060
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G5 X",
+      "expectedId": "body-1061",
+      "bodyId": 1061
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G9 X",
+      "expectedId": "body-1062",
+      "bodyId": 1062
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M10",
+      "expectedId": "body-1063",
+      "bodyId": 1063
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 80D",
+      "expectedId": "body-1064",
+      "bodyId": 1064
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1300D",
+      "expectedId": "body-1065",
+      "bodyId": 1065
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X80",
+      "expectedId": "body-1065",
+      "bodyId": 1065
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T6",
+      "expectedId": "body-1065",
+      "bodyId": 1065
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D X Mark II",
+      "expectedId": "body-1066",
+      "bodyId": 1066
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G7 X Mark II",
+      "expectedId": "body-1067",
+      "bodyId": 1067
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 5D Mark IV",
+      "expectedId": "body-1068",
+      "bodyId": 1068
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M5",
+      "expectedId": "body-1069",
+      "bodyId": 1069
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 77D",
+      "expectedId": "body-1070",
+      "bodyId": 1070
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 9000D",
+      "expectedId": "body-1070",
+      "bodyId": 1070
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 800D",
+      "expectedId": "body-1071",
+      "bodyId": 1071
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X9i",
+      "expectedId": "body-1071",
+      "bodyId": 1071
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Rebel T7i",
+      "expectedId": "body-1071",
+      "bodyId": 1071
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M6",
+      "expectedId": "body-1072",
+      "bodyId": 1072
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G9 X Mark II",
+      "expectedId": "body-1073",
+      "bodyId": 1073
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 200D",
+      "expectedId": "body-1074",
+      "bodyId": 1074
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X9",
+      "expectedId": "body-1074",
+      "bodyId": 1074
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL SL2",
+      "expectedId": "body-1074",
+      "bodyId": 1074
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 6D Mark II",
+      "expectedId": "body-1075",
+      "bodyId": 1075
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M100",
+      "expectedId": "body-1076",
+      "bodyId": 1076
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G1 X Mark III",
+      "expectedId": "body-1077",
+      "bodyId": 1077
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 1500D",
+      "expectedId": "body-1078",
+      "bodyId": 1078
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 2000D",
+      "expectedId": "body-1078",
+      "bodyId": 1078
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X90",
+      "expectedId": "body-1078",
+      "bodyId": 1078
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T7",
+      "expectedId": "body-1078",
+      "bodyId": 1078
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 3000D",
+      "expectedId": "body-1079",
+      "bodyId": 1079
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 4000D",
+      "expectedId": "body-1079",
+      "bodyId": 1079
+    },
+    {
+      "make": "Canon",
+      "model": "EOS REBEL T100",
+      "expectedId": "body-1079",
+      "bodyId": 1079
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R",
+      "expectedId": "body-1080",
+      "bodyId": 1080
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M50",
+      "expectedId": "body-1081",
+      "bodyId": 1081
+    },
+    {
+      "make": "Canon",
+      "model": "EOS RP",
+      "expectedId": "body-1082",
+      "bodyId": 1082
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 200D II",
+      "expectedId": "body-1083",
+      "bodyId": 1083
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 250D",
+      "expectedId": "body-1083",
+      "bodyId": 1083
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X10",
+      "expectedId": "body-1083",
+      "bodyId": 1083
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Rebel SL3",
+      "expectedId": "body-1083",
+      "bodyId": 1083
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G7 X Mark III",
+      "expectedId": "body-1084",
+      "bodyId": 1084
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot G5 X Mark II",
+      "expectedId": "body-1085",
+      "bodyId": 1085
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 90D",
+      "expectedId": "body-1086",
+      "bodyId": 1086
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M6 Mark II",
+      "expectedId": "body-1087",
+      "bodyId": 1087
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M200",
+      "expectedId": "body-1088",
+      "bodyId": 1088
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D X Mark III",
+      "expectedId": "body-1089",
+      "bodyId": 1089
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1DX3",
+      "expectedId": "body-1089",
+      "bodyId": 1089
+    },
+    {
+      "make": "Canon",
+      "model": "EOS 850D",
+      "expectedId": "body-1090",
+      "bodyId": 1090
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss X10i",
+      "expectedId": "body-1090",
+      "bodyId": 1090
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Rebel T8i",
+      "expectedId": "body-1090",
+      "bodyId": 1090
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6",
+      "expectedId": "body-1091",
+      "bodyId": 1091
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R5",
+      "expectedId": "body-1092",
+      "bodyId": 1092
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Kiss M2",
+      "expectedId": "body-1093",
+      "bodyId": 1093
+    },
+    {
+      "make": "Canon",
+      "model": "EOS M50m2",
+      "expectedId": "body-1093",
+      "bodyId": 1093
+    },
+    {
+      "make": "Canon",
+      "model": "EOS Ra",
+      "expectedId": "body-1094",
+      "bodyId": 1094
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R3",
+      "expectedId": "body-1095",
+      "bodyId": 1095
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R5 C",
+      "expectedId": "body-1096",
+      "bodyId": 1096
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R7",
+      "expectedId": "body-1097",
+      "bodyId": 1097
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R10",
+      "expectedId": "body-1098",
+      "bodyId": 1098
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6m2",
+      "expectedId": "body-1099",
+      "bodyId": 1099
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R8",
+      "expectedId": "body-1100",
+      "bodyId": 1100
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R50",
+      "expectedId": "body-1101",
+      "bodyId": 1101
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R100",
+      "expectedId": "body-1102",
+      "bodyId": 1102
+    },
+    {
+      "make": "Canon",
+      "model": "EOS-1D C",
+      "expectedId": "body-1103",
+      "bodyId": 1103
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R5m2",
+      "expectedId": "body-1104",
+      "bodyId": 1104
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R1",
+      "expectedId": "body-1105",
+      "bodyId": 1105
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R50 V",
+      "expectedId": "body-1106",
+      "bodyId": 1106
+    },
+    {
+      "make": "Canon",
+      "model": "PowerShot V1",
+      "expectedId": "body-1107",
+      "bodyId": 1107
+    },
+    {
+      "make": "Canon",
+      "model": "EOS C50",
+      "expectedId": "body-1108",
+      "bodyId": 1108
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6 Mark III",
+      "expectedId": "body-1109",
+      "bodyId": 1109
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6 V",
+      "expectedId": "body-1110",
+      "bodyId": 1110
+    },
+    {
+      "make": "Nikon",
+      "model": "D2X",
+      "expectedId": "body-2002",
+      "bodyId": 2002
+    },
+    {
+      "make": "Nikon",
+      "model": "D2X",
+      "expectedId": "body-2002",
+      "bodyId": 2002
+    },
+    {
+      "make": "Nikon",
+      "model": "D2Xs",
+      "expectedId": "body-2003",
+      "bodyId": 2003
+    },
+    {
+      "make": "Nikon",
+      "model": "D2Xs",
+      "expectedId": "body-2003",
+      "bodyId": 2003
+    },
+    {
+      "make": "Nikon",
+      "model": "D50",
+      "expectedId": "body-2004",
+      "bodyId": 2004
+    },
+    {
+      "make": "Nikon",
+      "model": "D50",
+      "expectedId": "body-2004",
+      "bodyId": 2004
+    },
+    {
+      "make": "Nikon",
+      "model": "D70",
+      "expectedId": "body-2005",
+      "bodyId": 2005
+    },
+    {
+      "make": "Nikon",
+      "model": "D70",
+      "expectedId": "body-2005",
+      "bodyId": 2005
+    },
+    {
+      "make": "Nikon",
+      "model": "D70s",
+      "expectedId": "body-2006",
+      "bodyId": 2006
+    },
+    {
+      "make": "Nikon",
+      "model": "D70s",
+      "expectedId": "body-2006",
+      "bodyId": 2006
+    },
+    {
+      "make": "Nikon",
+      "model": "D100",
+      "expectedId": "body-2007",
+      "bodyId": 2007
+    },
+    {
+      "make": "Nikon",
+      "model": "D100",
+      "expectedId": "body-2007",
+      "bodyId": 2007
+    },
+    {
+      "make": "Nikon",
+      "model": "D200",
+      "expectedId": "body-2010",
+      "bodyId": 2010
+    },
+    {
+      "make": "Nikon",
+      "model": "D200",
+      "expectedId": "body-2010",
+      "bodyId": 2010
+    },
+    {
+      "make": "Nikon",
+      "model": "D80",
+      "expectedId": "body-2011",
+      "bodyId": 2011
+    },
+    {
+      "make": "Nikon",
+      "model": "D80",
+      "expectedId": "body-2011",
+      "bodyId": 2011
+    },
+    {
+      "make": "Nikon",
+      "model": "D40",
+      "expectedId": "body-2012",
+      "bodyId": 2012
+    },
+    {
+      "make": "Nikon",
+      "model": "D40",
+      "expectedId": "body-2012",
+      "bodyId": 2012
+    },
+    {
+      "make": "Nikon",
+      "model": "D40X",
+      "expectedId": "body-2013",
+      "bodyId": 2013
+    },
+    {
+      "make": "Nikon",
+      "model": "D40X",
+      "expectedId": "body-2013",
+      "bodyId": 2013
+    },
+    {
+      "make": "Nikon",
+      "model": "D300",
+      "expectedId": "body-2014",
+      "bodyId": 2014
+    },
+    {
+      "make": "Nikon",
+      "model": "D300",
+      "expectedId": "body-2014",
+      "bodyId": 2014
+    },
+    {
+      "make": "Nikon",
+      "model": "D3",
+      "expectedId": "body-2015",
+      "bodyId": 2015
+    },
+    {
+      "make": "Nikon",
+      "model": "D3",
+      "expectedId": "body-2015",
+      "bodyId": 2015
+    },
+    {
+      "make": "Nikon",
+      "model": "D60",
+      "expectedId": "body-2016",
+      "bodyId": 2016
+    },
+    {
+      "make": "Nikon",
+      "model": "D60",
+      "expectedId": "body-2016",
+      "bodyId": 2016
+    },
+    {
+      "make": "Nikon",
+      "model": "D700",
+      "expectedId": "body-2017",
+      "bodyId": 2017
+    },
+    {
+      "make": "Nikon",
+      "model": "D700",
+      "expectedId": "body-2017",
+      "bodyId": 2017
+    },
+    {
+      "make": "Nikon",
+      "model": "D90",
+      "expectedId": "body-2018",
+      "bodyId": 2018
+    },
+    {
+      "make": "Nikon",
+      "model": "D90",
+      "expectedId": "body-2018",
+      "bodyId": 2018
+    },
+    {
+      "make": "Nikon",
+      "model": "D3X",
+      "expectedId": "body-2019",
+      "bodyId": 2019
+    },
+    {
+      "make": "Nikon",
+      "model": "D3X",
+      "expectedId": "body-2019",
+      "bodyId": 2019
+    },
+    {
+      "make": "Nikon",
+      "model": "D5000",
+      "expectedId": "body-2020",
+      "bodyId": 2020
+    },
+    {
+      "make": "Nikon",
+      "model": "D5000",
+      "expectedId": "body-2020",
+      "bodyId": 2020
+    },
+    {
+      "make": "Nikon",
+      "model": "D300S",
+      "expectedId": "body-2021",
+      "bodyId": 2021
+    },
+    {
+      "make": "Nikon",
+      "model": "D300S",
+      "expectedId": "body-2021",
+      "bodyId": 2021
+    },
+    {
+      "make": "Nikon",
+      "model": "D3000",
+      "expectedId": "body-2022",
+      "bodyId": 2022
+    },
+    {
+      "make": "Nikon",
+      "model": "D3000",
+      "expectedId": "body-2022",
+      "bodyId": 2022
+    },
+    {
+      "make": "Nikon",
+      "model": "D3S",
+      "expectedId": "body-2023",
+      "bodyId": 2023
+    },
+    {
+      "make": "Nikon",
+      "model": "D3S",
+      "expectedId": "body-2023",
+      "bodyId": 2023
+    },
+    {
+      "make": "Nikon",
+      "model": "D3100",
+      "expectedId": "body-2024",
+      "bodyId": 2024
+    },
+    {
+      "make": "Nikon",
+      "model": "D3100",
+      "expectedId": "body-2024",
+      "bodyId": 2024
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7000",
+      "expectedId": "body-2025",
+      "bodyId": 2025
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7000",
+      "expectedId": "body-2025",
+      "bodyId": 2025
+    },
+    {
+      "make": "Nikon",
+      "model": "D7000",
+      "expectedId": "body-2026",
+      "bodyId": 2026
+    },
+    {
+      "make": "Nikon",
+      "model": "D7000",
+      "expectedId": "body-2026",
+      "bodyId": 2026
+    },
+    {
+      "make": "Nikon",
+      "model": "D5100",
+      "expectedId": "body-2028",
+      "bodyId": 2028
+    },
+    {
+      "make": "Nikon",
+      "model": "D5100",
+      "expectedId": "body-2028",
+      "bodyId": 2028
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7100",
+      "expectedId": "body-2029",
+      "bodyId": 2029
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7100",
+      "expectedId": "body-2029",
+      "bodyId": 2029
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V1",
+      "expectedId": "body-2030",
+      "bodyId": 2030
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V1",
+      "expectedId": "body-2030",
+      "bodyId": 2030
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J1",
+      "expectedId": "body-2031",
+      "bodyId": 2031
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J1",
+      "expectedId": "body-2031",
+      "bodyId": 2031
+    },
+    {
+      "make": "Nikon",
+      "model": "D4",
+      "expectedId": "body-2032",
+      "bodyId": 2032
+    },
+    {
+      "make": "Nikon",
+      "model": "D4",
+      "expectedId": "body-2032",
+      "bodyId": 2032
+    },
+    {
+      "make": "Nikon",
+      "model": "D800",
+      "expectedId": "body-2033",
+      "bodyId": 2033
+    },
+    {
+      "make": "Nikon",
+      "model": "D800",
+      "expectedId": "body-2033",
+      "bodyId": 2033
+    },
+    {
+      "make": "Nikon",
+      "model": "D800E",
+      "expectedId": "body-2034",
+      "bodyId": 2034
+    },
+    {
+      "make": "Nikon",
+      "model": "D800E",
+      "expectedId": "body-2034",
+      "bodyId": 2034
+    },
+    {
+      "make": "Nikon",
+      "model": "D3200",
+      "expectedId": "body-2035",
+      "bodyId": 2035
+    },
+    {
+      "make": "Nikon",
+      "model": "D3200",
+      "expectedId": "body-2035",
+      "bodyId": 2035
+    },
+    {
+      "make": "Nikon",
+      "model": "D600",
+      "expectedId": "body-2036",
+      "bodyId": 2036
+    },
+    {
+      "make": "Nikon",
+      "model": "D600",
+      "expectedId": "body-2036",
+      "bodyId": 2036
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J2",
+      "expectedId": "body-2037",
+      "bodyId": 2037
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J2",
+      "expectedId": "body-2037",
+      "bodyId": 2037
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V2",
+      "expectedId": "body-2038",
+      "bodyId": 2038
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V2",
+      "expectedId": "body-2038",
+      "bodyId": 2038
+    },
+    {
+      "make": "Nikon",
+      "model": "D5200",
+      "expectedId": "body-2039",
+      "bodyId": 2039
+    },
+    {
+      "make": "Nikon",
+      "model": "D5200",
+      "expectedId": "body-2039",
+      "bodyId": 2039
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J3",
+      "expectedId": "body-2040",
+      "bodyId": 2040
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J3",
+      "expectedId": "body-2040",
+      "bodyId": 2040
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7700",
+      "expectedId": "body-2041",
+      "bodyId": 2041
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7700",
+      "expectedId": "body-2041",
+      "bodyId": 2041
+    },
+    {
+      "make": "Nikon",
+      "model": "D7100",
+      "expectedId": "body-2042",
+      "bodyId": 2042
+    },
+    {
+      "make": "Nikon",
+      "model": "D7100",
+      "expectedId": "body-2042",
+      "bodyId": 2042
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX A",
+      "expectedId": "body-2043",
+      "bodyId": 2043
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX A",
+      "expectedId": "body-2043",
+      "bodyId": 2043
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P330",
+      "expectedId": "body-2044",
+      "bodyId": 2044
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P330",
+      "expectedId": "body-2044",
+      "bodyId": 2044
+    },
+    {
+      "make": "Nikon",
+      "model": "D610",
+      "expectedId": "body-2045",
+      "bodyId": 2045
+    },
+    {
+      "make": "Nikon",
+      "model": "D610",
+      "expectedId": "body-2045",
+      "bodyId": 2045
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7800",
+      "expectedId": "body-2046",
+      "bodyId": 2046
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P7800",
+      "expectedId": "body-2046",
+      "bodyId": 2046
+    },
+    {
+      "make": "Nikon",
+      "model": "D5300",
+      "expectedId": "body-2047",
+      "bodyId": 2047
+    },
+    {
+      "make": "Nikon",
+      "model": "D5300",
+      "expectedId": "body-2047",
+      "bodyId": 2047
+    },
+    {
+      "make": "Nikon",
+      "model": "Df",
+      "expectedId": "body-2048",
+      "bodyId": 2048
+    },
+    {
+      "make": "Nikon",
+      "model": "Df",
+      "expectedId": "body-2048",
+      "bodyId": 2048
+    },
+    {
+      "make": "Nikon",
+      "model": "1 AW1",
+      "expectedId": "body-2049",
+      "bodyId": 2049
+    },
+    {
+      "make": "Nikon",
+      "model": "1 AW1",
+      "expectedId": "body-2049",
+      "bodyId": 2049
+    },
+    {
+      "make": "Nikon",
+      "model": "D3300",
+      "expectedId": "body-2050",
+      "bodyId": 2050
+    },
+    {
+      "make": "Nikon",
+      "model": "D3300",
+      "expectedId": "body-2050",
+      "bodyId": 2050
+    },
+    {
+      "make": "Nikon",
+      "model": "D4S",
+      "expectedId": "body-2051",
+      "bodyId": 2051
+    },
+    {
+      "make": "Nikon",
+      "model": "D4S",
+      "expectedId": "body-2051",
+      "bodyId": 2051
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V3",
+      "expectedId": "body-2052",
+      "bodyId": 2052
+    },
+    {
+      "make": "Nikon",
+      "model": "1 V3",
+      "expectedId": "body-2052",
+      "bodyId": 2052
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX Jack",
+      "expectedId": "body-2053",
+      "bodyId": 2053
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P340",
+      "expectedId": "body-2053",
+      "bodyId": 2053
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX Jack",
+      "expectedId": "body-2053",
+      "bodyId": 2053
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P340",
+      "expectedId": "body-2053",
+      "bodyId": 2053
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J4",
+      "expectedId": "body-2054",
+      "bodyId": 2054
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J4",
+      "expectedId": "body-2054",
+      "bodyId": 2054
+    },
+    {
+      "make": "Nikon",
+      "model": "D810",
+      "expectedId": "body-2055",
+      "bodyId": 2055
+    },
+    {
+      "make": "Nikon",
+      "model": "D810",
+      "expectedId": "body-2055",
+      "bodyId": 2055
+    },
+    {
+      "make": "Nikon",
+      "model": "D750",
+      "expectedId": "body-2056",
+      "bodyId": 2056
+    },
+    {
+      "make": "Nikon",
+      "model": "D750",
+      "expectedId": "body-2056",
+      "bodyId": 2056
+    },
+    {
+      "make": "Nikon",
+      "model": "D5500",
+      "expectedId": "body-2057",
+      "bodyId": 2057
+    },
+    {
+      "make": "Nikon",
+      "model": "D5500",
+      "expectedId": "body-2057",
+      "bodyId": 2057
+    },
+    {
+      "make": "Nikon",
+      "model": "D7200",
+      "expectedId": "body-2058",
+      "bodyId": 2058
+    },
+    {
+      "make": "Nikon",
+      "model": "D7200",
+      "expectedId": "body-2058",
+      "bodyId": 2058
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J5",
+      "expectedId": "body-2059",
+      "bodyId": 2059
+    },
+    {
+      "make": "Nikon",
+      "model": "1 J5",
+      "expectedId": "body-2059",
+      "bodyId": 2059
+    },
+    {
+      "make": "Nikon",
+      "model": "D5",
+      "expectedId": "body-2060",
+      "bodyId": 2060
+    },
+    {
+      "make": "Nikon",
+      "model": "D5",
+      "expectedId": "body-2060",
+      "bodyId": 2060
+    },
+    {
+      "make": "Nikon",
+      "model": "D500",
+      "expectedId": "body-2061",
+      "bodyId": 2061
+    },
+    {
+      "make": "Nikon",
+      "model": "D500",
+      "expectedId": "body-2061",
+      "bodyId": 2061
+    },
+    {
+      "make": "Nikon",
+      "model": "D3400",
+      "expectedId": "body-2062",
+      "bodyId": 2062
+    },
+    {
+      "make": "Nikon",
+      "model": "D3400",
+      "expectedId": "body-2062",
+      "bodyId": 2062
+    },
+    {
+      "make": "Nikon",
+      "model": "D5600",
+      "expectedId": "body-2063",
+      "bodyId": 2063
+    },
+    {
+      "make": "Nikon",
+      "model": "D5600",
+      "expectedId": "body-2063",
+      "bodyId": 2063
+    },
+    {
+      "make": "Nikon",
+      "model": "D7500",
+      "expectedId": "body-2064",
+      "bodyId": 2064
+    },
+    {
+      "make": "Nikon",
+      "model": "D7500",
+      "expectedId": "body-2064",
+      "bodyId": 2064
+    },
+    {
+      "make": "Nikon",
+      "model": "D850",
+      "expectedId": "body-2065",
+      "bodyId": 2065
+    },
+    {
+      "make": "Nikon",
+      "model": "D850",
+      "expectedId": "body-2065",
+      "bodyId": 2065
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 7",
+      "expectedId": "body-2066",
+      "bodyId": 2066
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 7",
+      "expectedId": "body-2066",
+      "bodyId": 2066
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 6",
+      "expectedId": "body-2067",
+      "bodyId": 2067
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 6",
+      "expectedId": "body-2067",
+      "bodyId": 2067
+    },
+    {
+      "make": "Nikon",
+      "model": "D3500",
+      "expectedId": "body-2068",
+      "bodyId": 2068
+    },
+    {
+      "make": "Nikon",
+      "model": "D3500",
+      "expectedId": "body-2068",
+      "bodyId": 2068
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P1000",
+      "expectedId": "body-2069",
+      "bodyId": 2069
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P1100",
+      "expectedId": "body-2069",
+      "bodyId": 2069
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P1000",
+      "expectedId": "body-2069",
+      "bodyId": 2069
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P1100",
+      "expectedId": "body-2069",
+      "bodyId": 2069
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 50",
+      "expectedId": "body-2070",
+      "bodyId": 2070
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 50",
+      "expectedId": "body-2070",
+      "bodyId": 2070
+    },
+    {
+      "make": "Nikon",
+      "model": "D780",
+      "expectedId": "body-2071",
+      "bodyId": 2071
+    },
+    {
+      "make": "Nikon",
+      "model": "D780",
+      "expectedId": "body-2071",
+      "bodyId": 2071
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P950",
+      "expectedId": "body-2072",
+      "bodyId": 2072
+    },
+    {
+      "make": "Nikon",
+      "model": "COOLPIX P950",
+      "expectedId": "body-2072",
+      "bodyId": 2072
+    },
+    {
+      "make": "Nikon",
+      "model": "D6",
+      "expectedId": "body-2073",
+      "bodyId": 2073
+    },
+    {
+      "make": "Nikon",
+      "model": "D6",
+      "expectedId": "body-2073",
+      "bodyId": 2073
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 5",
+      "expectedId": "body-2074",
+      "bodyId": 2074
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 5",
+      "expectedId": "body-2074",
+      "bodyId": 2074
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 7_2",
+      "expectedId": "body-2075",
+      "bodyId": 2075
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 7_2",
+      "expectedId": "body-2075",
+      "bodyId": 2075
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 6_2",
+      "expectedId": "body-2076",
+      "bodyId": 2076
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 6_2",
+      "expectedId": "body-2076",
+      "bodyId": 2076
+    },
+    {
+      "make": "Nikon",
+      "model": "Z FC",
+      "expectedId": "body-2077",
+      "bodyId": 2077
+    },
+    {
+      "make": "Nikon",
+      "model": "Z FC",
+      "expectedId": "body-2077",
+      "bodyId": 2077
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 9",
+      "expectedId": "body-2078",
+      "bodyId": 2078
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 9",
+      "expectedId": "body-2078",
+      "bodyId": 2078
+    },
+    {
+      "make": "Nikon",
+      "model": "D810A",
+      "expectedId": "body-2079",
+      "bodyId": 2079
+    },
+    {
+      "make": "Nikon",
+      "model": "D810A",
+      "expectedId": "body-2079",
+      "bodyId": 2079
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 30",
+      "expectedId": "body-2080",
+      "bodyId": 2080
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 30",
+      "expectedId": "body-2080",
+      "bodyId": 2080
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 8",
+      "expectedId": "body-2081",
+      "bodyId": 2081
+    },
+    {
+      "make": "Nikon",
+      "model": "Z 8",
+      "expectedId": "body-2081",
+      "bodyId": 2081
+    },
+    {
+      "make": "Nikon",
+      "model": "Z f",
+      "expectedId": "body-2082",
+      "bodyId": 2082
+    },
+    {
+      "make": "Nikon",
+      "model": "Z f",
+      "expectedId": "body-2082",
+      "bodyId": 2082
+    },
+    {
+      "make": "Nikon",
+      "model": "Z6_3",
+      "expectedId": "body-2083",
+      "bodyId": 2083
+    },
+    {
+      "make": "Nikon",
+      "model": "Z6_3",
+      "expectedId": "body-2083",
+      "bodyId": 2083
+    },
+    {
+      "make": "Nikon",
+      "model": "Z50_2",
+      "expectedId": "body-2084",
+      "bodyId": 2084
+    },
+    {
+      "make": "Nikon",
+      "model": "Z50_2",
+      "expectedId": "body-2084",
+      "bodyId": 2084
+    },
+    {
+      "make": "Nikon",
+      "model": "Z5_2",
+      "expectedId": "body-2085",
+      "bodyId": 2085
+    },
+    {
+      "make": "Nikon",
+      "model": "Z5_2",
+      "expectedId": "body-2085",
+      "bodyId": 2085
+    },
+    {
+      "make": "Nikon",
+      "model": "ZR",
+      "expectedId": "body-2086",
+      "bodyId": 2086
+    },
+    {
+      "make": "Nikon",
+      "model": "ZR",
+      "expectedId": "body-2086",
+      "bodyId": 2086
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA-7 DIGITAL",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "DYNAX 7D",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "MAXXUM 7D",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA-7 DIGITAL",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "DYNAX 7D",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "MAXXUM 7D",
+      "expectedId": "body-3001",
+      "bodyId": 3001
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA SWEET DIGITAL",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA-5 DIGITAL",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "DYNAX 5D",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "MAXXUM 5D",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA SWEET DIGITAL",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "ALPHA-5 DIGITAL",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "DYNAX 5D",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Konica",
+      "model": "MAXXUM 5D",
+      "expectedId": "body-3002",
+      "bodyId": 3002
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A100",
+      "expectedId": "body-4004",
+      "bodyId": 4004
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A350",
+      "expectedId": "body-4005",
+      "bodyId": 4005
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A700",
+      "expectedId": "body-4006",
+      "bodyId": 4006
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A900",
+      "expectedId": "body-4007",
+      "bodyId": 4007
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A300",
+      "expectedId": "body-4008",
+      "bodyId": 4008
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A200",
+      "expectedId": "body-4009",
+      "bodyId": 4009
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A850",
+      "expectedId": "body-4010",
+      "bodyId": 4010
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A230",
+      "expectedId": "body-4011",
+      "bodyId": 4011
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A330",
+      "expectedId": "body-4012",
+      "bodyId": 4012
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A380",
+      "expectedId": "body-4013",
+      "bodyId": 4013
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A550",
+      "expectedId": "body-4014",
+      "bodyId": 4014
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A500",
+      "expectedId": "body-4015",
+      "bodyId": 4015
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A450",
+      "expectedId": "body-4016",
+      "bodyId": 4016
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A290",
+      "expectedId": "body-4017",
+      "bodyId": 4017
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A390",
+      "expectedId": "body-4018",
+      "bodyId": 4018
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-5",
+      "expectedId": "body-4019",
+      "bodyId": 4019
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-3",
+      "expectedId": "body-4020",
+      "bodyId": 4020
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A33",
+      "expectedId": "body-4021",
+      "bodyId": 4021
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A55",
+      "expectedId": "body-4022",
+      "bodyId": 4022
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A55V",
+      "expectedId": "body-4022",
+      "bodyId": 4022
+    },
+    {
+      "make": "Sony",
+      "model": "DSLR-A580",
+      "expectedId": "body-4023",
+      "bodyId": 4023
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A77",
+      "expectedId": "body-4024",
+      "bodyId": 4024
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A77V",
+      "expectedId": "body-4024",
+      "bodyId": 4024
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-5N",
+      "expectedId": "body-4025",
+      "bodyId": 4025
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-C3",
+      "expectedId": "body-4026",
+      "bodyId": 4026
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A65",
+      "expectedId": "body-4027",
+      "bodyId": 4027
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A65V",
+      "expectedId": "body-4027",
+      "bodyId": 4027
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-7",
+      "expectedId": "body-4028",
+      "bodyId": 4028
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A35",
+      "expectedId": "body-4029",
+      "bodyId": 4029
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A57",
+      "expectedId": "body-4030",
+      "bodyId": 4030
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A37",
+      "expectedId": "body-4031",
+      "bodyId": 4031
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-F3",
+      "expectedId": "body-4032",
+      "bodyId": 4032
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100",
+      "expectedId": "body-4033",
+      "bodyId": 4033
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-5R",
+      "expectedId": "body-4034",
+      "bodyId": 4034
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-6",
+      "expectedId": "body-4035",
+      "bodyId": 4035
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A99",
+      "expectedId": "body-4036",
+      "bodyId": 4036
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A99V",
+      "expectedId": "body-4036",
+      "bodyId": 4036
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX1",
+      "expectedId": "body-4037",
+      "bodyId": 4037
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-3N",
+      "expectedId": "body-4038",
+      "bodyId": 4038
+    },
+    {
+      "make": "Sony",
+      "model": "SLT-A58",
+      "expectedId": "body-4039",
+      "bodyId": 4039
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M2",
+      "expectedId": "body-4040",
+      "bodyId": 4040
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX1R",
+      "expectedId": "body-4041",
+      "bodyId": 4041
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7R",
+      "expectedId": "body-4042",
+      "bodyId": 4042
+    },
+    {
+      "make": "Sony",
+      "model": "NEX-5T",
+      "expectedId": "body-4043",
+      "bodyId": 4043
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-3000",
+      "expectedId": "body-4044",
+      "bodyId": 4044
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-3500",
+      "expectedId": "body-4044",
+      "bodyId": 4044
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7",
+      "expectedId": "body-4045",
+      "bodyId": 4045
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX10",
+      "expectedId": "body-4046",
+      "bodyId": 4046
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-5000",
+      "expectedId": "body-4047",
+      "bodyId": 4047
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6000",
+      "expectedId": "body-4048",
+      "bodyId": 4048
+    },
+    {
+      "make": "Sony",
+      "model": "ILCA-77M2",
+      "expectedId": "body-4049",
+      "bodyId": 4049
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7S",
+      "expectedId": "body-4050",
+      "bodyId": 4050
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M3",
+      "expectedId": "body-4051",
+      "bodyId": 4051
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-5100",
+      "expectedId": "body-4052",
+      "bodyId": 4052
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7M2",
+      "expectedId": "body-4053",
+      "bodyId": 4053
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M4",
+      "expectedId": "body-4054",
+      "bodyId": 4054
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX10M2",
+      "expectedId": "body-4055",
+      "bodyId": 4055
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM2",
+      "expectedId": "body-4056",
+      "bodyId": 4056
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7SM2",
+      "expectedId": "body-4057",
+      "bodyId": 4057
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX1RM2",
+      "expectedId": "body-4058",
+      "bodyId": 4058
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6300",
+      "expectedId": "body-4059",
+      "bodyId": 4059
+    },
+    {
+      "make": "Sony",
+      "model": "ILCA-68",
+      "expectedId": "body-4060",
+      "bodyId": 4060
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX10M3",
+      "expectedId": "body-4061",
+      "bodyId": 4061
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M5",
+      "expectedId": "body-4062",
+      "bodyId": 4062
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6500",
+      "expectedId": "body-4063",
+      "bodyId": 4063
+    },
+    {
+      "make": "Sony",
+      "model": "ILCA-99M2",
+      "expectedId": "body-4064",
+      "bodyId": 4064
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-9",
+      "expectedId": "body-4065",
+      "bodyId": 4065
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX10M4",
+      "expectedId": "body-4066",
+      "bodyId": 4066
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM3",
+      "expectedId": "body-4067",
+      "bodyId": 4067
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7M3",
+      "expectedId": "body-4068",
+      "bodyId": 4068
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M6",
+      "expectedId": "body-4069",
+      "bodyId": 4069
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M5A",
+      "expectedId": "body-4070",
+      "bodyId": 4070
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6400",
+      "expectedId": "body-4071",
+      "bodyId": 4071
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6400A",
+      "expectedId": "body-4071",
+      "bodyId": 4071
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M7",
+      "expectedId": "body-4072",
+      "bodyId": 4072
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX100M7A",
+      "expectedId": "body-4072",
+      "bodyId": 4072
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM4",
+      "expectedId": "body-4073",
+      "bodyId": 4073
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6100",
+      "expectedId": "body-4074",
+      "bodyId": 4074
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6100A",
+      "expectedId": "body-4074",
+      "bodyId": 4074
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6600",
+      "expectedId": "body-4075",
+      "bodyId": 4075
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-9M2",
+      "expectedId": "body-4076",
+      "bodyId": 4076
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7SM3",
+      "expectedId": "body-4077",
+      "bodyId": 4077
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7C",
+      "expectedId": "body-4078",
+      "bodyId": 4078
+    },
+    {
+      "make": "Sony",
+      "model": "ZV-1",
+      "expectedId": "body-4079",
+      "bodyId": 4079
+    },
+    {
+      "make": "Sony",
+      "model": "ZV-1A",
+      "expectedId": "body-4079",
+      "bodyId": 4079
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-1",
+      "expectedId": "body-4080",
+      "bodyId": 4080
+    },
+    {
+      "make": "Sony",
+      "model": "ZV-E10",
+      "expectedId": "body-4081",
+      "bodyId": 4081
+    },
+    {
+      "make": "Sony",
+      "model": "ILME-FX3",
+      "expectedId": "body-4082",
+      "bodyId": 4082
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7M4",
+      "expectedId": "sony-a7iv",
+      "bodyId": 4083
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM3A",
+      "expectedId": "body-4084",
+      "bodyId": 4084
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM4A",
+      "expectedId": "body-4085",
+      "bodyId": 4085
+    },
+    {
+      "make": "Sony",
+      "model": "ILME-FX30",
+      "expectedId": "body-4086",
+      "bodyId": 4086
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM5",
+      "expectedId": "body-4087",
+      "bodyId": 4087
+    },
+    {
+      "make": "Sony",
+      "model": "ZV-E1",
+      "expectedId": "body-4088",
+      "bodyId": 4088
+    },
+    {
+      "make": "Sony",
+      "model": "ZV-1M2",
+      "expectedId": "body-4089",
+      "bodyId": 4089
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-6700",
+      "expectedId": "body-4090",
+      "bodyId": 4090
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7CM2",
+      "expectedId": "body-4091",
+      "bodyId": 4091
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7CR",
+      "expectedId": "body-4092",
+      "bodyId": 4092
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-9M3",
+      "expectedId": "body-4093",
+      "bodyId": 4093
+    },
+    {
+      "make": "Sony",
+      "model": "ILX-LR1",
+      "expectedId": "body-4094",
+      "bodyId": 4094
+    },
+    {
+      "make": "Sony",
+      "model": "IZV-E10M2",
+      "expectedId": "body-4095",
+      "bodyId": 4095
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-1M2",
+      "expectedId": "body-4096",
+      "bodyId": 4096
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-RX1RM3",
+      "expectedId": "body-4097",
+      "bodyId": 4097
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7M5",
+      "expectedId": "body-4098",
+      "bodyId": 4098
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-HX95",
+      "expectedId": "body-4099",
+      "bodyId": 4099
+    },
+    {
+      "make": "Sony",
+      "model": "DSC-HX99",
+      "expectedId": "body-4099",
+      "bodyId": 4099
+    },
+    {
+      "make": "Sony",
+      "model": "ILME-FX2",
+      "expectedId": "body-4100",
+      "bodyId": 4100
+    },
+    {
+      "make": "Sony",
+      "model": "ILCE-7RM6",
+      "expectedId": "body-4101",
+      "bodyId": 4101
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX3",
+      "expectedId": "body-5002",
+      "bodyId": 5002
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G1",
+      "expectedId": "body-5003",
+      "bodyId": 5003
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GH1",
+      "expectedId": "body-5004",
+      "bodyId": 5004
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX5",
+      "expectedId": "body-5006",
+      "bodyId": 5006
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G2",
+      "expectedId": "body-5007",
+      "bodyId": 5007
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF1",
+      "expectedId": "body-5008",
+      "bodyId": 5008
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF2",
+      "expectedId": "body-5009",
+      "bodyId": 5009
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G3",
+      "expectedId": "body-5010",
+      "bodyId": 5010
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF3",
+      "expectedId": "body-5011",
+      "bodyId": 5011
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX1",
+      "expectedId": "body-5012",
+      "bodyId": 5012
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF5",
+      "expectedId": "body-5013",
+      "bodyId": 5013
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ150",
+      "expectedId": "body-5014",
+      "bodyId": 5014
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G5",
+      "expectedId": "body-5015",
+      "bodyId": 5015
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX7",
+      "expectedId": "body-5016",
+      "bodyId": 5016
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ200",
+      "expectedId": "body-5017",
+      "bodyId": 5017
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GH3",
+      "expectedId": "body-5018",
+      "bodyId": 5018
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G6",
+      "expectedId": "body-5019",
+      "bodyId": 5019
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF6",
+      "expectedId": "body-5020",
+      "bodyId": 5020
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX7",
+      "expectedId": "body-5021",
+      "bodyId": 5021
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LF1",
+      "expectedId": "body-5022",
+      "bodyId": 5022
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GM1",
+      "expectedId": "body-5023",
+      "bodyId": 5023
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GM1S",
+      "expectedId": "body-5023",
+      "bodyId": 5023
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ70",
+      "expectedId": "body-5024",
+      "bodyId": 5024
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ72",
+      "expectedId": "body-5024",
+      "bodyId": 5024
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GH4",
+      "expectedId": "body-5025",
+      "bodyId": 5025
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ1000",
+      "expectedId": "body-5026",
+      "bodyId": 5026
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ60",
+      "expectedId": "body-5027",
+      "bodyId": 5027
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ61",
+      "expectedId": "body-5027",
+      "bodyId": 5027
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS40",
+      "expectedId": "body-5027",
+      "bodyId": 5027
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX100",
+      "expectedId": "body-5028",
+      "bodyId": 5028
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GM5",
+      "expectedId": "body-5029",
+      "bodyId": 5029
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GF7",
+      "expectedId": "body-5030",
+      "bodyId": 5030
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G7",
+      "expectedId": "body-5031",
+      "bodyId": 5031
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G70",
+      "expectedId": "body-5031",
+      "bodyId": 5031
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ70",
+      "expectedId": "body-5032",
+      "bodyId": 5032
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ71",
+      "expectedId": "body-5032",
+      "bodyId": 5032
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS50",
+      "expectedId": "body-5032",
+      "bodyId": 5032
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX8",
+      "expectedId": "body-5033",
+      "bodyId": 5033
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ300",
+      "expectedId": "body-5034",
+      "bodyId": 5034
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ330",
+      "expectedId": "body-5034",
+      "bodyId": 5034
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX7MK2",
+      "expectedId": "body-5035",
+      "bodyId": 5035
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX80",
+      "expectedId": "body-5035",
+      "bodyId": 5035
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX85",
+      "expectedId": "body-5035",
+      "bodyId": 5035
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TX1",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ100",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ101",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ110",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS100",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS110",
+      "expectedId": "body-5036",
+      "bodyId": 5036
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ80",
+      "expectedId": "body-5037",
+      "bodyId": 5037
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ81",
+      "expectedId": "body-5037",
+      "bodyId": 5037
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ82",
+      "expectedId": "body-5037",
+      "bodyId": 5037
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ85",
+      "expectedId": "body-5037",
+      "bodyId": 5037
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS60",
+      "expectedId": "body-5037",
+      "bodyId": 5037
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ2000",
+      "expectedId": "body-5038",
+      "bodyId": 5038
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZ2500",
+      "expectedId": "body-5038",
+      "bodyId": 5038
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-FZH1",
+      "expectedId": "body-5038",
+      "bodyId": 5038
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G8",
+      "expectedId": "body-5039",
+      "bodyId": 5039
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G80",
+      "expectedId": "body-5039",
+      "bodyId": 5039
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G81",
+      "expectedId": "body-5039",
+      "bodyId": 5039
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-G85",
+      "expectedId": "body-5039",
+      "bodyId": 5039
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX10",
+      "expectedId": "body-5040",
+      "bodyId": 5040
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX15",
+      "expectedId": "body-5040",
+      "bodyId": 5040
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-LX9",
+      "expectedId": "body-5040",
+      "bodyId": 5040
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GH5",
+      "expectedId": "body-5041",
+      "bodyId": 5041
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ80",
+      "expectedId": "body-5042",
+      "bodyId": 5042
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ81",
+      "expectedId": "body-5042",
+      "bodyId": 5042
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ82",
+      "expectedId": "body-5042",
+      "bodyId": 5042
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ83",
+      "expectedId": "body-5042",
+      "bodyId": 5042
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ85",
+      "expectedId": "body-5042",
+      "bodyId": 5042
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GF9",
+      "expectedId": "body-5043",
+      "bodyId": 5043
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GX800",
+      "expectedId": "body-5043",
+      "bodyId": 5043
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GX850",
+      "expectedId": "body-5043",
+      "bodyId": 5043
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ90",
+      "expectedId": "body-5044",
+      "bodyId": 5044
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ91",
+      "expectedId": "body-5044",
+      "bodyId": 5044
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ92",
+      "expectedId": "body-5044",
+      "bodyId": 5044
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ93",
+      "expectedId": "body-5044",
+      "bodyId": 5044
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS70",
+      "expectedId": "body-5044",
+      "bodyId": 5044
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G9",
+      "expectedId": "body-5045",
+      "bodyId": 5045
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GX7MK3",
+      "expectedId": "body-5046",
+      "bodyId": 5046
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GX9",
+      "expectedId": "body-5046",
+      "bodyId": 5046
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-GX7MK3",
+      "expectedId": "body-5046",
+      "bodyId": 5046
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TX2",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TX2D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ200",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ200D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ202",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ202D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ220",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ220D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS200",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS200D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS220",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS220D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TX2",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TX2D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ200",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ200D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ220",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ220D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS200",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS200D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS220",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS220D",
+      "expectedId": "body-5047",
+      "bodyId": 5047
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GH5S",
+      "expectedId": "body-5048",
+      "bodyId": 5048
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-LX100M2",
+      "expectedId": "body-5049",
+      "bodyId": 5049
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1",
+      "expectedId": "body-5050",
+      "bodyId": 5050
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1R",
+      "expectedId": "body-5051",
+      "bodyId": 5051
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ10002",
+      "expectedId": "body-5052",
+      "bodyId": 5052
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ1000M2",
+      "expectedId": "body-5052",
+      "bodyId": 5052
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ95",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ95D",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ96",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ96D",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ97",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ97D",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS80",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS80D",
+      "expectedId": "body-5053",
+      "bodyId": 5053
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G90",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G90D",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G91",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G91D",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G95",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G95D",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G99",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G99D",
+      "expectedId": "body-5054",
+      "bodyId": 5054
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GF10",
+      "expectedId": "body-5055",
+      "bodyId": 5055
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GF90",
+      "expectedId": "body-5055",
+      "bodyId": 5055
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GX880",
+      "expectedId": "body-5055",
+      "bodyId": 5055
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S5",
+      "expectedId": "body-5056",
+      "bodyId": 5056
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1H",
+      "expectedId": "body-5057",
+      "bodyId": 5057
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G100",
+      "expectedId": "body-5058",
+      "bodyId": 5058
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G100D",
+      "expectedId": "body-5058",
+      "bodyId": 5058
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G110",
+      "expectedId": "body-5058",
+      "bodyId": 5058
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GH5M2",
+      "expectedId": "body-5059",
+      "bodyId": 5059
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GH6",
+      "expectedId": "body-5060",
+      "bodyId": 5060
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S5M2",
+      "expectedId": "body-5061",
+      "bodyId": 5061
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S5M2X",
+      "expectedId": "body-5062",
+      "bodyId": 5062
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G9M2",
+      "expectedId": "body-5063",
+      "bodyId": 5063
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S9",
+      "expectedId": "s9",
+      "bodyId": 5064
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-GH7",
+      "expectedId": "body-5065",
+      "bodyId": 5065
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ80D",
+      "expectedId": "body-5066",
+      "bodyId": 5066
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ82D",
+      "expectedId": "body-5066",
+      "bodyId": 5066
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-FZ85D",
+      "expectedId": "body-5066",
+      "bodyId": 5066
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S5D",
+      "expectedId": "body-5067",
+      "bodyId": 5067
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ99",
+      "expectedId": "body-5068",
+      "bodyId": 5068
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS99",
+      "expectedId": "body-5068",
+      "bodyId": 5068
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G97",
+      "expectedId": "body-5069",
+      "bodyId": 5069
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-G99M2",
+      "expectedId": "body-5069",
+      "bodyId": 5069
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1RM2",
+      "expectedId": "s1rii",
+      "bodyId": 5070
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1M2",
+      "expectedId": "body-5071",
+      "bodyId": 5071
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-S1M2ES",
+      "expectedId": "body-5072",
+      "bodyId": 5072
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TX3",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TX3D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ300",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ300D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ303",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ303D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ330",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-TZ330D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS300",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS300D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS330",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-ZS330D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TX3",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TX3D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ300",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ300D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ330",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-TZ330D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS300",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS300D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS330",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DMC-ZS330D",
+      "expectedId": "body-5073",
+      "bodyId": 5073
+    },
+    {
+      "make": "Panasonic",
+      "model": "DC-L10",
+      "expectedId": "body-5074",
+      "bodyId": 5074
+    },
+    {
+      "make": "Olympus",
+      "model": "E-3",
+      "expectedId": "body-7002",
+      "bodyId": 7002
+    },
+    {
+      "make": "Olympus",
+      "model": "E-3",
+      "expectedId": "body-7002",
+      "bodyId": 7002
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-3",
+      "expectedId": "body-7002",
+      "bodyId": 7002
+    },
+    {
+      "make": "Olympus",
+      "model": "E-30",
+      "expectedId": "body-7003",
+      "bodyId": 7003
+    },
+    {
+      "make": "Olympus",
+      "model": "E-30",
+      "expectedId": "body-7003",
+      "bodyId": 7003
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-30",
+      "expectedId": "body-7003",
+      "bodyId": 7003
+    },
+    {
+      "make": "Olympus",
+      "model": "E-410",
+      "expectedId": "body-7004",
+      "bodyId": 7004
+    },
+    {
+      "make": "Olympus",
+      "model": "E-410",
+      "expectedId": "body-7004",
+      "bodyId": 7004
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-410",
+      "expectedId": "body-7004",
+      "bodyId": 7004
+    },
+    {
+      "make": "Olympus",
+      "model": "E-510",
+      "expectedId": "body-7005",
+      "bodyId": 7005
+    },
+    {
+      "make": "Olympus",
+      "model": "E-510",
+      "expectedId": "body-7005",
+      "bodyId": 7005
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-510",
+      "expectedId": "body-7005",
+      "bodyId": 7005
+    },
+    {
+      "make": "Olympus",
+      "model": "E-420",
+      "expectedId": "body-7006",
+      "bodyId": 7006
+    },
+    {
+      "make": "Olympus",
+      "model": "E-420",
+      "expectedId": "body-7006",
+      "bodyId": 7006
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-420",
+      "expectedId": "body-7006",
+      "bodyId": 7006
+    },
+    {
+      "make": "Olympus",
+      "model": "E-520",
+      "expectedId": "body-7007",
+      "bodyId": 7007
+    },
+    {
+      "make": "Olympus",
+      "model": "E-520",
+      "expectedId": "body-7007",
+      "bodyId": 7007
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-520",
+      "expectedId": "body-7007",
+      "bodyId": 7007
+    },
+    {
+      "make": "Olympus",
+      "model": "E-450",
+      "expectedId": "body-7008",
+      "bodyId": 7008
+    },
+    {
+      "make": "Olympus",
+      "model": "E-450",
+      "expectedId": "body-7008",
+      "bodyId": 7008
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-450",
+      "expectedId": "body-7008",
+      "bodyId": 7008
+    },
+    {
+      "make": "Olympus",
+      "model": "E-620",
+      "expectedId": "body-7009",
+      "bodyId": 7009
+    },
+    {
+      "make": "Olympus",
+      "model": "E-620",
+      "expectedId": "body-7009",
+      "bodyId": 7009
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-620",
+      "expectedId": "body-7009",
+      "bodyId": 7009
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL2",
+      "expectedId": "body-7011",
+      "bodyId": 7011
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL2",
+      "expectedId": "body-7011",
+      "bodyId": 7011
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL2",
+      "expectedId": "body-7011",
+      "bodyId": 7011
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL1",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL1s",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL1",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL1s",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL1",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL1s",
+      "expectedId": "body-7012",
+      "bodyId": 7012
+    },
+    {
+      "make": "Olympus",
+      "model": "E-5",
+      "expectedId": "body-7013",
+      "bodyId": 7013
+    },
+    {
+      "make": "Olympus",
+      "model": "E-5",
+      "expectedId": "body-7013",
+      "bodyId": 7013
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-5",
+      "expectedId": "body-7013",
+      "bodyId": 7013
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL3",
+      "expectedId": "body-7014",
+      "bodyId": 7014
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL3",
+      "expectedId": "body-7014",
+      "bodyId": 7014
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL3",
+      "expectedId": "body-7014",
+      "bodyId": 7014
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P3",
+      "expectedId": "body-7015",
+      "bodyId": 7015
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P3",
+      "expectedId": "body-7015",
+      "bodyId": 7015
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-P3",
+      "expectedId": "body-7015",
+      "bodyId": 7015
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PM1",
+      "expectedId": "body-7016",
+      "bodyId": 7016
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PM1",
+      "expectedId": "body-7016",
+      "bodyId": 7016
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PM1",
+      "expectedId": "body-7016",
+      "bodyId": 7016
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P2",
+      "expectedId": "body-7017",
+      "bodyId": 7017
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P2",
+      "expectedId": "body-7017",
+      "bodyId": 7017
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-P2",
+      "expectedId": "body-7017",
+      "bodyId": 7017
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P1",
+      "expectedId": "body-7018",
+      "bodyId": 7018
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P1",
+      "expectedId": "body-7018",
+      "bodyId": 7018
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-P1",
+      "expectedId": "body-7018",
+      "bodyId": 7018
+    },
+    {
+      "make": "Olympus",
+      "model": "XZ-1",
+      "expectedId": "body-7019",
+      "bodyId": 7019
+    },
+    {
+      "make": "Olympus",
+      "model": "XZ-1",
+      "expectedId": "body-7019",
+      "bodyId": 7019
+    },
+    {
+      "make": "OM Digital",
+      "model": "XZ-1",
+      "expectedId": "body-7019",
+      "bodyId": 7019
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5",
+      "expectedId": "body-7020",
+      "bodyId": 7020
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5",
+      "expectedId": "body-7020",
+      "bodyId": 7020
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M5",
+      "expectedId": "body-7020",
+      "bodyId": 7020
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL5",
+      "expectedId": "body-7021",
+      "bodyId": 7021
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL5",
+      "expectedId": "body-7021",
+      "bodyId": 7021
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL5",
+      "expectedId": "body-7021",
+      "bodyId": 7021
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PM2",
+      "expectedId": "body-7022",
+      "bodyId": 7022
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PM2",
+      "expectedId": "body-7022",
+      "bodyId": 7022
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PM2",
+      "expectedId": "body-7022",
+      "bodyId": 7022
+    },
+    {
+      "make": "Olympus",
+      "model": "XZ-2",
+      "expectedId": "body-7023",
+      "bodyId": 7023
+    },
+    {
+      "make": "Olympus",
+      "model": "XZ-2",
+      "expectedId": "body-7023",
+      "bodyId": 7023
+    },
+    {
+      "make": "OM Digital",
+      "model": "XZ-2",
+      "expectedId": "body-7023",
+      "bodyId": 7023
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P5",
+      "expectedId": "body-7024",
+      "bodyId": 7024
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P5",
+      "expectedId": "body-7024",
+      "bodyId": 7024
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-P5",
+      "expectedId": "body-7024",
+      "bodyId": 7024
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1",
+      "expectedId": "body-7025",
+      "bodyId": 7025
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1",
+      "expectedId": "body-7025",
+      "bodyId": 7025
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M1",
+      "expectedId": "body-7025",
+      "bodyId": 7025
+    },
+    {
+      "make": "Olympus",
+      "model": "STYLUS1",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "Olympus",
+      "model": "STYLUS1,1s",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "Olympus",
+      "model": "STYLUS1",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "Olympus",
+      "model": "STYLUS1,1s",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "OM Digital",
+      "model": "STYLUS1",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "OM Digital",
+      "model": "STYLUS1,1s",
+      "expectedId": "body-7026",
+      "bodyId": 7026
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10",
+      "expectedId": "body-7027",
+      "bodyId": 7027
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10",
+      "expectedId": "body-7027",
+      "bodyId": 7027
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M10",
+      "expectedId": "body-7027",
+      "bodyId": 7027
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL7",
+      "expectedId": "body-7028",
+      "bodyId": 7028
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL7",
+      "expectedId": "body-7028",
+      "bodyId": 7028
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL7",
+      "expectedId": "body-7028",
+      "bodyId": 7028
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5MarkII",
+      "expectedId": "body-7029",
+      "bodyId": 7029
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5MarkII",
+      "expectedId": "body-7029",
+      "bodyId": 7029
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M5MarkII",
+      "expectedId": "body-7029",
+      "bodyId": 7029
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkII",
+      "expectedId": "body-7030",
+      "bodyId": 7030
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkII",
+      "expectedId": "body-7030",
+      "bodyId": 7030
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M10MarkII",
+      "expectedId": "body-7030",
+      "bodyId": 7030
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-4",
+      "expectedId": "body-7031",
+      "bodyId": 7031
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-4",
+      "expectedId": "body-7031",
+      "bodyId": 7031
+    },
+    {
+      "make": "OM Digital",
+      "model": "TG-4",
+      "expectedId": "body-7031",
+      "bodyId": 7031
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL6",
+      "expectedId": "body-7032",
+      "bodyId": 7032
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL6",
+      "expectedId": "body-7032",
+      "bodyId": 7032
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL6",
+      "expectedId": "body-7032",
+      "bodyId": 7032
+    },
+    {
+      "make": "Olympus",
+      "model": "PEN-F",
+      "expectedId": "body-7033",
+      "bodyId": 7033
+    },
+    {
+      "make": "Olympus",
+      "model": "PEN-F",
+      "expectedId": "body-7033",
+      "bodyId": 7033
+    },
+    {
+      "make": "OM Digital",
+      "model": "PEN-F",
+      "expectedId": "body-7033",
+      "bodyId": 7033
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1MarkII",
+      "expectedId": "body-7034",
+      "bodyId": 7034
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1MarkII",
+      "expectedId": "body-7034",
+      "bodyId": 7034
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M1MarkII",
+      "expectedId": "body-7034",
+      "bodyId": 7034
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10 Mark III",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkIIIS",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10 Mark III",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkIIIS",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M10 Mark III",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M10MarkIIIS",
+      "expectedId": "body-7035",
+      "bodyId": 7035
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-5",
+      "expectedId": "body-7036",
+      "bodyId": 7036
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-5",
+      "expectedId": "body-7036",
+      "bodyId": 7036
+    },
+    {
+      "make": "OM Digital",
+      "model": "TG-5",
+      "expectedId": "body-7036",
+      "bodyId": 7036
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1X",
+      "expectedId": "body-7037",
+      "bodyId": 7037
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1X",
+      "expectedId": "body-7037",
+      "bodyId": 7037
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M1X",
+      "expectedId": "body-7037",
+      "bodyId": 7037
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5MarkIII",
+      "expectedId": "body-7038",
+      "bodyId": 7038
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M5MarkIII",
+      "expectedId": "body-7038",
+      "bodyId": 7038
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M5MarkIII",
+      "expectedId": "body-7038",
+      "bodyId": 7038
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1MarkIII",
+      "expectedId": "body-7039",
+      "bodyId": 7039
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M1MarkIII",
+      "expectedId": "body-7039",
+      "bodyId": 7039
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M1MarkIII",
+      "expectedId": "body-7039",
+      "bodyId": 7039
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-6",
+      "expectedId": "body-7040",
+      "bodyId": 7040
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-6",
+      "expectedId": "body-7040",
+      "bodyId": 7040
+    },
+    {
+      "make": "OM Digital",
+      "model": "TG-6",
+      "expectedId": "body-7040",
+      "bodyId": 7040
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL10",
+      "expectedId": "body-7041",
+      "bodyId": 7041
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL10",
+      "expectedId": "body-7041",
+      "bodyId": 7041
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL10",
+      "expectedId": "body-7041",
+      "bodyId": 7041
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkIV",
+      "expectedId": "body-7042",
+      "bodyId": 7042
+    },
+    {
+      "make": "Olympus",
+      "model": "E-M10MarkIV",
+      "expectedId": "body-7042",
+      "bodyId": 7042
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-M10MarkIV",
+      "expectedId": "body-7042",
+      "bodyId": 7042
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL8",
+      "expectedId": "body-7043",
+      "bodyId": 7043
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL8",
+      "expectedId": "body-7043",
+      "bodyId": 7043
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL8",
+      "expectedId": "body-7043",
+      "bodyId": 7043
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL9",
+      "expectedId": "body-7044",
+      "bodyId": 7044
+    },
+    {
+      "make": "Olympus",
+      "model": "E-PL9",
+      "expectedId": "body-7044",
+      "bodyId": 7044
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-PL9",
+      "expectedId": "body-7044",
+      "bodyId": 7044
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P7",
+      "expectedId": "body-7045",
+      "bodyId": 7045
+    },
+    {
+      "make": "Olympus",
+      "model": "E-P7",
+      "expectedId": "body-7045",
+      "bodyId": 7045
+    },
+    {
+      "make": "OM Digital",
+      "model": "E-P7",
+      "expectedId": "body-7045",
+      "bodyId": 7045
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-1",
+      "expectedId": "body-7046",
+      "bodyId": 7046
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-1",
+      "expectedId": "body-7046",
+      "bodyId": 7046
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-1",
+      "expectedId": "body-7046",
+      "bodyId": 7046
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-5",
+      "expectedId": "body-7047",
+      "bodyId": 7047
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-5",
+      "expectedId": "body-7047",
+      "bodyId": 7047
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-5",
+      "expectedId": "body-7047",
+      "bodyId": 7047
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-7",
+      "expectedId": "body-7048",
+      "bodyId": 7048
+    },
+    {
+      "make": "Olympus",
+      "model": "TG-7",
+      "expectedId": "body-7048",
+      "bodyId": 7048
+    },
+    {
+      "make": "OM Digital",
+      "model": "TG-7",
+      "expectedId": "body-7048",
+      "bodyId": 7048
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-1MarkII",
+      "expectedId": "body-7049",
+      "bodyId": 7049
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-1MarkII",
+      "expectedId": "body-7049",
+      "bodyId": 7049
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-1MarkII",
+      "expectedId": "body-7049",
+      "bodyId": 7049
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-3",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-3ASTRO",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-3",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-3ASTRO",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-3",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-3ASTRO",
+      "expectedId": "body-7050",
+      "bodyId": 7050
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-5MarkII",
+      "expectedId": "body-7051",
+      "bodyId": 7051
+    },
+    {
+      "make": "Olympus",
+      "model": "OM-5MarkII",
+      "expectedId": "body-7051",
+      "bodyId": 7051
+    },
+    {
+      "make": "OM Digital",
+      "model": "OM-5MarkII",
+      "expectedId": "body-7051",
+      "bodyId": 7051
+    },
+    {
+      "make": "Samsung",
+      "model": "GX20",
+      "expectedId": "body-8002",
+      "bodyId": 8002
+    },
+    {
+      "make": "Samsung",
+      "model": "GX20",
+      "expectedId": "body-8002",
+      "bodyId": 8002
+    },
+    {
+      "make": "Samsung",
+      "model": "GX20",
+      "expectedId": "body-8002",
+      "bodyId": 8002
+    },
+    {
+      "make": "Samsung",
+      "model": "GX20",
+      "expectedId": "body-8002",
+      "bodyId": 8002
+    },
+    {
+      "make": "Samsung",
+      "model": "NX10",
+      "expectedId": "body-8003",
+      "bodyId": 8003
+    },
+    {
+      "make": "Samsung",
+      "model": "NX10",
+      "expectedId": "body-8003",
+      "bodyId": 8003
+    },
+    {
+      "make": "Samsung",
+      "model": "NX10",
+      "expectedId": "body-8003",
+      "bodyId": 8003
+    },
+    {
+      "make": "Samsung",
+      "model": "NX10",
+      "expectedId": "body-8003",
+      "bodyId": 8003
+    },
+    {
+      "make": "Samsung",
+      "model": "NX100",
+      "expectedId": "body-8004",
+      "bodyId": 8004
+    },
+    {
+      "make": "Samsung",
+      "model": "NX100",
+      "expectedId": "body-8004",
+      "bodyId": 8004
+    },
+    {
+      "make": "Samsung",
+      "model": "NX100",
+      "expectedId": "body-8004",
+      "bodyId": 8004
+    },
+    {
+      "make": "Samsung",
+      "model": "NX100",
+      "expectedId": "body-8004",
+      "bodyId": 8004
+    },
+    {
+      "make": "Samsung",
+      "model": "NX200",
+      "expectedId": "body-8005",
+      "bodyId": 8005
+    },
+    {
+      "make": "Samsung",
+      "model": "NX200",
+      "expectedId": "body-8005",
+      "bodyId": 8005
+    },
+    {
+      "make": "Samsung",
+      "model": "NX200",
+      "expectedId": "body-8005",
+      "bodyId": 8005
+    },
+    {
+      "make": "Samsung",
+      "model": "NX200",
+      "expectedId": "body-8005",
+      "bodyId": 8005
+    },
+    {
+      "make": "Samsung",
+      "model": "NX20",
+      "expectedId": "body-8006",
+      "bodyId": 8006
+    },
+    {
+      "make": "Samsung",
+      "model": "NX20",
+      "expectedId": "body-8006",
+      "bodyId": 8006
+    },
+    {
+      "make": "Samsung",
+      "model": "NX20",
+      "expectedId": "body-8006",
+      "bodyId": 8006
+    },
+    {
+      "make": "Samsung",
+      "model": "NX20",
+      "expectedId": "body-8006",
+      "bodyId": 8006
+    },
+    {
+      "make": "Samsung",
+      "model": "NX11",
+      "expectedId": "body-8007",
+      "bodyId": 8007
+    },
+    {
+      "make": "Samsung",
+      "model": "NX11",
+      "expectedId": "body-8007",
+      "bodyId": 8007
+    },
+    {
+      "make": "Samsung",
+      "model": "NX11",
+      "expectedId": "body-8007",
+      "bodyId": 8007
+    },
+    {
+      "make": "Samsung",
+      "model": "NX11",
+      "expectedId": "body-8007",
+      "bodyId": 8007
+    },
+    {
+      "make": "Samsung",
+      "model": "EX2F",
+      "expectedId": "body-8008",
+      "bodyId": 8008
+    },
+    {
+      "make": "Samsung",
+      "model": "EX2F",
+      "expectedId": "body-8008",
+      "bodyId": 8008
+    },
+    {
+      "make": "Samsung",
+      "model": "EX2F",
+      "expectedId": "body-8008",
+      "bodyId": 8008
+    },
+    {
+      "make": "Samsung",
+      "model": "EX2F",
+      "expectedId": "body-8008",
+      "bodyId": 8008
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300M",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300M",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300M",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "NX300M",
+      "expectedId": "body-8009",
+      "bodyId": 8009
+    },
+    {
+      "make": "Samsung",
+      "model": "EX1",
+      "expectedId": "body-8010",
+      "bodyId": 8010
+    },
+    {
+      "make": "Samsung",
+      "model": "EX1",
+      "expectedId": "body-8010",
+      "bodyId": 8010
+    },
+    {
+      "make": "Samsung",
+      "model": "EX1",
+      "expectedId": "body-8010",
+      "bodyId": 8010
+    },
+    {
+      "make": "Samsung",
+      "model": "EX1",
+      "expectedId": "body-8010",
+      "bodyId": 8010
+    },
+    {
+      "make": "Samsung",
+      "model": "NX210",
+      "expectedId": "body-8011",
+      "bodyId": 8011
+    },
+    {
+      "make": "Samsung",
+      "model": "NX210",
+      "expectedId": "body-8011",
+      "bodyId": 8011
+    },
+    {
+      "make": "Samsung",
+      "model": "NX210",
+      "expectedId": "body-8011",
+      "bodyId": 8011
+    },
+    {
+      "make": "Samsung",
+      "model": "NX210",
+      "expectedId": "body-8011",
+      "bodyId": 8011
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1000",
+      "expectedId": "body-8014",
+      "bodyId": 8014
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1000",
+      "expectedId": "body-8014",
+      "bodyId": 8014
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1000",
+      "expectedId": "body-8014",
+      "bodyId": 8014
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1000",
+      "expectedId": "body-8014",
+      "bodyId": 8014
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1100",
+      "expectedId": "body-8015",
+      "bodyId": 8015
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1100",
+      "expectedId": "body-8015",
+      "bodyId": 8015
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1100",
+      "expectedId": "body-8015",
+      "bodyId": 8015
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1100",
+      "expectedId": "body-8015",
+      "bodyId": 8015
+    },
+    {
+      "make": "Samsung",
+      "model": "NX2000",
+      "expectedId": "body-8016",
+      "bodyId": 8016
+    },
+    {
+      "make": "Samsung",
+      "model": "NX2000",
+      "expectedId": "body-8016",
+      "bodyId": 8016
+    },
+    {
+      "make": "Samsung",
+      "model": "NX2000",
+      "expectedId": "body-8016",
+      "bodyId": 8016
+    },
+    {
+      "make": "Samsung",
+      "model": "NX2000",
+      "expectedId": "body-8016",
+      "bodyId": 8016
+    },
+    {
+      "make": "Samsung",
+      "model": "NX30",
+      "expectedId": "body-8018",
+      "bodyId": 8018
+    },
+    {
+      "make": "Samsung",
+      "model": "NX30",
+      "expectedId": "body-8018",
+      "bodyId": 8018
+    },
+    {
+      "make": "Samsung",
+      "model": "NX30",
+      "expectedId": "body-8018",
+      "bodyId": 8018
+    },
+    {
+      "make": "Samsung",
+      "model": "NX30",
+      "expectedId": "body-8018",
+      "bodyId": 8018
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1",
+      "expectedId": "body-8020",
+      "bodyId": 8020
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1",
+      "expectedId": "body-8020",
+      "bodyId": 8020
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1",
+      "expectedId": "body-8020",
+      "bodyId": 8020
+    },
+    {
+      "make": "Samsung",
+      "model": "NX1",
+      "expectedId": "body-8020",
+      "bodyId": 8020
+    },
+    {
+      "make": "Samsung",
+      "model": "NX500",
+      "expectedId": "body-8021",
+      "bodyId": 8021
+    },
+    {
+      "make": "Samsung",
+      "model": "NX500",
+      "expectedId": "body-8021",
+      "bodyId": 8021
+    },
+    {
+      "make": "Samsung",
+      "model": "NX500",
+      "expectedId": "body-8021",
+      "bodyId": 8021
+    },
+    {
+      "make": "Samsung",
+      "model": "NX500",
+      "expectedId": "body-8021",
+      "bodyId": 8021
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100",
+      "expectedId": "body-9006",
+      "bodyId": 9006
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-A5",
+      "expectedId": "body-9007",
+      "bodyId": 9007
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T100",
+      "expectedId": "body-9008",
+      "bodyId": 9008
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX 50R",
+      "expectedId": "body-9009",
+      "bodyId": 9009
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX 50S",
+      "expectedId": "body-9010",
+      "bodyId": 9010
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX 100",
+      "expectedId": "body-9011",
+      "bodyId": 9011
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T200",
+      "expectedId": "body-9012",
+      "bodyId": 9012
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-A7",
+      "expectedId": "body-9013",
+      "bodyId": 9013
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T3",
+      "expectedId": "body-9014",
+      "bodyId": 9014
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T2",
+      "expectedId": "body-9015",
+      "bodyId": 9015
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E2",
+      "expectedId": "body-9016",
+      "bodyId": 9016
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX100S",
+      "expectedId": "body-9017",
+      "bodyId": 9017
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T30",
+      "expectedId": "body-9018",
+      "bodyId": 9018
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T4",
+      "expectedId": "body-9019",
+      "bodyId": 9019
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-Pro3",
+      "expectedId": "body-9020",
+      "bodyId": 9020
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100V",
+      "expectedId": "body-9021",
+      "bodyId": 9021
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T20",
+      "expectedId": "body-9022",
+      "bodyId": 9022
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E3",
+      "expectedId": "body-9023",
+      "bodyId": 9023
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-H1",
+      "expectedId": "body-9024",
+      "bodyId": 9024
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100F",
+      "expectedId": "body-9025",
+      "bodyId": 9025
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X70",
+      "expectedId": "body-9026",
+      "bodyId": 9026
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E4",
+      "expectedId": "body-9027",
+      "bodyId": 9027
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-S10",
+      "expectedId": "body-9028",
+      "bodyId": 9028
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E2S",
+      "expectedId": "body-9029",
+      "bodyId": 9029
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-Pro2",
+      "expectedId": "body-9030",
+      "bodyId": 9030
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100T",
+      "expectedId": "body-9031",
+      "bodyId": 9031
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T1",
+      "expectedId": "body-9032",
+      "bodyId": 9032
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T30 II",
+      "expectedId": "body-9033",
+      "bodyId": 9033
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX50S II",
+      "expectedId": "body-9034",
+      "bodyId": 9034
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T10",
+      "expectedId": "body-9035",
+      "bodyId": 9035
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100S",
+      "expectedId": "body-9036",
+      "bodyId": 9036
+    },
+    {
+      "make": "Fujifilm",
+      "model": "XF10",
+      "expectedId": "body-9037",
+      "bodyId": 9037
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X20",
+      "expectedId": "body-9038",
+      "bodyId": 9038
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X30",
+      "expectedId": "body-9039",
+      "bodyId": 9039
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-Pro1",
+      "expectedId": "body-9040",
+      "bodyId": 9040
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-M1",
+      "expectedId": "body-9041",
+      "bodyId": 9041
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E1",
+      "expectedId": "body-9042",
+      "bodyId": 9042
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-H2S",
+      "expectedId": "body-9043",
+      "bodyId": 9043
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-H2",
+      "expectedId": "body-9044",
+      "bodyId": 9044
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T5",
+      "expectedId": "body-9045",
+      "bodyId": 9045
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-S20",
+      "expectedId": "body-9046",
+      "bodyId": 9046
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX100 II",
+      "expectedId": "body-9047",
+      "bodyId": 9047
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X100VI",
+      "expectedId": "body-9048",
+      "bodyId": 9048
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T50",
+      "expectedId": "body-9049",
+      "bodyId": 9049
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX100S II",
+      "expectedId": "body-9050",
+      "bodyId": 9050
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-M5",
+      "expectedId": "body-9051",
+      "bodyId": 9051
+    },
+    {
+      "make": "Fujifilm",
+      "model": "GFX100RF",
+      "expectedId": "body-9052",
+      "bodyId": 9052
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-E5",
+      "expectedId": "body-9053",
+      "bodyId": 9053
+    },
+    {
+      "make": "Fujifilm",
+      "model": "X-T30 III",
+      "expectedId": "body-9054",
+      "bodyId": 9054
+    },
+    {
+      "make": "Pentax",
+      "model": "K10D",
+      "expectedId": "body-10001",
+      "bodyId": 10001
+    },
+    {
+      "make": "Pentax",
+      "model": "K10D",
+      "expectedId": "body-10001",
+      "bodyId": 10001
+    },
+    {
+      "make": "Pentax",
+      "model": "K10D",
+      "expectedId": "body-10001",
+      "bodyId": 10001
+    },
+    {
+      "make": "Pentax",
+      "model": "K10D",
+      "expectedId": "body-10001",
+      "bodyId": 10001
+    },
+    {
+      "make": "Pentax",
+      "model": "K20D",
+      "expectedId": "body-10002",
+      "bodyId": 10002
+    },
+    {
+      "make": "Pentax",
+      "model": "K20D",
+      "expectedId": "body-10002",
+      "bodyId": 10002
+    },
+    {
+      "make": "Pentax",
+      "model": "K20D",
+      "expectedId": "body-10002",
+      "bodyId": 10002
+    },
+    {
+      "make": "Pentax",
+      "model": "K20D",
+      "expectedId": "body-10002",
+      "bodyId": 10002
+    },
+    {
+      "make": "Pentax",
+      "model": "K-m",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K2000",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K-m",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K2000",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K-m",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K2000",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K-m",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K2000",
+      "expectedId": "body-10003",
+      "bodyId": 10003
+    },
+    {
+      "make": "Pentax",
+      "model": "K200D",
+      "expectedId": "body-10004",
+      "bodyId": 10004
+    },
+    {
+      "make": "Pentax",
+      "model": "K200D",
+      "expectedId": "body-10004",
+      "bodyId": 10004
+    },
+    {
+      "make": "Pentax",
+      "model": "K200D",
+      "expectedId": "body-10004",
+      "bodyId": 10004
+    },
+    {
+      "make": "Pentax",
+      "model": "K200D",
+      "expectedId": "body-10004",
+      "bodyId": 10004
+    },
+    {
+      "make": "Pentax",
+      "model": "K-7",
+      "expectedId": "body-10005",
+      "bodyId": 10005
+    },
+    {
+      "make": "Pentax",
+      "model": "K-7",
+      "expectedId": "body-10005",
+      "bodyId": 10005
+    },
+    {
+      "make": "Pentax",
+      "model": "K-7",
+      "expectedId": "body-10005",
+      "bodyId": 10005
+    },
+    {
+      "make": "Pentax",
+      "model": "K-7",
+      "expectedId": "body-10005",
+      "bodyId": 10005
+    },
+    {
+      "make": "Pentax",
+      "model": "K-x",
+      "expectedId": "body-10006",
+      "bodyId": 10006
+    },
+    {
+      "make": "Pentax",
+      "model": "K-x",
+      "expectedId": "body-10006",
+      "bodyId": 10006
+    },
+    {
+      "make": "Pentax",
+      "model": "K-x",
+      "expectedId": "body-10006",
+      "bodyId": 10006
+    },
+    {
+      "make": "Pentax",
+      "model": "K-x",
+      "expectedId": "body-10006",
+      "bodyId": 10006
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5",
+      "expectedId": "body-10007",
+      "bodyId": 10007
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5",
+      "expectedId": "body-10007",
+      "bodyId": 10007
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5",
+      "expectedId": "body-10007",
+      "bodyId": 10007
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5",
+      "expectedId": "body-10007",
+      "bodyId": 10007
+    },
+    {
+      "make": "Pentax",
+      "model": "K-r",
+      "expectedId": "body-10008",
+      "bodyId": 10008
+    },
+    {
+      "make": "Pentax",
+      "model": "K-r",
+      "expectedId": "body-10008",
+      "bodyId": 10008
+    },
+    {
+      "make": "Pentax",
+      "model": "K-r",
+      "expectedId": "body-10008",
+      "bodyId": 10008
+    },
+    {
+      "make": "Pentax",
+      "model": "K-r",
+      "expectedId": "body-10008",
+      "bodyId": 10008
+    },
+    {
+      "make": "Pentax",
+      "model": "K-01",
+      "expectedId": "body-10009",
+      "bodyId": 10009
+    },
+    {
+      "make": "Pentax",
+      "model": "K-01",
+      "expectedId": "body-10009",
+      "bodyId": 10009
+    },
+    {
+      "make": "Pentax",
+      "model": "K-01",
+      "expectedId": "body-10009",
+      "bodyId": 10009
+    },
+    {
+      "make": "Pentax",
+      "model": "K-01",
+      "expectedId": "body-10009",
+      "bodyId": 10009
+    },
+    {
+      "make": "Pentax",
+      "model": "K-30",
+      "expectedId": "body-10010",
+      "bodyId": 10010
+    },
+    {
+      "make": "Pentax",
+      "model": "K-30",
+      "expectedId": "body-10010",
+      "bodyId": 10010
+    },
+    {
+      "make": "Pentax",
+      "model": "K-30",
+      "expectedId": "body-10010",
+      "bodyId": 10010
+    },
+    {
+      "make": "Pentax",
+      "model": "K-30",
+      "expectedId": "body-10010",
+      "bodyId": 10010
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II",
+      "expectedId": "body-10011",
+      "bodyId": 10011
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II",
+      "expectedId": "body-10011",
+      "bodyId": 10011
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II",
+      "expectedId": "body-10011",
+      "bodyId": 10011
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II",
+      "expectedId": "body-10011",
+      "bodyId": 10011
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II s",
+      "expectedId": "body-10012",
+      "bodyId": 10012
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II s",
+      "expectedId": "body-10012",
+      "bodyId": 10012
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II s",
+      "expectedId": "body-10012",
+      "bodyId": 10012
+    },
+    {
+      "make": "Pentax",
+      "model": "K-5 II s",
+      "expectedId": "body-10012",
+      "bodyId": 10012
+    },
+    {
+      "make": "Pentax",
+      "model": "MX-1",
+      "expectedId": "body-10013",
+      "bodyId": 10013
+    },
+    {
+      "make": "Pentax",
+      "model": "MX-1",
+      "expectedId": "body-10013",
+      "bodyId": 10013
+    },
+    {
+      "make": "Pentax",
+      "model": "MX-1",
+      "expectedId": "body-10013",
+      "bodyId": 10013
+    },
+    {
+      "make": "Pentax",
+      "model": "MX-1",
+      "expectedId": "body-10013",
+      "bodyId": 10013
+    },
+    {
+      "make": "Pentax",
+      "model": "GR",
+      "expectedId": "body-10014",
+      "bodyId": 10014
+    },
+    {
+      "make": "Pentax",
+      "model": "GR",
+      "expectedId": "body-10014",
+      "bodyId": 10014
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR",
+      "expectedId": "body-10014",
+      "bodyId": 10014
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR",
+      "expectedId": "body-10014",
+      "bodyId": 10014
+    },
+    {
+      "make": "Pentax",
+      "model": "K-50",
+      "expectedId": "body-10015",
+      "bodyId": 10015
+    },
+    {
+      "make": "Pentax",
+      "model": "K-50",
+      "expectedId": "body-10015",
+      "bodyId": 10015
+    },
+    {
+      "make": "Pentax",
+      "model": "K-50",
+      "expectedId": "body-10015",
+      "bodyId": 10015
+    },
+    {
+      "make": "Pentax",
+      "model": "K-50",
+      "expectedId": "body-10015",
+      "bodyId": 10015
+    },
+    {
+      "make": "Pentax",
+      "model": "K-500",
+      "expectedId": "body-10016",
+      "bodyId": 10016
+    },
+    {
+      "make": "Pentax",
+      "model": "K-500",
+      "expectedId": "body-10016",
+      "bodyId": 10016
+    },
+    {
+      "make": "Pentax",
+      "model": "K-500",
+      "expectedId": "body-10016",
+      "bodyId": 10016
+    },
+    {
+      "make": "Pentax",
+      "model": "K-500",
+      "expectedId": "body-10016",
+      "bodyId": 10016
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3",
+      "expectedId": "body-10017",
+      "bodyId": 10017
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3",
+      "expectedId": "body-10017",
+      "bodyId": 10017
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3",
+      "expectedId": "body-10017",
+      "bodyId": 10017
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3",
+      "expectedId": "body-10017",
+      "bodyId": 10017
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S1",
+      "expectedId": "body-10018",
+      "bodyId": 10018
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S1",
+      "expectedId": "body-10018",
+      "bodyId": 10018
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S1",
+      "expectedId": "body-10018",
+      "bodyId": 10018
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S1",
+      "expectedId": "body-10018",
+      "bodyId": 10018
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 II",
+      "expectedId": "body-10019",
+      "bodyId": 10019
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 II",
+      "expectedId": "body-10019",
+      "bodyId": 10019
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 II",
+      "expectedId": "body-10019",
+      "bodyId": 10019
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 II",
+      "expectedId": "body-10019",
+      "bodyId": 10019
+    },
+    {
+      "make": "Pentax",
+      "model": "645Z",
+      "expectedId": "body-10020",
+      "bodyId": 10020
+    },
+    {
+      "make": "Pentax",
+      "model": "645Z",
+      "expectedId": "body-10020",
+      "bodyId": 10020
+    },
+    {
+      "make": "Pentax",
+      "model": "645Z",
+      "expectedId": "body-10020",
+      "bodyId": 10020
+    },
+    {
+      "make": "Pentax",
+      "model": "645Z",
+      "expectedId": "body-10020",
+      "bodyId": 10020
+    },
+    {
+      "make": "Pentax",
+      "model": "645D",
+      "expectedId": "body-10021",
+      "bodyId": 10021
+    },
+    {
+      "make": "Pentax",
+      "model": "645D",
+      "expectedId": "body-10021",
+      "bodyId": 10021
+    },
+    {
+      "make": "Pentax",
+      "model": "645D",
+      "expectedId": "body-10021",
+      "bodyId": 10021
+    },
+    {
+      "make": "Pentax",
+      "model": "645D",
+      "expectedId": "body-10021",
+      "bodyId": 10021
+    },
+    {
+      "make": "Pentax",
+      "model": "GR II",
+      "expectedId": "body-10022",
+      "bodyId": 10022
+    },
+    {
+      "make": "Pentax",
+      "model": "GR II",
+      "expectedId": "body-10022",
+      "bodyId": 10022
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR II",
+      "expectedId": "body-10022",
+      "bodyId": 10022
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR II",
+      "expectedId": "body-10022",
+      "bodyId": 10022
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S2",
+      "expectedId": "body-10023",
+      "bodyId": 10023
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S2",
+      "expectedId": "body-10023",
+      "bodyId": 10023
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S2",
+      "expectedId": "body-10023",
+      "bodyId": 10023
+    },
+    {
+      "make": "Pentax",
+      "model": "K-S2",
+      "expectedId": "body-10023",
+      "bodyId": 10023
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1",
+      "expectedId": "body-10024",
+      "bodyId": 10024
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1",
+      "expectedId": "body-10024",
+      "bodyId": 10024
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1",
+      "expectedId": "body-10024",
+      "bodyId": 10024
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1",
+      "expectedId": "body-10024",
+      "bodyId": 10024
+    },
+    {
+      "make": "Pentax",
+      "model": "K-70",
+      "expectedId": "body-10025",
+      "bodyId": 10025
+    },
+    {
+      "make": "Pentax",
+      "model": "K-70",
+      "expectedId": "body-10025",
+      "bodyId": 10025
+    },
+    {
+      "make": "Pentax",
+      "model": "K-70",
+      "expectedId": "body-10025",
+      "bodyId": 10025
+    },
+    {
+      "make": "Pentax",
+      "model": "K-70",
+      "expectedId": "body-10025",
+      "bodyId": 10025
+    },
+    {
+      "make": "Pentax",
+      "model": "KP",
+      "expectedId": "body-10026",
+      "bodyId": 10026
+    },
+    {
+      "make": "Pentax",
+      "model": "KP",
+      "expectedId": "body-10026",
+      "bodyId": 10026
+    },
+    {
+      "make": "Pentax",
+      "model": "KP",
+      "expectedId": "body-10026",
+      "bodyId": 10026
+    },
+    {
+      "make": "Pentax",
+      "model": "KP",
+      "expectedId": "body-10026",
+      "bodyId": 10026
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1 Mark II",
+      "expectedId": "body-10027",
+      "bodyId": 10027
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1 Mark II",
+      "expectedId": "body-10027",
+      "bodyId": 10027
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1 Mark II",
+      "expectedId": "body-10027",
+      "bodyId": 10027
+    },
+    {
+      "make": "Pentax",
+      "model": "K-1 Mark II",
+      "expectedId": "body-10027",
+      "bodyId": 10027
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR III",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR III HDF",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR III",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR III HDF",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR III",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR III HDF",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR III",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR III HDF",
+      "expectedId": "body-10028",
+      "bodyId": 10028
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 Mark III",
+      "expectedId": "body-10029",
+      "bodyId": 10029
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 Mark III",
+      "expectedId": "body-10029",
+      "bodyId": 10029
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 Mark III",
+      "expectedId": "body-10029",
+      "bodyId": 10029
+    },
+    {
+      "make": "Pentax",
+      "model": "K-3 Mark III",
+      "expectedId": "body-10029",
+      "bodyId": 10029
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR IIIx",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR IIIx HDF",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR IIIx",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR IIIx HDF",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IIIx",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IIIx HDF",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IIIx",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IIIx HDF",
+      "expectedId": "body-10030",
+      "bodyId": 10030
+    },
+    {
+      "make": "Pentax",
+      "model": "KF",
+      "expectedId": "body-10031",
+      "bodyId": 10031
+    },
+    {
+      "make": "Pentax",
+      "model": "KF",
+      "expectedId": "body-10031",
+      "bodyId": 10031
+    },
+    {
+      "make": "Pentax",
+      "model": "KF",
+      "expectedId": "body-10031",
+      "bodyId": 10031
+    },
+    {
+      "make": "Pentax",
+      "model": "KF",
+      "expectedId": "body-10031",
+      "bodyId": 10031
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR IV",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR IV HDF",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Pentax",
+      "model": "RICOH GR IV",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Pentax",
+      "model": "Ricoh GR IV HDF",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IV",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IV HDF",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IV",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Ricoh",
+      "model": "GR IV HDF",
+      "expectedId": "body-10032",
+      "bodyId": 10032
+    },
+    {
+      "make": "Leica",
+      "model": "M9",
+      "expectedId": "body-11001",
+      "bodyId": 11001
+    },
+    {
+      "make": "Leica",
+      "model": "M9",
+      "expectedId": "body-11001",
+      "bodyId": 11001
+    },
+    {
+      "make": "Leica",
+      "model": "M (Typ 240)",
+      "expectedId": "body-11002",
+      "bodyId": 11002
+    },
+    {
+      "make": "Leica",
+      "model": "M (Typ 240)",
+      "expectedId": "body-11002",
+      "bodyId": 11002
+    },
+    {
+      "make": "Leica",
+      "model": "X VARIO (Typ 107)",
+      "expectedId": "body-11003",
+      "bodyId": 11003
+    },
+    {
+      "make": "Leica",
+      "model": "X VARIO (Typ 107)",
+      "expectedId": "body-11003",
+      "bodyId": 11003
+    },
+    {
+      "make": "Leica",
+      "model": "C (Typ 112)",
+      "expectedId": "body-11004",
+      "bodyId": 11004
+    },
+    {
+      "make": "Leica",
+      "model": "C (Typ 112)",
+      "expectedId": "body-11004",
+      "bodyId": 11004
+    },
+    {
+      "make": "Leica",
+      "model": "T (Typ 701)",
+      "expectedId": "body-11005",
+      "bodyId": 11005
+    },
+    {
+      "make": "Leica",
+      "model": "T (Typ 701)",
+      "expectedId": "body-11005",
+      "bodyId": 11005
+    },
+    {
+      "make": "Leica",
+      "model": "Q (Typ 116)",
+      "expectedId": "body-11006",
+      "bodyId": 11006
+    },
+    {
+      "make": "Leica",
+      "model": "Q (Typ 116)",
+      "expectedId": "body-11006",
+      "bodyId": 11006
+    },
+    {
+      "make": "Leica",
+      "model": "SL (Typ 601)",
+      "expectedId": "body-11007",
+      "bodyId": 11007
+    },
+    {
+      "make": "Leica",
+      "model": "SL (Typ 601)",
+      "expectedId": "body-11007",
+      "bodyId": 11007
+    },
+    {
+      "make": "Leica",
+      "model": "D-LUX (Typ 109)",
+      "expectedId": "body-11008",
+      "bodyId": 11008
+    },
+    {
+      "make": "Leica",
+      "model": "D-LUX (Typ 109)",
+      "expectedId": "body-11008",
+      "bodyId": 11008
+    },
+    {
+      "make": "Leica",
+      "model": "M10",
+      "expectedId": "body-11009",
+      "bodyId": 11009
+    },
+    {
+      "make": "Leica",
+      "model": "M10",
+      "expectedId": "body-11009",
+      "bodyId": 11009
+    },
+    {
+      "make": "Leica",
+      "model": "M10-D",
+      "expectedId": "body-11010",
+      "bodyId": 11010
+    },
+    {
+      "make": "Leica",
+      "model": "M10-D",
+      "expectedId": "body-11010",
+      "bodyId": 11010
+    },
+    {
+      "make": "Leica",
+      "model": "M10-P",
+      "expectedId": "body-11011",
+      "bodyId": 11011
+    },
+    {
+      "make": "Leica",
+      "model": "M10-P ASC",
+      "expectedId": "body-11011",
+      "bodyId": 11011
+    },
+    {
+      "make": "Leica",
+      "model": "M10-P",
+      "expectedId": "body-11011",
+      "bodyId": 11011
+    },
+    {
+      "make": "Leica",
+      "model": "M10-P ASC",
+      "expectedId": "body-11011",
+      "bodyId": 11011
+    },
+    {
+      "make": "Leica",
+      "model": "D-Lux 7",
+      "expectedId": "body-11012",
+      "bodyId": 11012
+    },
+    {
+      "make": "Leica",
+      "model": "D-Lux 7",
+      "expectedId": "body-11012",
+      "bodyId": 11012
+    },
+    {
+      "make": "Leica",
+      "model": "Q2",
+      "expectedId": "body-11013",
+      "bodyId": 11013
+    },
+    {
+      "make": "Leica",
+      "model": "Q2",
+      "expectedId": "body-11013",
+      "bodyId": 11013
+    },
+    {
+      "make": "Leica",
+      "model": "CL",
+      "expectedId": "body-11014",
+      "bodyId": 11014
+    },
+    {
+      "make": "Leica",
+      "model": "CL",
+      "expectedId": "body-11014",
+      "bodyId": 11014
+    },
+    {
+      "make": "Leica",
+      "model": "TL2",
+      "expectedId": "body-11015",
+      "bodyId": 11015
+    },
+    {
+      "make": "Leica",
+      "model": "TL2",
+      "expectedId": "body-11015",
+      "bodyId": 11015
+    },
+    {
+      "make": "Leica",
+      "model": "M10-R",
+      "expectedId": "body-11016",
+      "bodyId": 11016
+    },
+    {
+      "make": "Leica",
+      "model": "M10-R",
+      "expectedId": "body-11016",
+      "bodyId": 11016
+    },
+    {
+      "make": "Leica",
+      "model": "SL2",
+      "expectedId": "body-11017",
+      "bodyId": 11017
+    },
+    {
+      "make": "Leica",
+      "model": "SL2",
+      "expectedId": "body-11017",
+      "bodyId": 11017
+    },
+    {
+      "make": "Leica",
+      "model": "SL2-S",
+      "expectedId": "body-11018",
+      "bodyId": 11018
+    },
+    {
+      "make": "Leica",
+      "model": "SL2-S",
+      "expectedId": "body-11018",
+      "bodyId": 11018
+    },
+    {
+      "make": "Leica",
+      "model": "M11",
+      "expectedId": "body-11019",
+      "bodyId": 11019
+    },
+    {
+      "make": "Leica",
+      "model": "M11",
+      "expectedId": "body-11019",
+      "bodyId": 11019
+    },
+    {
+      "make": "Leica",
+      "model": "Q3",
+      "expectedId": "body-11020",
+      "bodyId": 11020
+    },
+    {
+      "make": "Leica",
+      "model": "Q3",
+      "expectedId": "body-11020",
+      "bodyId": 11020
+    },
+    {
+      "make": "Leica",
+      "model": "M11-P",
+      "expectedId": "body-11021",
+      "bodyId": 11021
+    },
+    {
+      "make": "Leica",
+      "model": "M11-P",
+      "expectedId": "body-11021",
+      "bodyId": 11021
+    },
+    {
+      "make": "Leica",
+      "model": "SL3",
+      "expectedId": "body-11022",
+      "bodyId": 11022
+    },
+    {
+      "make": "Leica",
+      "model": "SL3",
+      "expectedId": "body-11022",
+      "bodyId": 11022
+    },
+    {
+      "make": "Leica",
+      "model": "D-LUX 8 \"100 YEARS OF LEICA\"",
+      "expectedId": "body-11023",
+      "bodyId": 11023
+    },
+    {
+      "make": "Leica",
+      "model": "D-Lux 8",
+      "expectedId": "body-11023",
+      "bodyId": 11023
+    },
+    {
+      "make": "Leica",
+      "model": "D-LUX 8 \"100 YEARS OF LEICA\"",
+      "expectedId": "body-11023",
+      "bodyId": 11023
+    },
+    {
+      "make": "Leica",
+      "model": "D-Lux 8",
+      "expectedId": "body-11023",
+      "bodyId": 11023
+    },
+    {
+      "make": "Leica",
+      "model": "M11-D",
+      "expectedId": "body-11024",
+      "bodyId": 11024
+    },
+    {
+      "make": "Leica",
+      "model": "M11-D \"100 YEARS OF LEICA\"",
+      "expectedId": "body-11024",
+      "bodyId": 11024
+    },
+    {
+      "make": "Leica",
+      "model": "M11-D",
+      "expectedId": "body-11024",
+      "bodyId": 11024
+    },
+    {
+      "make": "Leica",
+      "model": "M11-D \"100 YEARS OF LEICA\"",
+      "expectedId": "body-11024",
+      "bodyId": 11024
+    },
+    {
+      "make": "Leica",
+      "model": "Q3 43",
+      "expectedId": "body-11025",
+      "bodyId": 11025
+    },
+    {
+      "make": "Leica",
+      "model": "Q3 43",
+      "expectedId": "body-11025",
+      "bodyId": 11025
+    },
+    {
+      "make": "Leica",
+      "model": "SL3-S",
+      "expectedId": "body-11026",
+      "bodyId": 11026
+    },
+    {
+      "make": "Leica",
+      "model": "SL3-S",
+      "expectedId": "body-11026",
+      "bodyId": 11026
+    },
+    {
+      "make": "Leica",
+      "model": "M EV1",
+      "expectedId": "body-11027",
+      "bodyId": 11027
+    },
+    {
+      "make": "Leica",
+      "model": "M EV1",
+      "expectedId": "body-11027",
+      "bodyId": 11027
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone SE",
+      "expectedId": "body-13009",
+      "bodyId": 13009
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 7",
+      "expectedId": "body-13010",
+      "bodyId": 13010
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone9,1",
+      "expectedId": "body-13010",
+      "bodyId": 13010
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone9,3",
+      "expectedId": "body-13010",
+      "bodyId": 13010
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 7 Plus",
+      "expectedId": "body-13011",
+      "bodyId": 13011
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone9,2",
+      "expectedId": "body-13011",
+      "bodyId": 13011
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone9,4",
+      "expectedId": "body-13011",
+      "bodyId": 13011
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone X",
+      "expectedId": "body-13012",
+      "bodyId": 13012
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,3",
+      "expectedId": "body-13012",
+      "bodyId": 13012
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,6",
+      "expectedId": "body-13012",
+      "bodyId": 13012
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 8",
+      "expectedId": "body-13013",
+      "bodyId": 13013
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,1",
+      "expectedId": "body-13013",
+      "bodyId": 13013
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,4",
+      "expectedId": "body-13013",
+      "bodyId": 13013
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 8 Plus",
+      "expectedId": "body-13014",
+      "bodyId": 13014
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,2",
+      "expectedId": "body-13014",
+      "bodyId": 13014
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone10,5",
+      "expectedId": "body-13014",
+      "bodyId": 13014
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 11",
+      "expectedId": "body-13015",
+      "bodyId": 13015
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone12,1",
+      "expectedId": "body-13015",
+      "bodyId": 13015
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "expectedId": "body-13016",
+      "bodyId": 13016
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone12,3",
+      "expectedId": "body-13016",
+      "bodyId": 13016
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone 11 Pro Max",
+      "expectedId": "body-13017",
+      "bodyId": 13017
+    },
+    {
+      "make": "Apple",
+      "model": "iPhone12,5",
+      "expectedId": "body-13017",
+      "bodyId": 13017
+    },
+    {
+      "make": "Nokia",
+      "model": "Lumia 1020",
+      "expectedId": "body-14001",
+      "bodyId": 14001
+    },
+    {
+      "make": "Nokia",
+      "model": "1020",
+      "expectedId": "body-14001",
+      "bodyId": 14001
+    },
+    {
+      "make": "Nokia",
+      "model": "Lumia 1520",
+      "expectedId": "body-14002",
+      "bodyId": 14002
+    },
+    {
+      "make": "DxO",
+      "model": "Test Camera",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "X1",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "X5",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "Test Camera",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "X1",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "X5",
+      "expectedId": "body-15001",
+      "bodyId": 15001
+    },
+    {
+      "make": "DxO",
+      "model": "ONE",
+      "expectedId": "body-17001",
+      "bodyId": 17001
+    },
+    {
+      "make": "DJI",
+      "model": "FC330",
+      "expectedId": "body-18001",
+      "bodyId": 18001
+    },
+    {
+      "make": "DJI",
+      "model": "FC6310",
+      "expectedId": "body-18002",
+      "bodyId": 18002
+    },
+    {
+      "make": "DJI",
+      "model": "FC6310S",
+      "expectedId": "body-18002",
+      "bodyId": 18002
+    },
+    {
+      "make": "DJI",
+      "model": "FC220",
+      "expectedId": "body-18003",
+      "bodyId": 18003
+    },
+    {
+      "make": "Hasselblad",
+      "model": "L1D-20c",
+      "expectedId": "body-18004",
+      "bodyId": 18004
+    },
+    {
+      "make": "DJI",
+      "model": "FC2204",
+      "expectedId": "body-18005",
+      "bodyId": 18005
+    },
+    {
+      "make": "DJI",
+      "model": "FC2103",
+      "expectedId": "body-18006",
+      "bodyId": 18006
+    },
+    {
+      "make": "DJI",
+      "model": "FC230",
+      "expectedId": "body-18006",
+      "bodyId": 18006
+    },
+    {
+      "make": "DJI",
+      "model": "FC3170",
+      "expectedId": "body-18007",
+      "bodyId": 18007
+    },
+    {
+      "make": "DJI",
+      "model": "FC3411",
+      "expectedId": "body-18008",
+      "bodyId": 18008
+    },
+    {
+      "make": "DJI",
+      "model": "FC7303",
+      "expectedId": "body-18009",
+      "bodyId": 18009
+    },
+    {
+      "make": "DJI",
+      "model": "FC4170",
+      "expectedId": "body-18010",
+      "bodyId": 18010
+    },
+    {
+      "make": "Hasselblad",
+      "model": "L2D-20c",
+      "expectedId": "body-18010",
+      "bodyId": 18010
+    },
+    {
+      "make": "DJI",
+      "model": "FC3582",
+      "expectedId": "body-18011",
+      "bodyId": 18011
+    },
+    {
+      "make": "DJI",
+      "model": "M3E",
+      "expectedId": "body-18012",
+      "bodyId": 18012
+    },
+    {
+      "make": "DJI",
+      "model": "FC3682",
+      "expectedId": "body-18013",
+      "bodyId": 18013
+    },
+    {
+      "make": "DJI",
+      "model": "FC4370",
+      "expectedId": "body-18014",
+      "bodyId": 18014
+    },
+    {
+      "make": "DJI",
+      "model": "FC4382",
+      "expectedId": "body-18015",
+      "bodyId": 18015
+    },
+    {
+      "make": "DJI",
+      "model": "FC8282",
+      "expectedId": "body-18016",
+      "bodyId": 18016
+    },
+    {
+      "make": "DJI",
+      "model": "FC8284",
+      "expectedId": "body-18017",
+      "bodyId": 18017
+    },
+    {
+      "make": "DJI",
+      "model": "FC7503",
+      "expectedId": "body-18018",
+      "bodyId": 18018
+    },
+    {
+      "make": "DJI",
+      "model": "FC8482",
+      "expectedId": "body-18019",
+      "bodyId": 18019
+    },
+    {
+      "make": "DJI",
+      "model": "FC4280",
+      "expectedId": "body-18020",
+      "bodyId": 18020
+    },
+    {
+      "make": "DJI",
+      "model": "FC9113",
+      "expectedId": "body-18021",
+      "bodyId": 18021
+    },
+    {
+      "make": "DJI",
+      "model": "FC9184",
+      "expectedId": "body-18022",
+      "bodyId": 18022
+    },
+    {
+      "make": "Hasselblad",
+      "model": "L3D-100c",
+      "expectedId": "body-18023",
+      "bodyId": 18023
+    },
+    {
+      "make": "DJI",
+      "model": "FC9284",
+      "expectedId": "body-18024",
+      "bodyId": 18024
+    },
+    {
+      "make": "DJI",
+      "model": "FC9287",
+      "expectedId": "body-18025",
+      "bodyId": 18025
+    },
+    {
+      "make": "DJI",
+      "model": "FC9313",
+      "expectedId": "body-18026",
+      "bodyId": 18026
+    },
+    {
+      "make": "Hasselblad",
+      "model": "X1D",
+      "expectedId": "body-20001",
+      "bodyId": 20001
+    },
+    {
+      "make": "Hasselblad",
+      "model": "X1D II 50C",
+      "expectedId": "body-20002",
+      "bodyId": 20002
+    },
+    {
+      "make": "Hasselblad",
+      "model": "X2D 100C",
+      "expectedId": "body-20003",
+      "bodyId": 20003
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV II 50C/500",
+      "expectedId": "body-20004",
+      "bodyId": 20004
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV II 50C/503 + Winder CW",
+      "expectedId": "body-20004",
+      "bodyId": 20004
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV II 50C/907X",
+      "expectedId": "body-20004",
+      "bodyId": 20004
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV II 50C/Electronic Shutter",
+      "expectedId": "body-20004",
+      "bodyId": 20004
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV II 50C/Flash Sync",
+      "expectedId": "body-20004",
+      "bodyId": 20004
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/500",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/503 + Winder CW",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/907X",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/Electronic Shutter",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/Flash Sync",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "CFV 100C/SWC",
+      "expectedId": "body-20005",
+      "bodyId": 20005
+    },
+    {
+      "make": "Hasselblad",
+      "model": "X2D II 100C",
+      "expectedId": "body-20006",
+      "bodyId": 20006
+    },
+    {
+      "make": "Sigma",
+      "model": "fp L",
+      "expectedId": "body-21001",
+      "bodyId": 21001
+    },
+    {
+      "make": "Sigma",
+      "model": "fp",
+      "expectedId": "body-21002",
+      "bodyId": 21002
+    },
+    {
+      "make": "Sigma",
+      "model": "bf",
+      "expectedId": "body-21003",
+      "bodyId": 21003
+    },
+    {
+      "make": "Parrot",
+      "model": "Anafi",
+      "expectedId": "body-22001",
+      "bodyId": 22001
+    },
+    {
+      "make": "Parrot",
+      "model": "ANAFI Ai",
+      "expectedId": "body-22002",
+      "bodyId": 22002
+    },
+    {
+      "make": "Phase One",
+      "model": "IQ4 150MP",
+      "expectedId": "body-23001",
+      "bodyId": 23001
+    }
+  ]
+}

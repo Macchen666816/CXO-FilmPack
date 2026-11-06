@@ -1,0 +1,47 @@
+{
+  "bodyId": 5073,
+  "camera": "PanasonicTZ300",
+  "exposureBiasEv": 0.6,
+  "fidelityDaylight": [
+    [
+      1.0397493172171672,
+      0.04656154522403854,
+      -0.0863108624412061
+    ],
+    [
+      -0.27228444627844983,
+      1.574603468025432,
+      -0.3023190217469816
+    ],
+    [
+      0.05367213512183108,
+      -0.5885229051598838,
+      1.534850770038053
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.7963903322319591,
+      0.3456746594294741,
+      -0.1420649916614341
+    ],
+    [
+      -0.42460176385509873,
+      1.6136793171013823,
+      -0.1890775532462832
+    ],
+    [
+      0.0783809032541173,
+      -0.8686647068195227,
+      1.7902838035654054
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "7fd0da143cf495dcbc8def9ede770726f43ddf61ae865d6f3d444acbe7e53993",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

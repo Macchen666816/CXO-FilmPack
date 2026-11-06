@@ -1,0 +1,8 @@
+{
+  "source_interface": "evidence/raw-fidelity-20261103/native/small-grid-s1rii-p1040758-original-grid17.prepared.actual-interface.bin",
+  "source_input": "evidence/raw-fidelity-20261103/native/small-grid-s1rii-p1040758-original-grid17.grid-input.q15.bin",
+  "source_output": "evidence/raw-fidelity-20261103/native/small-grid-s1rii-p1040758-original-grid17.grid-full-output.q15.bin",
+  "sha256": "8ad6f930875c5b51c4632d747126d3372adf8cd4fee1055d9f587efcb2a43006",
+  "stage": 1,
+  "max_abs_q15_tolerance": 4
+}

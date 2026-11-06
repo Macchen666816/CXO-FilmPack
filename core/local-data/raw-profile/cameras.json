@@ -1,0 +1,26 @@
+{
+  "schema": "CXOCAMERAS1",
+  "cameras": [
+    {
+      "id": "s1rii",
+      "bodyId": 5070,
+      "models": ["DC-S1RM2", "S1RII"],
+      "fidelity": "s1rii-fidelity.json",
+      "whiteBalance": "s1rii-grid.golden"
+    },
+    {
+      "id": "s9",
+      "bodyId": 5064,
+      "models": ["DC-S9"],
+      "fidelity": "s9-fidelity.json",
+      "whiteBalance": "s9-grid.cxowb"
+    },
+    {
+      "id": "sony-a7iv",
+      "bodyId": 4083,
+      "models": ["ILCE-7M4", "SonyA7IV"],
+      "fidelity": "sony-a7iv-fidelity.json",
+      "whiteBalance": "sony-a7iv-grid.cxowb"
+    }
+  ]
+}

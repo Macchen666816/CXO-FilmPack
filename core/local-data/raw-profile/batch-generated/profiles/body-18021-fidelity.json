@@ -1,0 +1,47 @@
+{
+  "bodyId": 18021,
+  "camera": "DJIAir3SFC9113",
+  "exposureBiasEv": 0.15,
+  "fidelityDaylight": [
+    [
+      1.1209935443695278,
+      0.14310953427303738,
+      -0.2641030786425657
+    ],
+    [
+      -0.2730584233623814,
+      1.639476930824033,
+      -0.36641850746165155
+    ],
+    [
+      0.04772876858731456,
+      -0.596904973908629,
+      1.5491762053213136
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.7732893611753412,
+      0.4009876176991795,
+      -0.1742769788745199
+    ],
+    [
+      -0.4234489189653102,
+      1.5042072094932453,
+      -0.08075829052793547
+    ],
+    [
+      0.00023446782261729156,
+      -0.7780151366606731,
+      1.7777806688380553
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "6b88ce0ec00dcca0c3ed7f8878bfcf7a182d3347a3c29a9fdcca614d7ce68a0d",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

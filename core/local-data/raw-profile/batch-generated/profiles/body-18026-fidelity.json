@@ -1,0 +1,47 @@
+{
+  "bodyId": 18026,
+  "camera": "DJIMini5Pro",
+  "exposureBiasEv": 0.1,
+  "fidelityDaylight": [
+    [
+      1.0249821926380718,
+      0.10339315819032838,
+      -0.1283753508284002
+    ],
+    [
+      -0.2671672674926266,
+      1.5525579166827759,
+      -0.2853906491901493
+    ],
+    [
+      0.02467973809363555,
+      -0.5274656326679211,
+      1.5027858945742856
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.8053826329541571,
+      0.35636323915022233,
+      -0.161745872104379
+    ],
+    [
+      -0.3995473472589401,
+      1.5791311392417566,
+      -0.17958379198281674
+    ],
+    [
+      0.06632296555732053,
+      -0.8262317818544311,
+      1.7599088162971106
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "9a317af2fa9db6133b1805db2dfa3ddc0de3309ada4d2c7e00ac31c5e3188a0d",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

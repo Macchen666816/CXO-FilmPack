@@ -1,0 +1,47 @@
+{
+  "bodyId": 4043,
+  "camera": "SonyNEX5T",
+  "exposureBiasEv": 1.0,
+  "fidelityDaylight": [
+    [
+      1.1079100370407104,
+      0.0428600013256073,
+      -0.15076999366283417
+    ],
+    [
+      -0.20835000276565552,
+      1.593850016593933,
+      -0.3855000138282776
+    ],
+    [
+      0.028130000457167625,
+      -0.3741599917411804,
+      1.346019983291626
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.9316499829292297,
+      0.20690999925136566,
+      -0.1385599970817566
+    ],
+    [
+      -0.2664400041103363,
+      1.496500015258789,
+      -0.23005999624729156
+    ],
+    [
+      0.09052000194787979,
+      -0.5721700191497803,
+      1.4816399812698364
+    ]
+  ],
+  "getterValidationRecordSha256": "84ed11dc24d1323562c27cc0417fc8feae62558a6679ec7b3faa5e4f344af1f0",
+  "interpolationDivisor": 1175.0,
+  "interpolationOrigin": 3425.0,
+  "schema": "CXORAWPROFILE1",
+  "source": "embedded_factory",
+  "sourceProfileSha256": "dbc4b5b2234ae5c07dc6dc4f6f9b86b3fb5dfdcdc1cbb8e977f9cfb49dfa2a16",
+  "tempHigh": 4600.0,
+  "tempLow": 3425.0
+}

@@ -1,0 +1,47 @@
+{
+  "bodyId": 5065,
+  "camera": "PanasonicGH7",
+  "exposureBiasEv": 0.6,
+  "fidelityDaylight": [
+    [
+      1.271696325096465,
+      0.014459169573607853,
+      -0.28615549467007223
+    ],
+    [
+      -0.17821763541862606,
+      1.7055459655582783,
+      -0.5273283301396525
+    ],
+    [
+      0.08232703663414054,
+      -0.8924502043944206,
+      1.81012316776028
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.910418235528342,
+      0.3456789957783759,
+      -0.25609723130671735
+    ],
+    [
+      -0.2945659299030608,
+      1.5526794713088108,
+      -0.25811354140574994
+    ],
+    [
+      0.035789570764849024,
+      -1.127715916066971,
+      2.0919263453021224
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1150,
+  "interpolationOrigin": 3450,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "35e863d5f9f39e51fcf1f745f88bf82e3614fe6e5c447cab6154cc5e152ccd1c",
+  "tempHigh": 4600,
+  "tempLow": 3450
+}

@@ -1,0 +1,47 @@
+{
+  "bodyId": 1107,
+  "camera": "CanonPowerShotV1",
+  "exposureBiasEv": 1.2,
+  "fidelityDaylight": [
+    [
+      1.1717488053151721,
+      -0.1771434903306702,
+      0.00539468501549857
+    ],
+    [
+      -0.24761399883002427,
+      1.6597485989678828,
+      -0.41213460013785824
+    ],
+    [
+      -0.0011593436665621086,
+      -0.43870458504570187,
+      1.4398639287122643
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.8940007943172055,
+      0.2058652836434903,
+      -0.09986607796069612
+    ],
+    [
+      -0.35710373169364024,
+      1.5964390502279668,
+      -0.2393353185343264
+    ],
+    [
+      0.006081713675757823,
+      -0.6977257121702183,
+      1.6916439984944602
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "e6ff2c7ad8a9eb2ea8818228d52d8b8debde9d3dcf697f36849021145049fb0f",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

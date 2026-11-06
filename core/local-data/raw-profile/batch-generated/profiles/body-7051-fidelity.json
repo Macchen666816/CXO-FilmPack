@@ -1,0 +1,47 @@
+{
+  "bodyId": 7051,
+  "camera": "OMSystemOM5MkII",
+  "exposureBiasEv": 1.0,
+  "fidelityDaylight": [
+    [
+      1.067233971801447,
+      0.03621035991784947,
+      -0.10344433171929629
+    ],
+    [
+      -0.3100410843902477,
+      1.6401437699065244,
+      -0.3301026855162769
+    ],
+    [
+      0.03345282202308351,
+      -0.4452829791696913,
+      1.4118301571466079
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.787190602599821,
+      0.33854538787103866,
+      -0.12573599047085918
+    ],
+    [
+      -0.44384206140428367,
+      1.5851411410627327,
+      -0.1412990796584487
+    ],
+    [
+      0.06719045039566682,
+      -0.6820809264280115,
+      1.6148904760323444
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1150,
+  "interpolationOrigin": 3450,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "b12dd99d681d760fb369b4b88b7bb42e76c29f094f886bb174ed80a98a5ade0e",
+  "tempHigh": 4600,
+  "tempLow": 3450
+}

@@ -1,0 +1,13 @@
+{
+  "source_camera": "/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/raw-fidelity-20261103/libraw/P1040758.camera16le",
+  "coordinates": "/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-boundary512.tif.boundary.actual-input-sample-xy.i32.bin",
+  "references": [
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/experiment/analysis-v2/native-exports/P10407582\uff08\u65e0\u80f6\u7247:\u539f\u7167\u8bbe\u7f6e\uff09.tiff",
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/experiment/analysis-v2/native-exports/P10407582.tiff"
+  ],
+  "scope": "512 matching GUI spatial samples, encoded WG; independent metadata-derived sensor pipeline, captured Elite grid only",
+  "maximumAfterProcess": 15807,
+  "normalization_fitted": false,
+  "limitation": "Elite film parameter generation remains captured; no production UI integration or Android execution",
+  "fixture_sha256": "635e31a2e59fd33cebe42705ea11b149aba4c01de75660474d0c1f2b1871cb93"
+}

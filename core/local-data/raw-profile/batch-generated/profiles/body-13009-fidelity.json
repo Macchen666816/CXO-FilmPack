@@ -1,0 +1,47 @@
+{
+  "bodyId": 13009,
+  "camera": "AppleIPhoneSE",
+  "exposureBiasEv": 0.75,
+  "fidelityDaylight": [
+    [
+      0.9705299735069275,
+      0.19572000205516815,
+      -0.1662600040435791
+    ],
+    [
+      -0.2720299959182739,
+      1.551010012626648,
+      -0.27897998690605164
+    ],
+    [
+      -0.026319999247789383,
+      -0.4410000145435333,
+      1.4673199653625488
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.8360400199890137,
+      0.3759799897670746,
+      -0.21201999485492706
+    ],
+    [
+      -0.3871000111103058,
+      1.600119948387146,
+      -0.21301999688148499
+    ],
+    [
+      -0.07649999856948853,
+      -0.7301700115203857,
+      1.8066600561141968
+    ]
+  ],
+  "getterValidationRecordSha256": "f7574fdb0d2bbce8844753286de7f71b1c7bfbceafb595f8057fc935f12ce251",
+  "interpolationDivisor": 1099.0,
+  "interpolationOrigin": 3502.0,
+  "schema": "CXORAWPROFILE1",
+  "source": "embedded_factory",
+  "sourceProfileSha256": "4f2179addd47f668d873d0ed1782d1faab3f857b8766b6ef21ac4bfa97dd4c31",
+  "tempHigh": 4601.0,
+  "tempLow": 3502.0
+}

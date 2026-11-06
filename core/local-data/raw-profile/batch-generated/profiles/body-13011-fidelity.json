@@ -1,0 +1,47 @@
+{
+  "bodyId": 13011,
+  "camera": "AppleIPhone7Plus",
+  "exposureBiasEv": 0.0,
+  "fidelityDaylight": [
+    [
+      1.1015900373458862,
+      0.10333000123500824,
+      -0.2049199938774109
+    ],
+    [
+      -0.32464998960494995,
+      1.6888099908828735,
+      -0.3641600012779236
+    ],
+    [
+      -0.05079999938607216,
+      -0.45419999957084656,
+      1.5049999952316284
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.9505199790000916,
+      0.32460999488830566,
+      -0.2751300036907196
+    ],
+    [
+      -0.42847999930381775,
+      1.7546299695968628,
+      -0.32615000009536743
+    ],
+    [
+      -0.07152000069618225,
+      -0.7505199909210205,
+      1.8220499753952026
+    ]
+  ],
+  "getterValidationRecordSha256": "4c0b3b4f1167c1d5ca3aa0cf845d0a4fb78bbbebe4e55f288ba6b894a4928b1e",
+  "interpolationDivisor": 1175.0,
+  "interpolationOrigin": 3425.0,
+  "schema": "CXORAWPROFILE1",
+  "source": "embedded_factory",
+  "sourceProfileSha256": "ac4eb2142ae0b4b07ee33a12a07f2432ecfa9c7ec741b50f25f9c1869eb1ac72",
+  "tempHigh": 4600.0,
+  "tempLow": 3425.0
+}

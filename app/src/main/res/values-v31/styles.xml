@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#D9B780</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#241B16</item>
+        <item name="android:navigationBarColor">#241B16</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowSplashScreenBackground">#241B16</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/cxo_icon</item>
+    </style>
+</resources>

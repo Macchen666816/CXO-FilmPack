@@ -1,0 +1,47 @@
+{
+  "bodyId": 5072,
+  "camera": "PanasonicS1IIE",
+  "exposureBiasEv": 0.6,
+  "fidelityDaylight": [
+    [
+      1.0682556282522875,
+      0.0403089932172324,
+      -0.10856462146952146
+    ],
+    [
+      -0.19426566961983444,
+      1.4884076780360225,
+      -0.2941420084161883
+    ],
+    [
+      0.028068081932603597,
+      -0.4446347362610703,
+      1.416566654328467
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      0.8236748486424642,
+      0.3045456225450818,
+      -0.12822047118754618
+    ],
+    [
+      -0.28225681805265773,
+      1.4262275896058723,
+      -0.14397077155321475
+    ],
+    [
+      0.04734906316609646,
+      -0.6294277285793669,
+      1.5820786654132706
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "005ceef08155a88ca6afeb3cd2b9c1012d10f7ecfe6d80ce42b9606bc03dcf0c",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

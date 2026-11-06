@@ -1,0 +1,20 @@
+{
+  "schema": "cxo-fixed-film-rgb-base-v1",
+  "entries": 147,
+  "identity_entries": 120,
+  "nonidentity_entries": 27,
+  "source": "Shipped class virtual base-scale methods and recovered factory enum bindings.",
+  "fitted_parameters": 0,
+  "observed_pixels_in_construction": false,
+  "asset": "/Users/chenyixuan/AndroidStudioProjects/CXO FilmPack/core/local-data/film-rgb-base/catalog.cxowbs",
+  "asset_sha256": "d61f08c1c418073c1e1dfc69c7b8f71e04fb1f5dc226c0fba729920d73b919c0",
+  "source_sha256": {
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/wb-closure/fixed-147-color-rendering-base-scales.json": "37d341bebb82b7e73e398b476543eacd39500ae76e302d9d9cbbbe4d0251446c",
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/slices/DxOCorrectionEngine.arm64.dylib": "54589db9eb5b2bbe1267d0ffafc0ab897bf3a080232923684026e410d52f702e",
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/jpeg-entry-20261031/multi-film-scope/catalog-scope.json": "8b8fe563a8349e955aa822c595ea66d6da6fe7525e4485a6392c8115c67d2a54",
+    "/Users/chenyixuan/ReverseWork/DxOFilmPack/scripts/build_film_rgb_base_catalog.py": "6dc3bc85d690e679fc100fb500084ae6cee1e614d2162c66444a485195a4efe9"
+  },
+  "limits": [
+    "Gain metadata only, not complete integer ScaleImage or image acceptance."
+  ]
+}

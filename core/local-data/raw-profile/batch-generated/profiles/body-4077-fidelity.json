@@ -1,0 +1,47 @@
+{
+  "bodyId": 4077,
+  "camera": "SonyA7SIII",
+  "exposureBiasEv": 0.9,
+  "fidelityDaylight": [
+    [
+      1.29074,
+      -0.08881,
+      -0.20192
+    ],
+    [
+      -0.33648,
+      1.73392,
+      -0.39745
+    ],
+    [
+      0.07111,
+      -0.59219,
+      1.52107
+    ]
+  ],
+  "fidelityTungsten": [
+    [
+      1.02157,
+      0.14845,
+      -0.17002
+    ],
+    [
+      -0.40567,
+      1.63265,
+      -0.22698
+    ],
+    [
+      0.15318,
+      -0.91697,
+      1.76379
+    ]
+  ],
+  "getterValidationRecordSha256": "6f5a2d9b3f8239b3ee6c8485c9b02cab7deeb424061c1fb4e5ab93b583db4e32",
+  "interpolationDivisor": 1175,
+  "interpolationOrigin": 3425,
+  "schema": "CXORAWPROFILE1",
+  "source": "external_dxoCB",
+  "sourceProfileSha256": "879071756351c30ec7101b39911308289f253270fae17b761e4f9817a293ea38",
+  "tempHigh": 4600,
+  "tempLow": 3425
+}

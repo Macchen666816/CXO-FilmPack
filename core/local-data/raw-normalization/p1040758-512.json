@@ -1,0 +1,11 @@
+{
+  "source_camera": "evidence/raw-fidelity-20261103/libraw/P1040758.camera16le",
+  "source_xy": "evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-boundary512.tif.boundary.actual-input-sample-xy.i32.bin",
+  "source_native_boundary": "evidence/raw-fidelity-20261103/native/dynamic-compute-s1rii-p1040758-original-boundary512.tif.boundary.actual-input-512.q15.bin",
+  "samples": 512,
+  "maximumAfterProcess": 15807,
+  "rawBps": 14,
+  "formula": "round(code16/65535*maximumAfterProcess*2^(15-rawBps)), clamp 0..32767",
+  "camera_source_sha256": "11968fe0dea4e6e8a34af22bd01f6c8fc8c5b40f5be012aabb74bb8147481ebd",
+  "fixture_sha256": "dfc8ce6c21305d4f56efa2d7f455f02a67e3570a136fd1e72568dcc5da97e4bf"
+}

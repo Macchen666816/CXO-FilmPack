@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug instrumentation uses this separate fixture APK without a SAF grant.
+         Limit visibility to its exact authority; production release needs none. -->
+    <queries>
+        <provider android:authorities="dev.cxo.filmpack.app.test.photos" />
+    </queries>
+</manifest>

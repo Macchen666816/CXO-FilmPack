@@ -51,6 +51,8 @@ internal class RawRenderPipeline(context: Context) {
     private var intentSample: RawColorIntentEstimator.SampledImage? = null
     private var sceneRenderingIntent: Float? = null
     private val sceneIntents = HashMap<String, Float>()
+    private var dngSampleId: String? = null
+    private var dngSample: RawColorIntentEstimator.SampledImage? = null
     private val outputCmm by lazy {
         FixedWideGamutToSrgb.read(context.assets.open("films/output-cmm/widegamut-to-srgb.lcmsbin").use { it.readBytes() })
     }
@@ -71,6 +73,58 @@ internal class RawRenderPipeline(context: Context) {
 
     private fun providerFor(film: FilmChoice): RawNegativeProviderCatalog.Film? =
         negativeProviders.film(film.id) ?: fixedProviders.film(film.id) ?: specialProviders.film(film.id)
+
+    /** Linear DNG enters after AdobeColorPart1, with its own source-space
+     * matrices. It shares the recovered RAW film providers, never the RGB entry. */
+    @Synchronized
+    fun prepareDngRows(source: RawSrgb16Photo, film: FilmChoice?, intensity: Int,
+                       sensorMatrix: FloatArray, extraMatrix: FloatArray,
+                       original: (ShortArray, ShortArray) -> Unit,
+                       cancelled: () -> Boolean): (ShortArray, FloatArray, Int, Int) -> Unit {
+        require(source.colorDomain == "prophoto_linear_q15")
+        require(intensity in 0..200)
+        checkCancelled(cancelled)
+        val provider = film?.let { providerFor(it)
+            ?: throw java.io.IOException("该胶片尚未支持 ProRAW：${it.name}") }
+        val temperature = source.metadata.getDouble("dngTemperature").toFloat()
+        val key = "DNG:${film?.id}@${temperature.toRawBits()}:${extraMatrix.contentHashCode()}"
+        val rgb = if (film != null && film.id in RGB_IDS) {
+            synchronized(this) { rgbContexts.getOrPut(key) {
+                requireNotNull(provider).rgbContext(temperature, 0f, extraMatrix, ::readCurve)
+            } }.let { rgbRendererFor(key to it) }
+        } else null
+        val bake = if (provider != null && rgb == null) synchronized(this) {
+            runtimeBakes.getOrPut(key) { provider.bake(temperature, 0f, extraMatrix, ::readCurve) }
+        } else null
+        val runtimeBw = provider?.runtimeBw ?: false
+        val needsColor = provider?.requiresAdditionalColorStage == true && intensity > 0
+        val intents = if (film != null && (!runtimeBw || needsColor)) {
+            val id = source.metadata.getString("decodeId")
+            if (dngSampleId != id) { dngSampleId = id; dngSample = null }
+            val sample = dngSample ?: RawColorIntentEstimator.meanDownsampleQ15(source.width, source.height,
+                { y, target -> source.readRows(y, 1, target) }, cancelled).also { dngSample = it }
+            RawColorIntentEstimator.estimateIntentsSampledQ15(sample.pixels, sensorMatrix, -.84f,
+                if (needsColor) provider.scaleFilterMatrix(intensity) else null,
+                estimateRenderingIntent = !runtimeBw, isCancelled = cancelled)
+        } else null
+        val sensor = if (film != null) RawSensorToWorking(sensorMatrix, 0f,
+            if (!runtimeBw) intents?.rendering?.let(RawColorIntentEstimator::throughNativePercent) ?: 0f else 0f) else null
+        val renderer = bake?.renderer(if (needsColor) provider.colorStage(
+            RawColorIntentEstimator.throughNativePercent(requireNotNull(intents?.scalesAndFilter)), intensity) else null)
+        val scratch = ThreadLocal<Array<ShortArray>>()
+        return { input, output, _, _ ->
+            checkCancelled(cancelled)
+            val buffers = scratch.get()?.takeIf { it[0].size == input.size }
+                ?: arrayOf(ShortArray(input.size), ShortArray(input.size)).also(scratch::set)
+            if (sensor == null) original(input, buffers[1]) else {
+                sensor.renderQ15(input, buffers[0])
+                if (rgb != null) rgb.renderQ15(buffers[0], buffers[1], intensity)
+                else requireNotNull(renderer).renderQ15(buffers[0], buffers[1], intensity)
+            }
+            for (i in output.indices) output[i] = buffers[1][i].toInt().coerceIn(0, 32767) / 32767f
+            checkCancelled(cancelled)
+        }
+    }
 
     fun renderPreview(source: RawCameraLinear16Photo, film: FilmChoice?, maxEdge: Int,
                       maxPixels: Long, cancelled: () -> Boolean, intensity: Int = 100,

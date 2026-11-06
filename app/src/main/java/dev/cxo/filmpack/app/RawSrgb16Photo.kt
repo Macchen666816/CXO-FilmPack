@@ -32,6 +32,9 @@ internal object NativeRawBridge {
     /** Raw camera-linear RGB16 boundary for the independent DxO RAW color pipeline. */
     external fun decodeCamera(inputPath: String, outputPath: String, cancellation: RawCancellationProbe): String
 
+    /** Apple three-channel Linear DNG, developed with its embedded profile; null for other RAWs. */
+    external fun decodeAppleProRaw(inputPath: String, outputPath: String, cancellation: RawCancellationProbe): String?
+
     /** Metadata-only RAW probe for TIFF streams whose provider lost name/MIME. */
     external fun probeRaw(inputPath: String, cancellation: RawCancellationProbe): Boolean
 }
@@ -49,6 +52,7 @@ internal class RawSrgb16Photo private constructor(
     val model: String,
     val rawBps: Int,
     val colorDomain: String,
+    internal val metadata: JSONObject,
 ) : Closeable {
     val displayWidth: Int get() = if (orientation >= 5) height else width
     val displayHeight: Int get() = if (orientation >= 5) width else height
@@ -77,6 +81,7 @@ internal class RawSrgb16Photo private constructor(
     }
 
     private fun previewInternal(maxEdge: Int, maxPixels: Long, cancelled: () -> Boolean, level: Int?): Bitmap {
+        require(colorDomain == "srgb_encoded") { "Linear DNG must pass its RAW rendering pipeline" }
         require(maxEdge > 0 && maxPixels > 0)
         val target = if (level != null) {
             require(level in 0..30 && (width shr level) > 0 && (height shr level) > 0) {
@@ -120,7 +125,7 @@ internal class RawSrgb16Photo private constructor(
     fun preview(maxEdge: Int, maxPixels: Long, cancelled: () -> Boolean = { false }, level: Int? = null): Bitmap =
         previewInternal(maxEdge, maxPixels, cancelled, level)
 
-    private fun applyOrientation(source: Bitmap): Bitmap {
+    internal fun applyOrientation(source: Bitmap): Bitmap {
         if (orientation == 1) return source
         val matrix = Matrix()
         when (orientation) {
@@ -161,8 +166,8 @@ internal class RawSrgb16Photo private constructor(
             require(expected <= MAX_RGB_BYTES) { "RAW RGB16 cache exceeds 360MB limit" }
             require(rgbFile.isFile && rgbFile.length() == expected) { "RAW RGB16 cache is incomplete" }
             val domain = metadata.optString("colorDomain", "srgb_encoded")
-            require(domain == "srgb_encoded") { "Camera-linear cache must enter the RAW color pipeline before preview" }
-            return RawSrgb16Photo(rgbFile, width, height, orientation, metadata.optString("model"), rawBps, domain)
+            require(domain == "srgb_encoded" || domain == "prophoto_linear_q15") { "Unsupported RGB16 cache domain" }
+            return RawSrgb16Photo(rgbFile, width, height, orientation, metadata.optString("model"), rawBps, domain, metadata)
         }
     }
 }
@@ -253,6 +258,7 @@ internal class RawPhotoStore(context: Context) : Closeable {
     private val inputFile = File(directory, "source.raw")
     private val rgbFile = File(directory, "image.rgb16le")
     private val metadataFile = File(directory, "image.json")
+    private var stagedUri: String? = null
     private var currentUri: String? = null
     private var currentMetadata: JSONObject? = null
     private var closed = false
@@ -296,6 +302,39 @@ internal class RawPhotoStore(context: Context) : Closeable {
         }
     }
 
+    /** Explicit profiled Linear DNG route, separate from camera-calibrated Bayer RAW. */
+    @Synchronized
+    fun openAppleProRaw(uri: Uri, cancelled: () -> Boolean = { false }): RawSrgb16Photo? {
+        check(!closed) { "RAW photo store is closed" }
+        checkCancelled(cancelled)
+        val key = uri.toString()
+        if (key == currentUri && rgbFile.isFile) {
+            return if (currentMetadata?.optString("colorDomain") == "prophoto_linear_q15")
+                RawSrgb16Photo.open(rgbFile, currentMetadata!!) else null
+        }
+        val probe = RawCancellationProbe(cancelled)
+        try {
+            if (stagedUri != key || !inputFile.isFile) {
+                clearCurrent(deleteFiles = true)
+                if (!stageRawSource(uri, probe)) return null
+                stagedUri = key
+            }
+            val output = NativeRawBridge.decodeAppleProRaw(inputFile.absolutePath, rgbFile.absolutePath, probe)
+                ?: return null // Keep the staged source for the calibrated RAW decoder.
+            checkCancelled(cancelled)
+            val metadata = JSONObject(output).put("decodeId", UUID.randomUUID().toString())
+            val photo = RawSrgb16Photo.open(rgbFile, metadata)
+            metadataFile.writeText(metadata.toString())
+            inputFile.delete(); stagedUri = null
+            currentUri = key; currentMetadata = metadata
+            Log.i("CXOPerf", "Apple-ProRAW decoded ${photo.width}x${photo.height} embeddedProfile=true")
+            return photo
+        } catch (failure: Throwable) {
+            clearCurrent(deleteFiles = true)
+            throw failure
+        }
+    }
+
     /** Decode a supported RAW into the explicit camera-linear boundary for the RAW renderer.
      * openIfRaw() is retained for decoder research/tests; product RAW entries do not fall back to it. */
     @Synchronized
@@ -309,24 +348,25 @@ internal class RawPhotoStore(context: Context) : Closeable {
                 Log.i("CXOPerf", "RAW-decode cacheHit=true elapsedMs=${SystemClock.elapsedRealtime() - start}")
             }
         }
-        clearCurrent(deleteFiles = true)
+        val alreadyStaged = stagedUri == key && inputFile.isFile
+        if (!alreadyStaged) clearCurrent(deleteFiles = true)
         val probe = RawCancellationProbe(cancelled)
         try {
-            if (!stageRawSource(uri, probe)) return null
+            if (!alreadyStaged && !stageRawSource(uri, probe)) return null
             val staged = SystemClock.elapsedRealtime()
             val output = NativeRawBridge.decodeCamera(inputFile.absolutePath, rgbFile.absolutePath, probe)
             probe.isCancelled().let { if (it) throw CancellationException("RAW 解码已取消") }
             val metadata = JSONObject(output).put("decodeId", UUID.randomUUID().toString())
             val photo = RawCameraLinear16Photo.open(rgbFile, metadata)
             metadataFile.writeText(metadata.toString())
-            inputFile.delete()
+            inputFile.delete(); stagedUri = null
             currentUri = key
             currentMetadata = metadata
             Log.i("CXOPerf", "RAW-decode cacheHit=false stageMs=${staged - start} nativeMs=${SystemClock.elapsedRealtime() - staged} elapsedMs=${SystemClock.elapsedRealtime() - start}")
             return photo
         } catch (failure: Throwable) {
             clearCurrent(deleteFiles = true)
-            inputFile.delete(); rgbFile.delete(); metadataFile.delete()
+            inputFile.delete(); stagedUri = null; rgbFile.delete(); metadataFile.delete()
             throw when (failure) {
                 is UnsatisfiedLinkError, is ExceptionInInitializerError -> IllegalStateException("RAW native decoder unavailable", failure)
                 else -> failure
@@ -423,6 +463,7 @@ internal class RawPhotoStore(context: Context) : Closeable {
     }
 
     private fun clearCurrent(deleteFiles: Boolean) {
+        stagedUri = null
         currentUri = null
         currentMetadata = null
         if (deleteFiles) {

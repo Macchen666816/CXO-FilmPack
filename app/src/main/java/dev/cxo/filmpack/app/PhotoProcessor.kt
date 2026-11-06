@@ -88,6 +88,7 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
         checkCancelled(cancelled)
         heifStore.normalize(uri, cancelled)?.let { return decodePreview(it, maxEdge, cancelled) }
         rawStore.invalidate()
+        rawStore.openAppleProRaw(uri, cancelled)?.use { return decodeDngPreview(it, maxEdge, 2_000_000L, cancelled) }
         rawStore.openCameraIfRaw(uri,cancelled)?.use { raw ->
             rawPipeline.requireSupported(raw, null)
             return rawPipeline.renderPreview(raw, null, maxEdge, 2_000_000L, cancelled)
@@ -117,6 +118,14 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
         checkCancelled(cancelled)
         heifStore.normalize(uri, cancelled)?.let { return decodeGrainPreview(it, maxEdge, maxPixels, cancelled) }
         rawStore.invalidate()
+        rawStore.openAppleProRaw(uri, cancelled)?.use { raw ->
+            val level = (0..2).firstOrNull { scale ->
+                val w = raw.width shr scale; val h = raw.height shr scale
+                w > 0 && h > 0 && max(w, h) <= maxEdge && w.toLong() * h <= maxPixels
+            } ?: throw IllegalArgumentException("照片需要尚未支持的颗粒预览级别")
+            return PhotoGrainPreview(decodeDngPreview(raw, maxEdge, maxPixels, cancelled, level),
+                raw.width, raw.height, level, raw.orientation)
+        }
         rawStore.openCameraIfRaw(uri, cancelled)?.use { raw ->
             rawPipeline.requireSupported(raw, null)
             val level = (0..2).firstOrNull { scale ->
@@ -315,6 +324,13 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
         checkCancelled(cancelled)
         require(intensity in 0..200) { "强度必须在 0 到 200 之间" }
         if (rawUri != null) {
+            rawStore.openAppleProRaw(rawUri, cancelled)?.use { raw ->
+                grain?.requireDimensions(source.width, source.height)
+                val result = renderProfiledDngPreview(raw, source.width, source.height,
+                    dngTransform(raw, film, intensity, cancelled), grain, cancelled)
+                progress(100)
+                return applyPostEditing(context, result, post, cancelled)
+            }
             rawStore.openCameraIfRaw(rawUri, cancelled)?.use { raw ->
                 rawPipeline.requireSupported(raw, film)
                 progress(10)
@@ -362,6 +378,11 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
             heifStore.normalize(sourceUri, cancelled)?.let { normalized ->
                 val result = export(normalized, film, outputUri, progress, cancelled, intensity, grain, post, settings)
                 return result.copy(elapsedMillis = SystemClock.elapsedRealtime() - start)
+            }
+            rawStore.openAppleProRaw(sourceUri, cancelled)?.use { source ->
+                return exportRgb16Rows(source.width, source.height, source.orientation,
+                    source::readRows, dngTransform(source, film, intensity, cancelled), "Apple-ProRAW", film, outputUri,
+                    progress, cancelled, grain, start, post, settings)
             }
             rawStore.openCameraIfRaw(sourceUri, cancelled)?.use { source ->
                 rawPipeline.requireSupported(source, film)
@@ -472,6 +493,57 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
         }
     }
 
+    private fun dngTransform(source: RawSrgb16Photo, film: FilmChoice?, intensity: Int,
+                             cancelled: () -> Boolean): (ShortArray, FloatArray, Int, Int) -> Unit =
+        rawPipeline.prepareDngRows(source, film, intensity,
+            dev.cxo.filmpack.core.DngRenderingProfile.sensorToWorking(),
+            dev.cxo.filmpack.core.DngRenderingProfile.filmExtraMatrix(),
+            dev.cxo.filmpack.core.DngRenderingProfile.originalRenderer(), cancelled)
+
+    private fun decodeDngPreview(source: RawSrgb16Photo, maxEdge: Int, maxPixels: Long,
+                                 cancelled: () -> Boolean, level: Int? = null): Bitmap {
+        val scale = minOf(1.0, maxEdge.toDouble() / max(source.width, source.height),
+            kotlin.math.sqrt(maxPixels.toDouble() / (source.width.toLong() * source.height)))
+        val width = level?.let { source.width shr it } ?: max(1, (source.width * scale).toInt())
+        val height = level?.let { source.height shr it } ?: max(1, (source.height * scale).toInt())
+        return renderProfiledDngPreview(source,
+            if (source.orientation >= 5) height else width,
+            if (source.orientation >= 5) width else height,
+            dngTransform(source, null, 100, cancelled), null, cancelled)
+    }
+
+    private fun renderProfiledDngPreview(source: RawSrgb16Photo, displayWidth: Int, displayHeight: Int,
+                                         apply: (ShortArray, FloatArray, Int, Int) -> Unit,
+                                         grain: PhotoGrainLayer?, cancelled: () -> Boolean): Bitmap {
+        val width = if (source.orientation >= 5) displayHeight else displayWidth
+        val height = if (source.orientation >= 5) displayWidth else displayHeight
+        val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+        val row = ShortArray(source.width * 3)
+        val sampled = ShortArray(width * 3)
+        val working = FloatArray(sampled.size)
+        val pixels = IntArray(width)
+        try {
+            for (y in 0 until height) {
+                checkCancelled(cancelled)
+                source.readRows((y.toLong() * source.height / height).toInt(), 1, row)
+                for (x in 0 until width) {
+                    val from = (x.toLong() * source.width / width).toInt() * 3
+                    row.copyInto(sampled, x * 3, from, from + 3)
+                }
+                apply(sampled, working, width, 0)
+                grain?.renderPreviewSourceLayout(working, working, width, 0, y)
+                outputCmm.render(working, working)
+                for (x in 0 until width) {
+                    fun channel(c: Int) = (working[x * 3 + c].coerceIn(0f, 1f) * 255f).roundToInt()
+                    pixels[x] = Color.rgb(channel(0), channel(1), channel(2))
+                }
+                bitmap.setPixels(pixels, 0, width, 0, y, width, 1)
+            }
+            checkCancelled(cancelled)
+            return source.applyOrientation(bitmap)
+        } catch (failure: Throwable) { bitmap.recycle(); throw failure }
+    }
+
     private class RawExportScratch(size: Int) {
         val normalized = ShortArray(size)
         val working = ShortArray(size)
@@ -482,41 +554,49 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
     private fun exportRawCamera(source: RawCameraLinear16Photo, film: FilmChoice, outputUri: Uri,
                                 progress: (Int) -> Unit, cancelled: () -> Boolean, intensity: Int,
                                 grain: PhotoGrainLayer?, start: Long, post: PostEditingSettings, settings: ExportSettings): ExportResult {
-        grain?.requireSource(source.width, source.height, source.orientation)
-        val prepareStart = System.nanoTime()
         val apply = rawPipeline.prepareRows(source, film, intensity, cancelled)
-        val prepareNanos = System.nanoTime() - prepareStart
+        val scratch = ThreadLocal<RawExportScratch>()
+        return exportRgb16Rows(source.width, source.height, source.orientation, source::readRows,
+            { rawInput, output, _, _ ->
+                val local = scratch.get()?.takeIf { it.encoded.size == rawInput.size }
+                    ?: RawExportScratch(rawInput.size).also { scratch.set(it) }
+                apply(rawInput, local.normalized, local.working, local.encoded)
+                for (i in output.indices) output[i] = local.encoded[i].toInt().coerceIn(0, 32767) / 32767f
+            }, "RAW-camera", film, outputUri, progress, cancelled, grain, start, post, settings)
+    }
+
+    /** Both decoded RGB16 sources share the source-size grain/CMM/post/export stages. */
+    private fun exportRgb16Rows(width: Int, height: Int, orientation: Int,
+                               readRows: (Int, Int, ShortArray) -> Unit,
+                               apply: (ShortArray, FloatArray, Int, Int) -> Unit, route: String,
+                               film: FilmChoice, outputUri: Uri, progress: (Int) -> Unit,
+                               cancelled: () -> Boolean, grain: PhotoGrainLayer?, start: Long,
+                               post: PostEditingSettings, settings: ExportSettings): ExportResult {
+        grain?.requireSource(width, height, orientation)
         var readNanos = 0L; var computeNanos = 0L; var packNanos = 0L
         val streamStart = System.nanoTime()
-        val width = source.width
-        val postRenderer=if(post.isIdentity)null else PostEditingRenderer(context,post,width,source.height,source.orientation)
+        val postRenderer = if (post.isIdentity) null else PostEditingRenderer(context, post, width, height, orientation)
         val batchRows = (524_288 / width / 8 * 8).coerceIn(8, 32)
         var input = ShortArray(width * batchRows * 3)
         var floats = FloatArray(input.size)
         val pixels = IntArray(width * batchRows)
         var batchTop = -1
-        val scratch = ThreadLocal<RawExportScratch>()
-        ParallelFilmTransform(apply = { rawInput, output, _, _ ->
-            val local = scratch.get()?.takeIf { it.encoded.size == rawInput.size }
-                ?: RawExportScratch(rawInput.size).also { scratch.set(it) }
-            apply(rawInput, local.normalized, local.working, local.encoded)
-            for (i in output.indices) output[i] = local.encoded[i].toInt().coerceIn(0, 32767) / 32767f
-        }, cancelled = cancelled, after = { tile, w, x, y ->
+        ParallelFilmTransform(apply = apply, cancelled = cancelled, after = { tile, w, x, y ->
             // Grain stays in source coordinates, before the output ICC stage.
             grain?.renderSourceLayout(tile, tile, w, x, y)
             outputCmm.render(tile, tile)
         }, workers = exportWorkers).use { parallel ->
             resolver.openOutputStream(outputUri, "wt")?.use { stream ->
-                ExportImageWriter.write(stream, width, source.height, source.orientation, settings,
+                ExportImageWriter.write(stream, width, height, orientation, settings,
                     nativeJpegEnabled = useNativeJpeg, cancelled = cancelled) { top, count, argb ->
                     checkCancelled(cancelled)
                     if (batchTop < 0 || top >= batchTop + batchRows) {
                         batchTop = top
-                        val rows = minOf(batchRows, source.height - top)
+                        val rows = minOf(batchRows, height - top)
                         val size = width * rows * 3
                         if (input.size != size) { input = ShortArray(size); floats = FloatArray(size) }
                         var tick = System.nanoTime()
-                        source.readRows(top, rows, input)
+                        readRows(top, rows, input)
                         readNanos += System.nanoTime() - tick
                         tick = System.nanoTime()
                         parallel.render(input, floats, width, 0, top)
@@ -532,16 +612,16 @@ class PhotoProcessor(context: Context, private val exportWorkers: Int = 4,
                         packNanos += System.nanoTime() - tick
                     }
                     pixels.copyInto(argb, 0, (top - batchTop) * width, (top - batchTop + count) * width)
-                    progress(((top + count).toLong() * 98 / source.height).toInt())
+                    progress(((top + count).toLong() * 98 / height).toInt())
                 }
             } ?: throw IOException("无法写入所选位置")
         }
         checkCancelled(cancelled); progress(100)
         val streamNanos = System.nanoTime() - streamStart
-        Log.i("CXOPerf", "RAW-camera ${film.token} ${source.width}x${source.height} workers=$exportWorkers prepareMs=${prepareNanos/1_000_000} " +
+        Log.i("CXOPerf", "$route ${film.token} ${width}x${height} workers=$exportWorkers " +
             "readMs=${readNanos/1_000_000} filmGrainCmmMs=${computeNanos/1_000_000} packMs=${packNanos/1_000_000} " +
             "encodeIoOtherMs=${(streamNanos-readNanos-computeNanos-packNanos)/1_000_000} totalMs=${SystemClock.elapsedRealtime() - start}")
-        val dimensions = settings.dimensions(source.displayWidth,source.displayHeight)
+        val dimensions = settings.dimensions(if (orientation >= 5) height else width, if (orientation >= 5) width else height)
         return ExportResult(dimensions.first,dimensions.second,SystemClock.elapsedRealtime() - start,false)
     }
 

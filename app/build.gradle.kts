@@ -171,8 +171,8 @@ android {
 androidComponents.onVariants { variant ->
     if (variant.buildType == "stable") {
         variant.outputs.forEach { output ->
-            output.versionCode.set(32)
-            output.versionName.set("1.0.0")
+            output.versionCode.set(33)
+            output.versionName.set("1.0.1")
         }
     }
     variant.sources.assets?.addGeneratedSourceDirectory(stageProductFilmAssets) { it.assetsDirectory }

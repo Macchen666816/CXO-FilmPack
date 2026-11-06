@@ -1,39 +1,102 @@
 # CXO FilmPack
 
-Android照片胶片编辑器，Kotlin主体，NDK承担部分计算与JPEG编码。当前版本 `1.0.0 / versionCode 32`，由 `stable` 变体构建，使用项目自己的长期密钥签名。
+[English](README.en.md)
 
-## 当前范围
+在 Android 上给照片加入胶片色彩与颗粒。从相机 RAW 开始显影，也可以直接编辑 JPEG、PNG 和 HEIC。
 
-- 153项胶片／风格，146固定模型有受控原版证据、7项实验模型；99种内置颗粒、独立后处理和边缘缺陷。
-- JPEG／PNG，平台支持的HEIC（API28+，内部转8bit sRGB JPEG100），有标定且LibRaw可读取的RAW。584个可查询profile不等于584台实拍验收；缺机身／效果规则明确拒绝。
-- 导出JPEG（质量1–100，默认98）或RGB8无压缩TIFF，SDR sRGB ICC，可选缩小。缩小发生在全源图处理后；不保证TIFF输入／16bit输出。
-- 深棕玻璃工作台、搜索联动、500ms按住比较、捏合／双击复位、抽屉与实时调整预览。
+**当前版本：1.0.1** · Android 8.0 及以上 · 本地处理 · 禁止商用
 
-## 分发范围
+## RAW 效果展示
 
-项目所有者当前目标是给少量摄影／技术朋友长期使用，按封闭小组管理，不按面向不特定用户的公开发布处理。`stable` 是唯一发版线，打包现有的 DxO 原始颗粒／漏光等核心资源，由本地长期密钥签名；同一签名可长期覆盖升级。
+以下对照由 CXO 的实际 RAW 处理管线生成。每组使用同一张 RAW，依次展示 **Original、Kodak Portra 400、Kodak Elite Color 400**；胶片强度为 100，未额外添加颗粒或后处理。
 
-工程**没有任何自设的发布门槛**：构建不会因为资产清权、依赖许可或发布者记录而失败。`release/` 下的记录文件只作证据保留，不参与构建。发行与否是人的决定，不是构建系统的决定。
+### Panasonic RAW · P1176257.RW2
 
-第三方声明在 THIRD_PARTY_NOTICES 及 APK 的 `assets/licenses`；LibRaw 对应源码包在 `releases/`。全部 125 个解析运行时坐标已映射为 Apache-2.0 并随包提供许可证及清单；坐标不等于实际嵌入库数量。This software is based in part on the work of the Independent JPEG Group.
+![RAW 风光：Original、Portra 400、Elite Color 400](docs/images/raw-landscape.jpg)
 
-## 构建
+### Nikon RAW · DSC_3271.NEF
 
-使用 Android Studio JBR；SDK／NDK／CMake 版本以 Gradle 文件为准，不同时启动多个 Gradle。
+![Nikon RAW：Original、Portra 400、Elite Color 400](docs/images/raw-city.jpg)
+
+### Sony RAW · DSC07319.ARW
+
+![Sony RAW：Original、Portra 400、Elite Color 400](docs/images/raw-sony.jpg)
+
+### 编辑界面
+
+![CXO FilmPack 编辑工作台](docs/images/workbench.jpg)
+
+## 可以做什么
+
+- **胶片色彩**：153 项胶片与风格，支持搜索、收藏、横向切换和强度调整。
+- **RAW 显影**：保留相机线性数据，结合机身标定、白平衡、色彩矩阵与 RAW 胶片曲线处理。
+- **Apple ProRAW**：使用 DNG 内嵌 profile，进入独立的线性显影路径，再接 RAW 胶片核心。
+- **颗粒与后处理**：99 种内置颗粒，可调整曝光、对比度等参数，并加入边缘效果。
+- **预览与比较**：实时调整、按住比较原图、捏合缩放、双击复位。
+- **保存**：JPEG（质量 1–100）或无压缩 RGB8 TIFF，可保留原尺寸或缩小输出。
+
+照片在设备上处理，不需要上传到服务器。
+
+## 安装
+
+在仓库的 **Releases** 页面下载 **1.0.1** 的 APK，允许安装来自该来源的应用后打开。已安装正式签名版的用户可直接覆盖升级，保留应用数据。
+
+建议在内存和存储空间充足时处理高像素 RAW。首次解码通常比后续切换胶片耗时，底部会显示处理进度、耗时和错误信息。
+
+## 格式与兼容性
+
+| 输入 | 支持情况 |
+| --- | --- |
+| JPEG / PNG | 直接进入照片编辑流程 |
+| 相机 RAW | 需要 LibRaw 支持该文件模式，并具有对应机身和胶片适配规则 |
+| Apple ProRAW | 已验证 iPhone 15 Pro Max 的三通道 Linear DNG；当前不支持 JPEG XL、HueSat/Look 表及三光源 profile |
+| HEIC | Android 9.0 及以上尝试系统解码，内部转换为 8 位 sRGB JPEG 后处理 |
+
+已进行实拍导入与导出验证的相机包括 Panasonic S1RII / S9、Sony A7 IV 和 Nikon Z6 II。标定目录可查询 584 个机身 profile，具体文件仍受压缩模式、位深和适配规则限制。缺少适配时会提示暂不支持。
+
+导出为 SDR sRGB；TIFF 为 8 位 RGB，不提供 16 位或 HDR 输出。153 项胶片与风格中有 7 项实验模型。
+
+## 1.0.1 更新
+
+- 修复 Apple ProRAW DNG 无法导入的问题。
+- 改为 ProRAW 线性显影与 RAW 胶片路径，修正导入和选胶片后的明显色差。
+- 精简界面说明文字，保留进度、耗时和错误显示。
+
+K40 和 ARM64 模拟器已完成导入、胶片、颗粒、后处理、JPEG / TIFF 保存与取消处理回归。IMG_3046 的 Original 与 Portra 400 对照原版 DxO，在同坐标、共同 sRGB 空间中的通道 RMSE 分别为 0.30 和 0.39 / 255。完整方法、样本范围与剩余差异见 [1.0.1 技术记录](docs/1.0.1-Apple-ProRAW.md)。
+
+## 构建与项目结构
+
+项目使用 Kotlin、Android NDK 和 CMake。推荐使用 Android Studio 自带 JBR，SDK / NDK 版本以 Gradle 配置为准。
+
+首次构建前，从 Release 下载 `native-grain8-v1.cxograinpack`，放到项目根目录的 `releases/` 下。该资源包不存入 Git。
 
 ```sh
-JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
-  ./gradlew --offline :app:assembleStable
+# 日常开发，无需正式签名密钥
+./gradlew :app:assembleDebug
+
+# 核心验证
+./gradlew :core:check
+
+# 正式版：先配置自己的签名
+./gradlew :app:assembleStable
 ```
 
-产物：`app/build/outputs/apk/stable/app-stable.apk`。签名校验、版本号递增与密钥备份见 [release/README.md](release/README.md)。
+| 目录 | 内容 |
+| --- | --- |
+| `app` | 编辑界面、导入与保存、RAW / HEIC 桥接及原生代码 |
+| `core` | 胶片、RAW、颗粒、色彩管理与后处理算法 |
+| `android-adapter` | Android 图像与平台接口 |
+| `glass-catalog` | 玻璃界面组件 |
+| `docs` | 技术记录与演示图片 |
 
-开发期调试仍用默认的 `debug` 变体（`assembleDebug`）。测试Runner为 `android.test.InstrumentationTestRunner`；仪器测试包只是开发辅助，不随主APK分发。
+正式版输出位于 `app/build/outputs/apk/stable/app-stable.apk`。签名配置见 [发布说明](release/README.md)；密钥与密码不随仓库提供。`stable` 是唯一正式发布线，`preview` / `publicBeta` 已归档。
 
-## 文档与历史
+部分数值验证依赖开发机上的原版对照证据，克隆仓库后执行完整 `:core:check` 需要对应研究数据；应用构建不要求运行这些验证。
 
-人类阅读入口位于既有 Obsidian 项目目录的《00 CXO FilmPack 项目总览与文档导航》。研究与数值证据在 `/Users/chenyixuan/ReverseWork/DxOFilmPack`。
+## 协议与致谢
 
-[原README历史记录](docs/history/README-before-public-beta-audit-20261106.md)保留此前实验过程及阶段失败；这些旧“当前／待办”不代表今天状态。旧版本和固定 hash 仍保留在 `releases/`。
+本项目原创代码和材料采用[非商业使用协议](LICENSE)，**禁止未经授权的商业使用**。这是源码可查看的非商业许可，不属于 OSI 开放源代码许可。第三方依赖和资源仍遵循各自协议，详见 [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES)。
 
-本仓库自 2026-11-06 起纳入 Git（分支 `main`）。`releases/` 与 `evidence/` 不入库，仍留在本机。
+CXO FilmPack 是基于 DxO FilmPack 8 逆向研究的独立 Android 项目，与 DxO 无隶属关系。胶片名称、商标和第三方资源归各自权利人所有。
+
+使用了 LibRaw、Adobe DNG SDK、libjpeg-turbo、Little CMS 及 Backdrop 等项目。This software is based in part on the work of the Independent JPEG Group.

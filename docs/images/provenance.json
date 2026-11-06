@@ -1,0 +1,56 @@
+[
+  {
+    "file": "raw-landscape.jpg",
+    "source": "P1176257.RW2",
+    "capture": "Android PhotoProcessor decodePreview + render, RAW URI supplied",
+    "intensity": 100,
+    "grain": false,
+    "post": "identity",
+    "order": [
+      "Original",
+      "Kodak Portra 400",
+      "Kodak Elite Color 400"
+    ],
+    "source_png_sha256": [
+      "c238423d00fc5c5c22f5678dc81ca6a2e0bfff135a768c123827e4c6f4b855e6",
+      "e6ac4101cad35cb1ef1f4303f3c81ed0ee32be46eab748bdc1654698cd5be4b0",
+      "a6fe2c85b84b89997fb62eadea9cc8082beb975e153f55e85998f7978e051b03"
+    ]
+  },
+  {
+    "file": "raw-city.jpg",
+    "source": "DSC_3271.NEF",
+    "capture": "Android PhotoProcessor decodePreview + render, RAW URI supplied",
+    "intensity": 100,
+    "grain": false,
+    "post": "identity",
+    "order": [
+      "Original",
+      "Kodak Portra 400",
+      "Kodak Elite Color 400"
+    ],
+    "source_png_sha256": [
+      "c6d249fedd6598b6ca20ba146f4de6c0af60356807be52429ffa5fdb8dfa2dff",
+      "b30066b046c3373a26ab2065f46a4e4a9cee8dc770a494bff4896d0ef6870558",
+      "e0629807b1ed41355966269ba6a00918aa407d49cf107ed9434e67ec8e57742a"
+    ]
+  },
+  {
+    "file": "raw-sony.jpg",
+    "source": "DSC07319.ARW",
+    "capture": "Android PhotoProcessor decodePreview + render, RAW URI supplied",
+    "intensity": 100,
+    "grain": false,
+    "post": "identity",
+    "order": [
+      "Original",
+      "Kodak Portra 400",
+      "Kodak Elite Color 400"
+    ],
+    "source_png_sha256": [
+      "6f8b3dc15569a17578485352f1f747320b394ac4b45506ab2c73e8da05a7ab7f",
+      "0eb6231f3172cc1fea01e3fa766a82dc25d9acc99f2d6d9d6edc559d32fbc884",
+      "d94a81b39cbba4d31df5d9d6f172459c729940bbc2b8d49415b25659b1544f24"
+    ]
+  }
+]

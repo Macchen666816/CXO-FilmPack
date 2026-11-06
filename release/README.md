@@ -5,7 +5,7 @@
 | 变体 | 用途 | 版本 | 签名 |
 |---|---|---|---|
 | `debug` | 开发调试 | `defaultConfig` 里的值 | Android debug 证书 |
-| `stable` | **唯一发版线** | `1.0.0 / 32` | 本地长期密钥 |
+| `stable` | **唯一发版线** | `1.0.1 / 33` | 本地长期密钥 |
 
 `preview` 与 `publicBeta` 已于 2026-11-06 删除，对应的发布门槛任务一并移除（Git 提交 `a6b7ae3`）。现在构建不会因为资产清权、依赖许可或发布者记录而失败——**工程里不存在自设的发布门槛**。
 
@@ -49,7 +49,7 @@ JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
 
 ## 版本号策略
 
-`stable` 的 `versionCode`／`versionName` 在 `app/build.gradle.kts` 的 `androidComponents.onVariants` 里设置，当前 `32 / 1.0.0`。每次发版把 `versionCode` 至少加一，否则同签名的旧版无法覆盖升级。
+`stable` 的 `versionCode`／`versionName` 在 `app/build.gradle.kts` 的 `androidComponents.onVariants` 里设置，当前 `33 / 1.0.1`。每次发版把 `versionCode` 至少加一，否则同签名的旧版无法覆盖升级。
 
 ## 迁移记录（已完成）
 
@@ -75,6 +75,7 @@ JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
 
 | 日期 | 变更 |
 |---|---|
+| 2026-11-06 | 1.0.1/33 修复 Apple ProRAW 导入及原版RAW显影/胶片色彩路线；K40、模拟器与同图DxO对照通过，版本保持不变 |
 | 2026-11-06 | 删除 `preview`／`publicBeta` 变体与两个发布门槛任务；K40 迁移完成；记录文件降级为纯证据 |
 | 2026-11-06 | 新增 `stable` 线、长期密钥、`1.0.0/32` 签名包 |
 | 2026-11-06 | 原说明只描述 `preview`／`publicBeta`，改写为当前状态 |

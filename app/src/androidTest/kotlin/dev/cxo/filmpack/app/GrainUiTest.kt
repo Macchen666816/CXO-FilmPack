@@ -82,7 +82,7 @@ class GrainUiTest : ForegroundEditorTest() {
         val a=activity
         waitFor("initialization") { find(a,"choose_film").isEnabled }
         val context=instrumentation.targetContext
-        assertTrue((find(a,"bundled_grain_info") as TextView).text.contains("99"))
+        assertNull(tagged(a.window.decorView,"bundled_grain_info"))
         instrumentation.runOnMainSync { a.loadPhoto(Uri.parse("content://dev.cxo.filmpack.app.test.photos/photo-mosaic.png")) }
         waitFor("baseline photo") { find(a,"export_photo").isEnabled }
         val noGrain=bitmap(a).copy(Bitmap.Config.ARGB_8888,false)!!
@@ -103,7 +103,6 @@ class GrainUiTest : ForegroundEditorTest() {
                 instrumentation.runOnMainSync {
                     find(a,"export_photo").performClick()
                     assertFalse(find(a,"grain_settings").isEnabled)
-                    assertFalse("Bundled grain count is information, not an action",find(a,"bundled_grain_info").isClickable)
                 }
                 instrumentation.waitForIdleSync()
                 instrumentation.runOnMainSync {

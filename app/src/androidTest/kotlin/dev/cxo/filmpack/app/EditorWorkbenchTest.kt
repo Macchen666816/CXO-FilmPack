@@ -68,7 +68,7 @@ class EditorWorkbenchTest : ForegroundEditorTest() {
         val a=activity
         try {
             waitFor("initialization") {find(a.window.decorView,"choose_film")?.isEnabled==true}
-            assertTrue((find(a.window.decorView,"bundled_grain_info") as TextView).text.contains("99"))
+            assertNull(find(a.window.decorView,"bundled_grain_info"))
             val uri=Uri.parse(arg("photoUri") ?: "content://dev.cxo.filmpack.app.test.photos/photo-mosaic.png")
             instrumentation.runOnMainSync {a.loadPhoto(uri)}
             waitFor("photo") {find(a.window.decorView,"export_photo")?.isEnabled==true}

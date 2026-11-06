@@ -632,3 +632,11 @@ val verifyNativeEdgePlacement = tasks.register<JavaExec>("verifyNativeEdgePlacem
     mainClass.set("dev.cxo.filmpack.core.NativeEdgePlacementVerificationKt")
 }
 tasks.named("check") { dependsOn(verifyNativeEdgePlacement) }
+
+val verifyDngColorStage = tasks.register<JavaExec>("verifyDngColorStage") {
+    dependsOn(verification.classesTaskName)
+    classpath = verification.runtimeClasspath
+    mainClass.set("dev.cxo.filmpack.core.DngColorStageVerificationKt")
+    args("/Users/chenyixuan/ReverseWork/DxOFilmPack/evidence/apple-proraw-native-20261106")
+}
+tasks.named("check") { dependsOn(verifyDngColorStage) }

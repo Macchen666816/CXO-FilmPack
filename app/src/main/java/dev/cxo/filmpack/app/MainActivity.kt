@@ -118,7 +118,6 @@ class MainActivity : ComponentActivity() {
     private lateinit var intensityValue: TextView
     private lateinit var resetIntensityButton: CatalogGlassButton
     private lateinit var grainButton: CatalogGlassButton
-    private lateinit var packButton: TextView
 
     private var glassEnvironment = CatalogGlassEnvironment()
     private val filmCards = linkedMapOf<String, FilmCard>()
@@ -168,7 +167,7 @@ class MainActivity : ComponentActivity() {
                             } ?: films.firstOrNull()
                         status.text = if (films.isEmpty()) "没有可用的胶片效果。"
                             else if (grainResult.isFailure) "内置颗粒准备失败：${grainResult.exceptionOrNull()?.message}"
-                            else "本机处理 · ${installedGrains.size} 种颗粒已内置"
+                            else ""
                         updateControls()
                         if (restoredUri != null && selectedFilm != null) loadPhoto(restoredUri)
                     }
@@ -255,7 +254,6 @@ class MainActivity : ComponentActivity() {
         }
         val caption=LinearLayout(this).apply {gravity=Gravity.CENTER_VERTICAL}
         caption.addView(label("胶片与风格",12f,EditorPalette.text).apply {typeface=Typeface.DEFAULT_BOLD},LinearLayout.LayoutParams(0,dp(24),1f))
-        caption.addView(label("本机显影",9f,EditorPalette.muted))
         filmControls.addView(caption)
         val filmHeading=LinearLayout(this).apply {gravity=Gravity.CENTER_VERTICAL;clipChildren=false;clipToPadding=false}
         filmButton=button("选择胶片", "choose_film") {showFilmPicker()}.apply {
@@ -309,8 +307,6 @@ class MainActivity : ComponentActivity() {
         val grainRow=LinearLayout(this).apply {gravity=Gravity.CENTER_VERTICAL;clipChildren=false;clipToPadding=false;setPadding(0,dp(4),0,0)}
         grainButton=button("颗粒 · 关闭", "grain_settings") {showGrainSettings()}.apply {icon(this,"grain");maxLines=1}
         grainRow.addView(grainButton,LinearLayout.LayoutParams(0,dp(64),1f))
-        packButton=label("内置准备中",10f,EditorPalette.muted).apply {tag="bundled_grain_info";gravity=Gravity.CENTER}
-        grainRow.addView(packButton,LinearLayout.LayoutParams(dp(98),dp(40)).apply {marginStart=dp(6)})
         filmControls.addView(grainRow)
         filmModuleView=filmControls
         val postControls=LinearLayout(this).apply {
@@ -1464,7 +1460,6 @@ class MainActivity : ComponentActivity() {
         grainButton.isEnabled = processor != null && !locked
         grainButton.text = if (!grainSettings.enabled) "颗粒 · 关闭" else
             "颗粒 ${grainSettings.intensity} · " + if (grainSettings.identifier.isEmpty()) "跟随胶片" else grainDisplayName(grainSettings.identifier)
-        packButton.text = if (grainIdentifiers.isEmpty()) "颗粒未就绪" else "${grainIdentifiers.size} 种 · 已内置"
         updateFilmStrip()
         val busy = loading || rendering || exporting || importingPack
         if(busy)window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)

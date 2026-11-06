@@ -34,7 +34,11 @@ JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
   ./gradlew --offline :app:assembleStable
 ```
 
-输出 `app/build/outputs/apk/stable/app-stable.apk`。校验：
+输出 `app/build/outputs/apk/stable/app-stable.apk`。
+
+> 不要用 `assembleRelease`。AGP 内置的 `release` 构建类型没有配签名，那条命令只会产出 `app-release-unsigned.apk`，装不上。
+
+校验：
 
 ```sh
 /Users/chenyixuan/Library/Android/sdk/build-tools/37.0.0/apksigner \

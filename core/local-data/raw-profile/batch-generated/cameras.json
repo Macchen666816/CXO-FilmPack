@@ -8860,11 +8860,11 @@
       "fidelity": "batch-generated/profiles/body-15001-fidelity.json",
       "id": "body-15001",
       "models": [
-        "DxO Test Camera",
+        "Test Camera",
         "X1",
         "X5"
       ],
-      "profileSha256": "616647a5b1467e181d32a6a974574d4a07d9c9d9b27641488c1fe9e93d726d50",
+      "profileSha256": "aadc17b8bb8511b1868409d963c194901423b94b96d0e74f2ca0703939b6d6da",
       "whiteBalance": "batch-generated/white-balance/body-15001.cxowb",
       "whiteBalanceSha256": "5bf9565884f5b7bee1fb9313f9bfca7661ce7c3b3635f7f12e409caa4ef5f18e",
       "whiteBalanceShape": [
@@ -9524,7 +9524,7 @@
     5064,
     5070
   ],
-  "source": "DxO FilmPack 8 embedded factories and external .dxoCB resources with source-bound native getter validation",
+  "source": "Embedded camera factories and external calibration resources with source-bound native getter validation",
   "sourceCandidateCount": 585,
   "sourceCounts": {
     "embedded_factory": 532,

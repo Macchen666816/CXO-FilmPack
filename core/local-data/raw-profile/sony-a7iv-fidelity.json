@@ -1,7 +1,7 @@
 {
   "camera": "SonyA7IV",
   "bodyId": 4083,
-  "source": "DxOFramework embedded CameraBodySonyA7IV calibrated getters",
+  "source": "CameraBodySonyA7IV embedded calibrated getters",
   "sourceBinarySha256": "65e04bdbaae194cb2242582b7205462d5d718b9c1d35adc8cd9fe99f40fc68c4",
   "tempLow": 3425.0,
   "tempHigh": 4600.0,

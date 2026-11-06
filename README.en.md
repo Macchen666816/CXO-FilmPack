@@ -1,10 +1,21 @@
+<div align="center">
+
 # CXO FilmPack
 
-[简体中文](README.md)
+### Start with RAW. Finish with film.
 
-Film colors and grain for Android photos. Develop camera RAW files or edit JPEG, PNG and HEIC images.
+An Android photo editor for RAW development, film color, grain and finishing.
 
-**Current version: 1.0.1** · Android 8.0+ · On-device processing · Non-commercial use only
+[![Release](https://img.shields.io/github/v/release/Macchen666816/CXO-FilmPack?color=b89965)](https://github.com/Macchen666816/CXO-FilmPack/releases/latest)
+![Android](https://img.shields.io/badge/Android-8.0%2B-729678)
+![Kotlin](https://img.shields.io/badge/Kotlin-NDK-967db4)
+[![License](https://img.shields.io/badge/License-Non--commercial-a57762)](LICENSE)
+
+**[Download 1.0.1](https://github.com/Macchen666816/CXO-FilmPack/releases/tag/v1.0.1)** · [简体中文](README.md) · [Release notes](docs/releases/1.0.1.md) · [Report an issue](https://github.com/Macchen666816/CXO-FilmPack/issues)
+
+</div>
+
+Develop camera RAW files or edit JPEG, PNG and HEIC on your Android device. Processing stays on your device; photos do not need to be uploaded.
 
 ## RAW examples
 
@@ -24,7 +35,9 @@ These comparisons come from CXO's actual RAW processing pipeline. Each group sho
 
 ### The editor
 
-![CXO FilmPack editor](docs/images/workbench.jpg)
+<p align="center">
+  <img src="docs/images/workbench.jpg" width="360" alt="CXO FilmPack editor with a Panasonic RAW photograph">
+</p>
 
 ## Features
 

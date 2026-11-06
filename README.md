@@ -1,10 +1,21 @@
+<div align="center">
+
 # CXO FilmPack
 
-[English](README.en.md)
+### 从 RAW 开始，把照片留在胶片里。
 
-在 Android 上给照片加入胶片色彩与颗粒。从相机 RAW 开始显影，也可以直接编辑 JPEG、PNG 和 HEIC。
+Android 胶片照片编辑器 · RAW 显影 · 颗粒 · 后处理
 
-**当前版本：1.0.1** · Android 8.0 及以上 · 本地处理 · 禁止商用
+[![Release](https://img.shields.io/github/v/release/Macchen666816/CXO-FilmPack?color=b89965&label=版本)](https://github.com/Macchen666816/CXO-FilmPack/releases/latest)
+![Android](https://img.shields.io/badge/Android-8.0%2B-729678)
+![Kotlin](https://img.shields.io/badge/Kotlin-NDK-967db4)
+[![License](https://img.shields.io/badge/许可-禁止商用-a57762)](LICENSE)
+
+**[下载 1.0.1](https://github.com/Macchen666816/CXO-FilmPack/releases/tag/v1.0.1)** · [English](README.en.md) · [更新记录](docs/releases/1.0.1.md) · [反馈问题](https://github.com/Macchen666816/CXO-FilmPack/issues)
+
+</div>
+
+在 Android 上给照片加入胶片色彩与颗粒。从相机 RAW 开始显影，也可以直接编辑 JPEG、PNG 和 HEIC。照片在设备上处理，无需上传。
 
 ## RAW 效果展示
 
@@ -24,7 +35,9 @@
 
 ### 编辑界面
 
-![CXO FilmPack 编辑工作台](docs/images/workbench.jpg)
+<p align="center">
+  <img src="docs/images/workbench.jpg" width="360" alt="使用 Panasonic RAW 的 CXO FilmPack 编辑工作台">
+</p>
 
 ## 可以做什么
 
@@ -39,7 +52,7 @@
 
 ## 安装
 
-在仓库的 **Releases** 页面下载 **1.0.1** 的 APK，允许安装来自该来源的应用后打开。已安装正式签名版的用户可直接覆盖升级，保留应用数据。
+在 [Releases](https://github.com/Macchen666816/CXO-FilmPack/releases/tag/v1.0.1) 下载 **1.0.1** 的 APK，允许安装来自该来源的应用后打开。已安装正式签名版的用户可直接覆盖升级，保留应用数据。
 
 建议在内存和存储空间充足时处理高像素 RAW。首次解码通常比后续切换胶片耗时，底部会显示处理进度、耗时和错误信息。
 

@@ -1,20 +1,13 @@
 # 发布与签名准备
 
-> 本文件里的检查门槛、记录文件与自定义变体，**全部是本工程自设的，不是 Android 平台要求**。哪些能删、删了会怎样，见 [SELF-IMPOSED.md](SELF-IMPOSED.md)。源码中以 `[SELF-IMPOSED]` 标注。
+## 构建线
 
-## 当前构建线
+| 变体 | 用途 | 版本 | 签名 |
+|---|---|---|---|
+| `debug` | 开发调试 | `defaultConfig` 里的值 | Android debug 证书 |
+| `stable` | **唯一发版线** | `1.0.0 / 32` | 本地长期密钥 |
 
-工程有三条互不复用的构建线，别把它们混成一个概念：
-
-| 变体 | 用途 | 版本 | 签名 | 打包门槛 |
-|---|---|---|---|---|
-| `preview` | 日常小组测试 | `0.7.3-preview / 30` | 本机 Android debug 证书 | 无 |
-| `stable` | 小组正式版 | `1.0.0 / 32` | 发布者长期密钥 | 只检查密钥材料 |
-| `publicBeta` | 面向不特定用户的公开候选 | `0.8.0-beta01 / 31` | 同一把长期密钥 | 签名＋资产清权＋依赖许可＋发布者信息 |
-
-`stable` 与 `preview` 打包的是同一批 DxO 来源资源（99 份颗粒 patch、边缘／漏光贴图、中文胶片介绍、派生标定／曲线）。实测两个 APK 的 `assets/` 条目共 1,564 个，CRC 与大小逐条一致，签名不改变内容。
-
-`release/asset-clearance.json` 保持 `pending`。这批资源没有公开再分发依据，因此 `stable` 只能交给已知的小组成员，不得上架应用商店、不得提供公开下载入口。`stable` 的门禁只验密钥，不读该清权文件——这是"换个正经签名"，不是"取得授权"。
+`preview` 与 `publicBeta` 已于 2026-11-06 删除，对应的发布门槛任务一并移除（Git 提交 `a6b7ae3`）。现在构建不会因为资产清权、依赖许可或发布者记录而失败——**工程里不存在自设的发布门槛**。
 
 ## 长期签名密钥
 
@@ -22,8 +15,8 @@
 
 - 密钥库：`.secrets/cxo-release.jks`（PKCS12，RSA 4096，SHA384withRSA，有效期至 2054-03-24）
 - 别名：`cxo-public`
-- 密码：`.secrets/release-credentials.txt`（`chmod 600`）
-- 配置：`.cxo-release-signing.properties`（`chmod 600`，已被 `.gitignore` 忽略）
+- 密码：`.secrets/release-credentials.txt`（`600`）
+- 配置：`.cxo-release-signing.properties`（`600`，已被 `.gitignore` 忽略）
 
 证书指纹 SHA-256：
 
@@ -34,47 +27,50 @@
 
 **必须离线备份两处**：`.secrets/` 整个目录（密钥库＋密码文件）。丢失密钥库等于所有已安装用户永远无法升级，只能卸载重装。不要把密钥、密码或填好的配置文件发到群里、提交到仓库或放进云盘共享链接。
 
-## 构建正式版
+## 构建与校验
 
 ```sh
-cd "/Users/chenyixuan/AndroidStudioProjects/CXO FilmPack"
 JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
   ./gradlew --offline :app:assembleStable
 ```
 
-输出 `app/build/outputs/apk/stable/app-stable.apk`，归档副本在 `releases/CXO-FilmPack-1.0.0-stable-20261106.apk`，SHA256 记录在 `releases/SHA256SUMS.txt`。
-
-校验：
+输出 `app/build/outputs/apk/stable/app-stable.apk`。校验：
 
 ```sh
 /Users/chenyixuan/Library/Android/sdk/build-tools/37.0.0/apksigner \
   verify --verbose --print-certs app/build/outputs/apk/stable/app-stable.apk
 ```
 
-当前结果：v2 与 v3 均通过，16 KiB zip 对齐通过。
+期望结果：v2 与 v3 均通过，16 KiB zip 对齐通过，证书指纹与上文一致。
 
 ## 版本号策略
 
-`stable` 的 `versionCode`／`versionName` 在 `app/build.gradle.kts` 的 `androidComponents.onVariants` 里单独设置，当前 `32 / 1.0.0`。以后每次发版把 `versionCode` 至少加一，否则同一签名的旧版无法被覆盖升级。`preview` 与 `publicBeta` 的版本号是各自独立的，不受影响。
+`stable` 的 `versionCode`／`versionName` 在 `app/build.gradle.kts` 的 `androidComponents.onVariants` 里设置，当前 `32 / 1.0.0`。每次发版把 `versionCode` 至少加一，否则同签名的旧版无法覆盖升级。
 
-## 首次迁移（只做一次）
+## 迁移记录（已完成）
 
-现有测试机安装的是 debug 证书的 `preview` 包。换成长期证书后签名不同，系统会拒绝覆盖安装（`INSTALL_FAILED_UPDATE_INCOMPATIBLE`），必须卸载后重装。
+2026-11-06 在 K40（`b549157b`）完成一次性迁移：卸载 debug 证书的 `0.7.3-preview / 30`，安装 `1.0.0 / 32`。安装后核对 `versionCode=32`、`versionName=1.0.0`、签名方案 v3、应用可正常启动。
 
-- 会丢失：`GrainSettings`、`PostEditingSettings` 中的偏好，以及通过应用导入的颗粒包文件。
-- 不会丢失：手机里的原始照片（应用从不接管原图，走系统选择器读取）。
+卸载清空了该机上的 `GrainSettings`、`PostEditingSettings` 偏好与已导入的颗粒包；原始照片不受影响（应用走系统选择器，不接管原图）。此后所有 `stable` 版本可正常覆盖升级。
 
-迁移后，后续同签名的 `stable` 版本可以正常覆盖升级。
+## release/ 下的记录文件
 
-## 公开分发前仍缺
+这些是**证据记录，不是门槛**。删掉不会让构建失败。
 
-1. `release/asset-clearance.json` 四组资产仍为 `pending`；没有明确再分发依据前不要改成 `cleared`。
-2. 最终 APK 里实际二进制与 `THIRD_PARTY_NOTICES` 的逐项复核仍未收尾。
-3. `publicBeta` 门禁因此仍会阻止构建，这是预期行为，不是故障。
+| 文件 | 内容 | 对构建的影响 |
+|---|---|---|
+| `asset-clearance.json` | DxO 来源素材的核查状态，当前 `pending` | 无 |
+| `dependency-clearance.json` | 依赖许可盘点结论 | 无 |
+| `publisher-info.json` | 发布者、反馈渠道、隐私说明位置 | 无 |
+| `dependency-license-review.md` | 许可盘点说明 | 无 |
+| `dependency-pom-evidence.json` | 许可取证数据 | 无 |
+| `dependency-license-review.csv` | 许可清单，**会打进 APK** 的 `assets/licenses/` | 删掉不报错，APK 静默少文件 |
+| `PRIVACY.md` | 隐私说明，**会打进 APK** 的 `assets/legal/` | 删掉不报错，APK 静默少文件 |
 
 ## 变更记录
 
-| 日期 | 变更 | 依据 |
-|---|---|---|
-| 2026-11-06 | 记录三条构建线的区别；`stable` 线启用、创建长期密钥、产出 `1.0.0/32` 签名包 | `apksigner verify` 输出、`releases/SHA256SUMS.txt` |
-| 2026-11-06 | 原说明只描述 `preview`／`publicBeta`，改写为当前三线状态 | `app/build.gradle.kts` 变体定义 |
+| 日期 | 变更 |
+|---|---|
+| 2026-11-06 | 删除 `preview`／`publicBeta` 变体与两个发布门槛任务；K40 迁移完成；记录文件降级为纯证据 |
+| 2026-11-06 | 新增 `stable` 线、长期密钥、`1.0.0/32` 签名包 |
+| 2026-11-06 | 原说明只描述 `preview`／`publicBeta`，改写为当前状态 |

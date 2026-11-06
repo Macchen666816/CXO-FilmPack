@@ -1,6 +1,6 @@
 # CXO FilmPack
 
-Android照片胶片编辑器，Kotlin主体，NDK承担部分计算与JPEG编码。当前源码仍为0.7.3-preview / versionCode30，含公测审查修复；不等同旧0.7.3固定APK，尚未公开放行。
+Android照片胶片编辑器，Kotlin主体，NDK承担部分计算与JPEG编码。当前版本 `1.0.0 / versionCode 32`，由 `stable` 变体构建，使用项目自己的长期密钥签名。
 
 ## 当前范围
 
@@ -9,26 +9,31 @@ Android照片胶片编辑器，Kotlin主体，NDK承担部分计算与JPEG编码
 - 导出JPEG（质量1–100，默认98）或RGB8无压缩TIFF，SDR sRGB ICC，可选缩小。缩小发生在全源图处理后；不保证TIFF输入／16bit输出。
 - 深棕玻璃工作台、搜索联动、500ms按住比较、捏合／双击复位、抽屉与实时调整预览。
 
-## 当前分发范围
+## 分发范围
 
-项目所有者当前目标是给少量摄影／技术朋友长期使用，按封闭小组预览管理，不按面向不特定用户的公开发布处理。工程`preview`变体保留现有DxO原始颗粒／漏光等核心资源，使用本机Android debug签名；同一签名可在小组成员间升级，但不能安装到另一签名渠道的版本上。不要把未确认的素材权限描述成已获授权。
+项目所有者当前目标是给少量摄影／技术朋友长期使用，按封闭小组管理，不按面向不特定用户的公开发布处理。`stable` 是唯一发版线，打包现有的 DxO 原始颗粒／漏光等核心资源，由本地长期密钥签名；同一签名可长期覆盖升级。不要把未确认的素材权限描述成已获授权。
 
-如果以后改为公开网站、开放网盘或面向不特定用户发布，使用隔离的`publicBeta`变体（`0.8.0-beta01 / code31`）。该构建要求长期签名key、DxO资源分发依据、最终APK二进制／NOTICE核对和发布资料门槛。资源清权目前仍pending。全部125个解析运行时坐标已映射为Apache-2.0并随包提供许可证及清单；坐标不等于实际嵌入库数量。发布者Macchen、测试群反馈与随包隐私说明已填入。
+工程**没有任何自设的发布门槛**：构建不会因为资产清权、依赖许可或发布者记录而失败。`release/` 下的记录文件只作证据保留，不参与构建。发行与否是人的决定，不是构建系统的决定。
 
-[本次审查报告](evidence/public-beta-audit-20261105/REPORT.md)记录测试边界、固定内部APK及hash。保存需保持前台，不具备持久后台恢复。API26–32／非ARM64实机／16KiB页设备未本轮实测。HEIC40MP在K40成功，在模拟器平台解码失败。
+第三方声明在 THIRD_PARTY_NOTICES 及 APK 的 `assets/licenses`；LibRaw 对应源码包在 `releases/`。全部 125 个解析运行时坐标已映射为 Apache-2.0 并随包提供许可证及清单；坐标不等于实际嵌入库数量。This software is based in part on the work of the Independent JPEG Group.
 
 ## 构建
 
-使用Android Studio JBR；SDK／NDK／CMake版本以Gradle文件为准，不同时启动多个Gradle。
+使用 Android Studio JBR；SDK／NDK／CMake 版本以 Gradle 文件为准，不同时启动多个 Gradle。
 
 ```sh
-JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' ./gradlew --offline :core:check :app:assemblePreview :app:assemblePreviewAndroidTest :app:lintPreview -PcxoTestBuildType=preview '-Dorg.gradle.jvmargs=-Xmx2048m -XX:MaxMetaspaceSize=1024m'
+JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home' \
+  ./gradlew --offline :app:assembleStable
 ```
 
-测试Runner为 `android.test.InstrumentationTestRunner`。仪器测试包只是开发辅助，不随公开主APK分发。第三方声明在THIRD_PARTY_NOTICES及APK licenses资产；LibRaw对应源码包在releases，审查核对与当前vendor源文件一致。This software is based in part on the work of the Independent JPEG Group.
+产物：`app/build/outputs/apk/stable/app-stable.apk`。签名校验、版本号递增与密钥备份见 [release/README.md](release/README.md)。
+
+开发期调试仍用默认的 `debug` 变体（`assembleDebug`）。测试Runner为 `android.test.InstrumentationTestRunner`；仪器测试包只是开发辅助，不随主APK分发。
 
 ## 文档与历史
 
-人类阅读入口位于既有Obsidian项目目录的《00 CXO FilmPack 项目总览与文档导航》，当前公测清单／使用说明／隐私草案已链接其中。研究与数值证据在 `/Users/chenyixuan/ReverseWork/DxOFilmPack`。
+人类阅读入口位于既有 Obsidian 项目目录的《00 CXO FilmPack 项目总览与文档导航》。研究与数值证据在 `/Users/chenyixuan/ReverseWork/DxOFilmPack`。
 
-[原README历史记录](docs/history/README-before-public-beta-audit-20261106.md)保留此前实验过程及阶段失败；这些旧“当前／待办”不代表今天状态。旧版本和固定hash仍保留在releases。本项目当前尚未建立Git历史，审查目录已保存源码hash清单，不能据此声称有可恢复的完整Git快照。
+[原README历史记录](docs/history/README-before-public-beta-audit-20261106.md)保留此前实验过程及阶段失败；这些旧“当前／待办”不代表今天状态。旧版本和固定 hash 仍保留在 `releases/`。
+
+本仓库自 2026-11-06 起纳入 Git（分支 `main`）。`releases/` 与 `evidence/` 不入库，仍留在本机。

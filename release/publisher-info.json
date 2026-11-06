@@ -1,7 +1,7 @@
 {
   "schema": "cxo-public-beta-publisher-info-v1",
   "selfImposed": true,
-  "note": "本文件由本工程自行建立，不是平台要求，也不是法律结论；可整体删除，见 release/SELF-IMPOSED.md。",
+  "note": "本文件是证据记录，不参与构建；删除它不会让构建失败。",
   "publisherName": "Macchen",
   "feedbackChannel": "CXO FilmPack beta test group used to distribute the APK",
   "privacyPolicyLocation": "release/PRIVACY.md; bundled in the APK at assets/legal/PRIVACY.md",

@@ -1,7 +1,7 @@
 {
   "schema": "cxo-public-dependency-clearance-v1",
   "selfImposed": true,
-  "note": "本文件由本工程自行建立，不是平台要求，也不是法律结论；可整体删除，见 release/SELF-IMPOSED.md。",
+  "note": "本文件是证据记录，不参与构建；删除它不会让构建失败。",
   "reviewStatus": "cleared",
   "basis": "All resolved runtime coordinates were mapped to Apache-2.0 using cached or official upstream POM metadata, or an official source-file license header. Full license text and a sanitized coordinate inventory are staged into APK assets. Final APK binary/NOTICE reconciliation remains a release checklist item.",
   "evidencePath": "release/dependency-license-review.md",

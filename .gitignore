@@ -6,6 +6,9 @@ build/
 local.properties
 *.hprof
 
+# --- 系统垃圾 ---
+.DS_Store
+
 # --- 密钥与本地签名配置：永不提交 ---
 .secrets/
 .cxo-release-signing.properties

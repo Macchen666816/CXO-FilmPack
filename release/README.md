@@ -13,7 +13,7 @@
 
 已创建，不要重新生成：
 
-- 密钥库：`.secrets/cxo-release.jks`（PKCS12，RSA 4096，SHA384withRSA，有效期至 2054-03-24）
+- 密钥库：`.secrets/cxo-release.p12`（PKCS12，RSA 4096，SHA384withRSA，有效期至 2054-03-24）
 - 别名：`cxo-public`
 - 密码：`.secrets/release-credentials.txt`（`600`）
 - 配置：`.cxo-release-signing.properties`（`600`，已被 `.gitignore` 忽略）

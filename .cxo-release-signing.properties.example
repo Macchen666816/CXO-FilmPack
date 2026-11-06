@@ -1,6 +1,6 @@
 # 请复制为 .cxo-release-signing.properties 并在本机填写。
 # 不要提交已填写的配置或密钥库；请将密钥库和密码另行安全备份。
-storeFile=.secrets/cxo-release.jks
+storeFile=.secrets/cxo-release.p12
 storePassword=REPLACE_WITH_PRIVATE_VALUE
 keyAlias=cxo-public
 keyPassword=REPLACE_WITH_PRIVATE_VALUE

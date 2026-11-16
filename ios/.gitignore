@@ -1,0 +1,18 @@
+# Large data extracted from the Android APK by fetch-assets.command
+Assets/
+*.apk
+# Build outputs and caches
+build/
+shared/build/
+native/build/
+.gradle/
+.kotlin/
+.jdk17/
+*.ipa
+*.log
+# Personal, machine-specific settings
+local.cache-dir
+local.team
+xcuserdata/
+*.xcuserstate
+.DS_Store

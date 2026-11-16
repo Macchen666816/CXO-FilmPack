@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009D2EEE0D0386A742A2C663 /* CxoRaw.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58375FAA3273D7175AEFDF8 /* CxoRaw.xcframework */; };
+		0FABC1102171ECFE847949B1 /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF77032A68FC524BD9CF88F /* ZoomableImageView.swift */; };
+		2A44B36218DF7ADF07BD74D3 /* CxoShared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F51EF3B9040A527832BEBBA /* CxoShared.xcframework */; };
+		2D5C32479C30CBF2B77DE266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F1CD52804AB2C3A05DC5E1 /* Assets.xcassets */; };
+		4CB3231265843C693B8A4E97 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59184EE3C511A13DD63FFAE8 /* RootView.swift */; };
+		5046B73D9B0124269BD8233C /* FilmViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D7415C1E722E9AEC0BF47 /* FilmViews.swift */; };
+		68A13DA533698B79FB009DF2 /* EditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D16E1B189E41FFA67E56C52 /* EditorModel.swift */; };
+		6E1ED74142A7E237749D00CB /* Pixels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44C0536A0ECADB42D4CE68 /* Pixels.swift */; };
+		7559CC8D141A93DBF5685EEB /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = B0096207DEFF74195426B259 /* Assets */; };
+		7C2308A97309788E5BD53DF2 /* ControlViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F892FDCB92F1515013137 /* ControlViews.swift */; };
+		8139A59B1740C65EA5A900DC /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258721EC10D271272BF840AF /* Encoder.swift */; };
+		AADEE89DA79DB6C46219EE02 /* GlassKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2B7E0119E745C2D4C3D68 /* GlassKit.swift */; };
+		B2F42EADBFBB89ADC4197AF0 /* PadLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751BAAF3F926FD4AD861D83 /* PadLayout.swift */; };
+		B5DA5944DCDD87634C92F2CB /* CXOFilmPackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027B32E5E9F349A63DC0465A /* CXOFilmPackApp.swift */; };
+		D14EB0BF772ADD1EA24A610C /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E076A87EF78DCDF69CC5DE /* Look.swift */; };
+		D775DB0E93A5648D1E0FB9B5 /* FilmRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED615D69933827DE3237DC93 /* FilmRuntime.swift */; };
+		E309E3FFDE017CC327FBC516 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E4C836D9DC06C86629938 /* Renderer.swift */; };
+		EBF8EE3DA4F4062C5DC27C86 /* PhoneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEC057393A1D60CA349E93 /* PhoneLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027B32E5E9F349A63DC0465A /* CXOFilmPackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXOFilmPackApp.swift; sourceTree = "<group>"; };
+		16E076A87EF78DCDF69CC5DE /* Look.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
+		1D16E1B189E41FFA67E56C52 /* EditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorModel.swift; sourceTree = "<group>"; };
+		236E4C836D9DC06C86629938 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		258721EC10D271272BF840AF /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		2DA2B7E0119E745C2D4C3D68 /* GlassKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassKit.swift; sourceTree = "<group>"; };
+		35F1CD52804AB2C3A05DC5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E44C0536A0ECADB42D4CE68 /* Pixels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixels.swift; sourceTree = "<group>"; };
+		3FF77032A68FC524BD9CF88F /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		571D7415C1E722E9AEC0BF47 /* FilmViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViews.swift; sourceTree = "<group>"; };
+		59184EE3C511A13DD63FFAE8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6751BAAF3F926FD4AD861D83 /* PadLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadLayout.swift; sourceTree = "<group>"; };
+		8F51EF3B9040A527832BEBBA /* CxoShared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CxoShared.xcframework; path = ../shared/build/XCFrameworks/release/CxoShared.xcframework; sourceTree = "<group>"; };
+		B0096207DEFF74195426B259 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../Assets; sourceTree = "<group>"; };
+		BA0F892FDCB92F1515013137 /* ControlViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViews.swift; sourceTree = "<group>"; };
+		D2A57DC1D883FD21FB995169 /* CXOFilmPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXOFilmPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BEC057393A1D60CA349E93 /* PhoneLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLayout.swift; sourceTree = "<group>"; };
+		E58375FAA3273D7175AEFDF8 /* CxoRaw.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CxoRaw.xcframework; path = ../native/build/CxoRaw.xcframework; sourceTree = "<group>"; };
+		ED615D69933827DE3237DC93 /* FilmRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRuntime.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82E6F678DA6193022955957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A44B36218DF7ADF07BD74D3 /* CxoShared.xcframework in Frameworks */,
+				009D2EEE0D0386A742A2C663 /* CxoRaw.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F9978F23F48C8141D81B82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D16E1B189E41FFA67E56C52 /* EditorModel.swift */,
+				16E076A87EF78DCDF69CC5DE /* Look.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17D4474801E7FB00E1C94899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F51EF3B9040A527832BEBBA /* CxoShared.xcframework */,
+				E58375FAA3273D7175AEFDF8 /* CxoRaw.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		237DF795B130C9B1CB6277F5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BA0F892FDCB92F1515013137 /* ControlViews.swift */,
+				571D7415C1E722E9AEC0BF47 /* FilmViews.swift */,
+				2DA2B7E0119E745C2D4C3D68 /* GlassKit.swift */,
+				6751BAAF3F926FD4AD861D83 /* PadLayout.swift */,
+				D2BEC057393A1D60CA349E93 /* PhoneLayout.swift */,
+				59184EE3C511A13DD63FFAE8 /* RootView.swift */,
+				3FF77032A68FC524BD9CF88F /* ZoomableImageView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A57DC1D883FD21FB995169 /* CXOFilmPack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA813C592341BBFE3C168567 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				258721EC10D271272BF840AF /* Encoder.swift */,
+				ED615D69933827DE3237DC93 /* FilmRuntime.swift */,
+				3E44C0536A0ECADB42D4CE68 /* Pixels.swift */,
+				236E4C836D9DC06C86629938 /* Renderer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D8DBA3F9900DD17689CA0C4D /* CXOFilmPack */ = {
+			isa = PBXGroup;
+			children = (
+				BA813C592341BBFE3C168567 /* Core */,
+				05F9978F23F48C8141D81B82 /* Model */,
+				237DF795B130C9B1CB6277F5 /* UI */,
+				027B32E5E9F349A63DC0465A /* CXOFilmPackApp.swift */,
+				35F1CD52804AB2C3A05DC5E1 /* Assets.xcassets */,
+			);
+			path = CXOFilmPack;
+			sourceTree = "<group>";
+		};
+		FAD58DE7366495DB4650CFEF = {
+			isa = PBXGroup;
+			children = (
+				D8DBA3F9900DD17689CA0C4D /* CXOFilmPack */,
+				B0096207DEFF74195426B259 /* Assets */,
+				17D4474801E7FB00E1C94899 /* Frameworks */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* CXOFilmPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "CXOFilmPack" */;
+			buildPhases = (
+				F6BE306E6A9E42DE559F6EDC /* Sources */,
+				A82E6F678DA6193022955957 /* Frameworks */,
+				7414EC6B391964FAEC8B0E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXOFilmPack;
+			productName = CXOFilmPack;
+			productReference = D2A57DC1D883FD21FB995169 /* CXOFilmPack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "CXOFilmPack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FAD58DE7366495DB4650CFEF;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* CXOFilmPack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7414EC6B391964FAEC8B0E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5C32479C30CBF2B77DE266 /* Assets.xcassets in Resources */,
+				7559CC8D141A93DBF5685EEB /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BE306E6A9E42DE559F6EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA5944DCDD87634C92F2CB /* CXOFilmPackApp.swift in Sources */,
+				8139A59B1740C65EA5A900DC /* Encoder.swift in Sources */,
+				D775DB0E93A5648D1E0FB9B5 /* FilmRuntime.swift in Sources */,
+				6E1ED74142A7E237749D00CB /* Pixels.swift in Sources */,
+				E309E3FFDE017CC327FBC516 /* Renderer.swift in Sources */,
+				68A13DA533698B79FB009DF2 /* EditorModel.swift in Sources */,
+				D14EB0BF772ADD1EA24A610C /* Look.swift in Sources */,
+				7C2308A97309788E5BD53DF2 /* ControlViews.swift in Sources */,
+				5046B73D9B0124269BD8233C /* FilmViews.swift in Sources */,
+				AADEE89DA79DB6C46219EE02 /* GlassKit.swift in Sources */,
+				B2F42EADBFBB89ADC4197AF0 /* PadLayout.swift in Sources */,
+				EBF8EE3DA4F4062C5DC27C86 /* PhoneLayout.swift in Sources */,
+				4CB3231265843C693B8A4E97 /* RootView.swift in Sources */,
+				0FABC1102171ECFE847949B1 /* ZoomableImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		626726E60BD1215F36719A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CXO FilmPack";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "把处理后的照片存入相册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cxofilmpack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E1E1CBE1CA8E88EF3A838A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B69466B536F8CE43B6356EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7D707A26E7F7B6FF52C489C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CXO FilmPack";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "把处理后的照片存入相册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cxofilmpack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "CXOFilmPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626726E60BD1215F36719A30 /* Debug */,
+				E7D707A26E7F7B6FF52C489C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "CXOFilmPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69466B536F8CE43B6356EC1 /* Debug */,
+				64E1E1CBE1CA8E88EF3A838A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
